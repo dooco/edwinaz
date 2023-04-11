@@ -20,7 +20,7 @@ body {
 }
 
 .logo-font {
-    font-family: Nunito;
+    font-family: Nunito;\
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -124,6 +124,7 @@ input[name='q']::placeholder {
 .toast-capper {
     height: 2px;
 }
+
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
