@@ -10,9 +10,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'home' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'home' %}?sort=vendor&direction=asc" class="dropdown-item ">By Vendor</a>
-                <a href="{% url 'home' %}?sort=style&direction=asc" class="dropdown-item ">By Style</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=vendor&direction=asc" class="dropdown-item ">By Vendor</a>
+                <a href="{% url 'products' %}?sort=style&direction=asc" class="dropdown-item ">By Style</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -22,11 +22,11 @@
                 Kitchen &amp; Dining
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'home' %}?category=kitchen_furniture" class="dropdown-item">Kitchen Furniture</a>
-                <a href="{% url 'home' %}?category=dining_furniture" class="dropdown-item">Dining Furniture</a>
-                <a href="{% url 'home' %}?category=kitchen_accessories" class="dropdown-item">Kitchen Accessories</a>
-                <a href="{% url 'home' %}?category=dining_accessories" class="dropdown-item">Dining Accessories</a>
-                <a href="{% url 'home' %}?category=kitchen_furniture,dining_furniture,kitchen_accessories,dining_accessories" class="dropdown-item">All Kitchen &amp; Dining</a>
+                <a href="{% url 'products' %}?category=kitfur" class="dropdown-item">Kitchen Furniture</a>
+                <a href="{% url 'products' %}?category=dinfur" class="dropdown-item">Dining Furniture</a>
+                <a href="{% url 'products' %}?category=kitacc" class="dropdown-item">Kitchen Accessories</a>
+                <a href="{% url 'products' %}?category=dinacc" class="dropdown-item">Dining Accessories</a>
+                <a href="{% url 'products' %}?category=kitfur,dinfur,kitacc,dinacc" class="dropdown-item">All Kitchen &amp; Dining</a>
             </div>
         </li>
 
@@ -35,11 +35,11 @@
                 Bed &amp; Bath
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'home' %}?category=bed_furniture" class="dropdown-item">Bedroom Furniture</a>
-                <a href="{% url 'home' %}?category=bath_furniture" class="dropdown-item">Bathroom Furniture</a>
-                <a href="{% url 'home' %}?category=bed_accessories" class="dropdown-item"> Bedroom Accessories</a>
-                <a href="{% url 'home' %}?category=bath_accessories" class="dropdown-item">Bathroom Accessories</a>
-                <a href="{% url 'home' %}?category=bed_furniture,bath_furniture,bed_accessories,bath_accessories" class="dropdown-item">All Bed &amp; Bath</a>
+                <a href="{% url 'products' %}?category=bedfur" class="dropdown-item">Bedroom Furniture</a>
+                <a href="{% url 'products' %}?category=bathfur" class="dropdown-item">Bathroom Furniture</a>
+                <a href="{% url 'products' %}?category=bedacc" class="dropdown-item"> Bedroom Accessories</a>
+                <a href="{% url 'products' %}?category=bathacc" class="dropdown-item">Bathroom Accessories</a>
+                <a href="{% url 'products' %}?category=bedfur,batfur,bedacc,bathacc" class="dropdown-item">All Bed &amp; Bath</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -47,10 +47,10 @@
                 Living
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'home' %}?category=living_furniture" class="dropdown-item">Livingroom Furniture</a>
-                <a href="{% url 'home' %}?category=curtains_rugs" class="dropdown-item">Curtains &amp; Rugs</a>
-                <a href="{% url 'home' %}?category=living_accessories" class="dropdown-item">Livingroom Accessories</a>
-                <a href="{% url 'home' %}?category=living_furniture,curtains_rugs,living_accessories" class="dropdown-item">All Living</a>
+                <a href="{% url 'products' %}?category=livfur" class="dropdown-item">Livingroom Furniture</a>
+                <a href="{% url 'products' %}?category=currug" class="dropdown-item">Curtains &amp; Rugs</a>
+                <a href="{% url 'products' %}?category=livacc" class="dropdown-item">Livingroom Accessories</a>
+                <a href="{% url 'products' %}?category=livfur,currug,livacc" class="dropdown-item">All Living</a>
             </div>
         </li>
 
@@ -59,9 +59,9 @@
                 Outdoor
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'home' %}?category=outdoor_furniture" class="dropdown-item">Outdoor Furniture</a>
-                <a href="{% url 'home' %}?category=outdoor_accessories" class="dropdown-item">Outdoor Accessories</a>
-                <a href="{% url 'home' %}?category=outdoor_furniture,outdoor_accessories" class="dropdown-item">All Outdoor</a>
+                <a href="{% url 'products' %}?category=outfur" class="dropdown-item">Outdoor Furniture</a>
+                <a href="{% url 'products' %}?category=outacc" class="dropdown-item">Outdoor Accessories</a>
+                <a href="{% url 'products' %}?category=outfur,outacc" class="dropdown-item">All Outdoor</a>
             </div>
         </li>
     </ul>
