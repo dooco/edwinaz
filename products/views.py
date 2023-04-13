@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category
+from .models import Product, Category, Vendor
 
 
 def all_products(request):
@@ -13,6 +13,7 @@ def all_products(request):
     products = Product.objects.all()
     query = None
     categories = None
+    vendor = None
     sort = None
     direction = None
 
@@ -36,6 +37,11 @@ def all_products(request):
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
+        if 'vendor' in request.GET:
+            vendor = request.GET['vendor'].split(',')
+            products = products.filter(vendor__name__in=vendor)
+            vendor = Vendor.objects.filter(name__in=vendor)
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -53,6 +59,7 @@ def all_products(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        'current_vendor': vendor,
     }
 
     return render(request, 'products/products.html', context)

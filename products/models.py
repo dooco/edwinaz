@@ -8,7 +8,7 @@ class Style(models.Model):
 
     def __str__(self):
         return self.name
-    
+ 
 
 class Category(models.Model):
   
@@ -18,10 +18,8 @@ class Category(models.Model):
     name = models.CharField(max_length=10)
     friendly_name = models.CharField(max_length=255)
 
-
     def __str__(self):
-        return self.name
-    
+        return self.name   
 
 
 class Product(models.Model):
