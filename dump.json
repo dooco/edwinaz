@@ -1,0 +1,2382 @@
+[
+{
+  "model": "auth.group",
+  "fields": {
+    "name": "vendor",
+    "permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$b0zNy0VvlyJQgYDrTmHX7F$GDT4rbztOnPzf6+js+4IiaOWbY/ZqFT+SXPLO0djJNs=",
+    "last_login": "2023-04-11T12:46:40Z",
+    "is_superuser": true,
+    "username": "joe@blog.com",
+    "first_name": "Joe",
+    "last_name": "Blog",
+    "email": "joe@blog.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-04-11T12:45:02Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$vBoDPufu8Fnsje1vrDrhO6$wO1n0YmaZgROg4CQrUK3XmpEqNPTaKDSJuR1IWaZ9Mg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "artisanpottery",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:05:18.143Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$zkw2bu76QIG9tBOuXxBAHF$EcFtjtSkzfMg56lTEdLg04bvNs/kiaq8Px1+cOxFUDY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "scented_candles@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:10:56Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$k1bsYC2GXVhCnYxYqDt96t$ITzdY1GJmE9Wwa6AU1GkZEJWWDy93icl0pVzp3+3ZGk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sea_living@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "sea_living@dooco.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:14:37Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$sQCRLhklt6PAfnu1aXOuw2$cFeSZ41ZC48pVL/EthA5PfqbuZ4GfFHhAXC9B/2Smho=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Maison_de_Verre@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "Maison_de_Verre@dooco.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:16:35Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$fShDmXYJOCqDx71k2uTzG2$+Vh1JqJGhs9Lt3ofwkq8DCpaw2fGSOdADo/2cIjQyDY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Rustic_Home@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:17:37Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$09PbPleJgsb3aVqRV5fBcr$IQWpqDm58+jie98slbq/PRfB8jJi2L+GQlu+u0JnI10=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Boho_Chic@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "Boho_Chic@dooco.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:18:40Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$NjFg9eBVrm3tTcXB7Aw5Cs$jnlqanYRiIWNba4tB91KdK6s468WmnU1l4LBoABsbjU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Crate_Barrel@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:19:57Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$XwMDxi0no5lJGata4rXLeh$a9WfLSk6AsJs7GdZi9EzBu+5MJRPaNqsU0lqkyEY364=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "West_Elm@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:20:57Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$5WCXmK3f7kNZzRLL7NGM0t$gw1u0L3TQEjyvPqztxlxEpXWvp3xsnJqHDBaTqNVH80=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Sonoma@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:22:13Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Tjv5Jarkk3rsibtD0pb9Ab$8LSYdTwASUT9lkjaNfAIm1WcbzddBsXeTmaKooJaOyg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Ceramics@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:23:22Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$g1OiFGOJjiyVFMobmfpxJw$2swItTv5dmyrvMFu23VJLGb++0JhkF835xX5vGGDAM0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Hydrate@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:24:25Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$1pwjpm2DIpbd2ic7v1b7dK$2GlB7SA0bLxwODD7r9jq8HVnpq/Y6Mk9xNiyaz7Kdp8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Textiles_R_Us@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:25:27Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$zxAvx1Yl81t6SfiYqaQ0QG$YOGUVez5GBI0hoWGeoZw7SofPPo4eOK8vEMQISF9uK4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ironware@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:26:21Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$G0D6h9hPikXBDoJWwuw1P6$wsUEocY580AirfgtIVRelLIRSLTRyHnMWH/EaHc3kIA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "emporium@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:27:04Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$x5hxO1ebqgunfpSsj57VQu$yJmjoqb+9jpa12T9mwZ0unltN7BxQ5R9iPfzimMkdFE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Eco_Home_Goods@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "Eco_Home_Goods@dooco.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:28:00Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$FR85H6l56i8w60LYvHdqED$bCQ9j7rfe5iiiwf/JhkR+cdp6rAe/FIhyUOmkkV4tGc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Rug_Emporium@dooco.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-11T13:29:26Z",
+    "groups": [
+      [
+        "vendor"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qlzvo5txf2ja728aquxvlphfmqj811ae",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-e0NJnzNY3rWNA8iR4qRC3J1ESgHtzLz3ZiFuaw1bz0uYErsyyS6_DCM9cztEesR2nznNbV0m5EfCT9v5OKf8up3t30GNve5rUxBQSR2V0za6BGiLMeBhZ1aInIGkFxoGLQdVrJeFnBY2ERAaXYB9vr59Nuc:1pmDOS:bKUE9sV0raE3d5a9AWVcYlJtNEfmVXMSifj1jEa9NW8",
+    "expire_date": "2023-04-25T12:46:40.499Z"
+  }
+},
+{
+  "model": "sites.site",
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "kitfur"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "dinfur"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "kitacc"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "dinacc"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "bedfur"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "name": "batfur"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 7,
+  "fields": {
+    "name": "bedacc"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 8,
+  "fields": {
+    "name": "batacc"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 9,
+  "fields": {
+    "name": "livfur"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 10,
+  "fields": {
+    "name": "currug"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 11,
+  "fields": {
+    "name": "livacc"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 12,
+  "fields": {
+    "name": "outfur"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 13,
+  "fields": {
+    "name": "outacc"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Geometric Ceramic Vase",
+    "description": "Handcrafted ceramic vase with a unique geometric design.",
+    "style": "Modern",
+    "category": 9,
+    "vendor": 1,
+    "sku": "pp5001340155",
+    "price": "45.99",
+    "image": "ceravase0001_NJjcG9V.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Scented Candle",
+    "description": "Soy wax scented candle in a stylish glass jar with a floral fragrance.",
+    "style": "Bohemian",
+    "category": 8,
+    "vendor": 1,
+    "sku": "pp5001340785",
+    "price": "22.99",
+    "image": "scencand0001.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Linen Pillow",
+    "description": "Soft linen pillow cover with a striped pattern and a down feather insert.",
+    "style": "Coastal",
+    "category": 11,
+    "vendor": 17,
+    "sku": "pp6001340155",
+    "price": "32.50",
+    "image": "pilldown0001.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "Elegant Glass Vase",
+    "description": "This stunning glass vase features a unique diamond pattern that reflects light beautifully. It's perfect for displaying fresh flowers or as a statement piece on its own.",
+    "style": "Modern",
+    "category": 11,
+    "vendor": 7,
+    "sku": "pp5001376155",
+    "price": "59.99",
+    "image": "glasvase0001_lqP0GEM.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "name": "Rustic Wooden Tray",
+    "description": "This handcrafted wooden tray is perfect for serving drinks or displaying candles. Its rustic design features a distressed finish and metal handles for easy carrying.",
+    "style": "Farmhouse",
+    "category": 11,
+    "vendor": 9,
+    "sku": "pp5089340155",
+    "price": "29.99",
+    "image": "rusttray0001_LWMeCDu.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "Cozy Knit Throw",
+    "description": "This soft and cozy knit throw is perfect for snuggling up on the couch or adding a pop of colour to your bedding. Its chunky knit design and tassels make it a stylish addition to any room.",
+    "style": "Bohemian",
+    "category": 11,
+    "vendor": 2,
+    "sku": "pp5001340369",
+    "price": "49.99",
+    "image": "cozythro0001.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "Ceramic Dinnerware",
+    "description": "This elegant set includes dinner plates, salad plates, and bowls. Made from high-quality ceramic, each piece is glazed with a beautiful speckled pattern.",
+    "style": "Modern",
+    "category": 3,
+    "vendor": 4,
+    "sku": "pp8201340191",
+    "price": "149.99",
+    "image": "ceradinn0001_xtz5orW.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "Glass Tumblers",
+    "description": "These stylish tumblers are perfect for serving juice, water, or cocktails. Made from high-quality glass, they feature a unique textured design that adds a touch of sophistication to any table setting.",
+    "style": "Contemporary",
+    "category": 3,
+    "vendor": 12,
+    "sku": "pp4981340149",
+    "price": "29.99",
+    "image": "glastumb0001_5xh2UU7.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "name": "Stainless Steel Flatware Set",
+    "description": "This sleek  Made from high-quality stainless steel, each piece features a simple and elegant design.",
+    "style": "Minimalist",
+    "category": 3,
+    "vendor": 10,
+    "sku": "pp6381340153",
+    "price": "99.99",
+    "image": "flatware0001.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "name": "Vintage Ceramic Dinner Plates",
+    "description": "Set of 4 vintage ceramic dinner plates in blue and white floral design.",
+    "style": "Traditional",
+    "category": 3,
+    "vendor": 3,
+    "sku": "pp5001340117",
+    "price": "49.99",
+    "image": "vintplat0001.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "name": "Stainless Steel Water Bottle",
+    "description": "16oz stainless steel water bottle with a double-walled vacuum seal.",
+    "style": "Modern",
+    "category": 13,
+    "vendor": 6,
+    "sku": "pp3801340416",
+    "price": "19.99",
+    "image": "watebott0001_4JBEboP.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "name": "Contemporary Glass Tumblers",
+    "description": "These contemporary tumblers are perfect for serving cocktails. Made from high-quality glass, they feature a unique textured design that adds a touch of sophistication to any table setting.",
+    "style": "Contemporary",
+    "category": 3,
+    "vendor": 7,
+    "sku": "pp5438348153",
+    "price": "39.99",
+    "image": "conttumb0001.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "Floral Print Cotton Duvet Cover",
+    "description": "Queen size duvet cover in a floral print made of 100% cotton.",
+    "style": "Bohemian",
+    "category": 7,
+    "vendor": 11,
+    "sku": "pp5401342151",
+    "price": "89.99",
+    "image": "duvetcove0001_uJqRvVa.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "Cast Iron Skillet",
+    "description": "10-inch cast iron skillet with a pre-seasoned surface.",
+    "style": "Rustic",
+    "category": 3,
+    "vendor": 15,
+    "sku": "pp5404142162",
+    "price": "69.99",
+    "image": "castskil0001_Ny71GE4.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "name": "Faux Leather Ottoman",
+    "description": "Square-shaped faux leather ottoman in dark brown colour.",
+    "style": "Contemporary",
+    "category": 9,
+    "vendor": 2,
+    "sku": "pp6401342194",
+    "price": "119.99",
+    "image": "leatotto0001_1LhDEO9.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "name": "Bamboo Cutting Board",
+    "description": "Large bamboo cutting board with juice groove and non-slip feet.",
+    "style": "Minimalist",
+    "category": 3,
+    "vendor": 5,
+    "sku": "pp5481342494",
+    "price": "34.99",
+    "image": "cuttboar0001_bK1khLw.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "name": "Handwoven Cotton Rug",
+    "description": "5x8 handwoven cotton rug in shades of blue and white.",
+    "style": "Coastal",
+    "category": 7,
+    "vendor": 8,
+    "sku": "pp5401342182",
+    "price": "139.99",
+    "image": "cottnrug0001_ji9iAKA.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "name": "Marble Top Dining Table",
+    "description": "A 6-seater dining table with a marble top and wooden legs.",
+    "style": "Modern",
+    "category": 2,
+    "vendor": 14,
+    "sku": "pp6617890129",
+    "price": "1299.99",
+    "image": "marbtabl0001.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "name": "Velvet Accent Chair",
+    "description": "A comfortable accent chair with a velvet upholstery and metal legs.",
+    "style": "Modern",
+    "category": 2,
+    "vendor": 10,
+    "sku": "pp5002640198",
+    "price": "349.99",
+    "image": "velvchair0001.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "name": "Stainless Steel Flatware Set",
+    "description": "A 20-piece flatware set with stainless steel construction and sleek design",
+    "style": "Contemporary",
+    "category": 3,
+    "vendor": 15,
+    "sku": "pp9801346458",
+    "price": "79.99",
+    "image": "flatcutt0002.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "name": "Cast Iron Dutch Oven",
+    "description": "A 6-quart cast iron dutch oven with enamel coating.",
+    "style": "Farmhouse",
+    "category": 3,
+    "vendor": 5,
+    "sku": "pp5001740159",
+    "price": "149.99",
+    "image": "dutcoven0002.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 22,
+  "fields": {
+    "name": "Farmhouse Kitchen Table",
+    "description": "Beautiful kitchen table is made with solid wood and features a rustic farmhouse style. It can comfortably seat 6-8 people.",
+    "style": "Farmhouse",
+    "category": 1,
+    "vendor": 9,
+    "sku": "pp8101340143",
+    "price": "899.00",
+    "image": "kitctabl0002.jpg"
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 1,
+  "fields": {
+    "name": "Artisan Pottery",
+    "created_by": [
+      "joe@blog.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 2,
+  "fields": {
+    "name": "Boho Chic",
+    "created_by": [
+      "Boho_Chic@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 3,
+  "fields": {
+    "name": "Ceramics",
+    "created_by": [
+      "Ceramics@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 4,
+  "fields": {
+    "name": "Crate Barrel",
+    "created_by": [
+      "Crate_Barrel@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 5,
+  "fields": {
+    "name": "Eco Home Goods",
+    "created_by": [
+      "Eco_Home_Goods@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 6,
+  "fields": {
+    "name": "Hydrate",
+    "created_by": [
+      "Hydrate@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 7,
+  "fields": {
+    "name": "Maison de Verre",
+    "created_by": [
+      "Maison_de_Verre@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 8,
+  "fields": {
+    "name": "Rug Emporium",
+    "created_by": [
+      "Rug_Emporium@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 9,
+  "fields": {
+    "name": "Rustic Home",
+    "created_by": [
+      "Rustic_Home@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 10,
+  "fields": {
+    "name": "Sonoma",
+    "created_by": [
+      "Sonoma@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 11,
+  "fields": {
+    "name": "Textiles R Us",
+    "created_by": [
+      "Textiles_R_Us@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 12,
+  "fields": {
+    "name": "West Elm",
+    "created_by": [
+      "West_Elm@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 13,
+  "fields": {
+    "name": "Artisian Pottery",
+    "created_by": [
+      "artisanpottery"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 14,
+  "fields": {
+    "name": "The Emporium",
+    "created_by": [
+      "emporium@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 15,
+  "fields": {
+    "name": "Iron Ware",
+    "created_by": [
+      "ironware@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 16,
+  "fields": {
+    "name": "Scented Candles",
+    "created_by": [
+      "scented_candles@dooco.com"
+    ]
+  }
+},
+{
+  "model": "vendor.vendor",
+  "pk": 17,
+  "fields": {
+    "name": "Sea Living",
+    "created_by": [
+      "sea_living@dooco.com"
+    ]
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-04-11T13:00:51.553Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "1",
+    "object_repr": "Artisan Pottery",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-04-11T13:02:20.217Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "joe@blog.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-04-11T13:05:18.460Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "artisanpottery",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-04-11T13:06:26.326Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "vendor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-04-11T13:10:56.940Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "scented_candles@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-04-11T13:11:37.652Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "scented_candles@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-04-11T13:13:41.925Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "joe@blog.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-04-11T13:14:37.675Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "sea_living@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-04-11T13:15:17.403Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "sea_living@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-04-11T13:16:35.873Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "Maison_de_Verre@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-04-11T13:16:54.251Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "Maison_de_Verre@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-04-11T13:17:37.728Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "6",
+    "object_repr": "Rustic_Home@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-04-11T13:17:53.207Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "6",
+    "object_repr": "Rustic_Home@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-04-11T13:18:41.057Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "7",
+    "object_repr": "Boho_Chic@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-04-11T13:19:00.283Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "7",
+    "object_repr": "Boho_Chic@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-04-11T13:19:57.900Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "8",
+    "object_repr": "Crate_Barrel@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-04-11T13:20:10.292Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "8",
+    "object_repr": "Crate_Barrel@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-04-11T13:20:57.694Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "9",
+    "object_repr": "West_Elm@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-04-11T13:21:11.587Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "9",
+    "object_repr": "West_Elm@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-04-11T13:22:13.609Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "10",
+    "object_repr": "Sonoma@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-04-11T13:22:25.377Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "10",
+    "object_repr": "Sonoma@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-04-11T13:23:22.337Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "11",
+    "object_repr": "Ceramics@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-04-11T13:23:34.689Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "11",
+    "object_repr": "Ceramics@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-04-11T13:24:25.611Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "12",
+    "object_repr": "Hydrate@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-04-11T13:24:36.327Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "12",
+    "object_repr": "Hydrate@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-04-11T13:25:28.134Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "13",
+    "object_repr": "Textiles_R_Us@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-04-11T13:25:49.370Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "13",
+    "object_repr": "Textiles_R_Us@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-04-11T13:26:22.304Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "14",
+    "object_repr": "ironware@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-04-11T13:27:04.803Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "15",
+    "object_repr": "emporium@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-04-11T13:27:23.543Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "15",
+    "object_repr": "emporium@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-04-11T13:28:01.204Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "16",
+    "object_repr": "Eco_Home_Goods",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-04-11T13:28:39.148Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "16",
+    "object_repr": "Eco_Home_Goods@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\", \"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-04-11T13:29:27.259Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "17",
+    "object_repr": "Rug_Emporium@dooco.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-04-11T13:29:40.727Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "17",
+    "object_repr": "Rug_Emporium@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-04-11T13:30:19.446Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "14",
+    "object_repr": "ironware@dooco.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-04-11T15:43:35.807Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Geometric Ceramic Vase",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-04-11T15:49:52.618Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Scented Candle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-04-11T15:50:30.404Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "2",
+    "object_repr": "Boho Chic",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-04-11T15:50:45.476Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "3",
+    "object_repr": "Ceramics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-04-11T15:51:01.826Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "4",
+    "object_repr": "Crate Barrel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-04-11T15:51:16.988Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "5",
+    "object_repr": "Eco Home Goods",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-04-11T15:51:27.674Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "6",
+    "object_repr": "Hydrate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-04-11T15:51:48.631Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "7",
+    "object_repr": "Maison de Verre",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-04-11T15:52:01.903Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "8",
+    "object_repr": "Rug Emporium",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-04-11T15:52:13.235Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "9",
+    "object_repr": "Rustic Home",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-04-11T15:52:24.346Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "10",
+    "object_repr": "Sonoma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-04-11T15:52:40.516Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "11",
+    "object_repr": "Textiles R Us",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-04-11T15:52:51.711Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "12",
+    "object_repr": "West Elm",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-04-11T15:53:07.425Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "13",
+    "object_repr": "Artisian Pottery",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-04-11T15:53:21.960Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "14",
+    "object_repr": "The Emporium",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-04-11T15:53:33.990Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "15",
+    "object_repr": "Iron Ware",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-04-11T15:53:54.167Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "16",
+    "object_repr": "Scented Candles",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-04-11T15:54:08.908Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "vendor",
+      "vendor"
+    ],
+    "object_id": "17",
+    "object_repr": "Sea Living",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-04-11T17:52:12.270Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Linen Pillow",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2023-04-11T17:52:55.431Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Linen Pillow",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2023-04-11T17:55:05.643Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Elegant Glass Vase",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2023-04-11T17:57:56.899Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Rustic Wooden Tray",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2023-04-11T18:00:02.394Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Cozy Knit Throw",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2023-04-11T18:00:40.082Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Cozy Knit Throw",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2023-04-11T18:02:57.660Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "7",
+    "object_repr": "Ceramic Dinnerware",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2023-04-11T18:06:21.963Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Glass Tumblers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2023-04-11T18:08:15.872Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Stainless Steel Flatware Set",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2023-04-11T18:09:54.057Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Vintage Ceramic Dinner Plates",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2023-04-11T18:12:05.198Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Stainless Steel Water Bottle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2023-04-11T18:14:04.118Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Glass Tumblers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2023-04-11T18:20:35.048Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Contemporary Glass Tumblers",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\", \"Vendor\", \"Sku\", \"Price\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2023-04-11T18:23:23.398Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "13",
+    "object_repr": "Floral Print Cotton Duvet Cover",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2023-04-11T18:24:59.042Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Cast Iron Skillet",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2023-04-11T18:27:26.951Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Faux Leather Ottoman",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2023-04-11T18:29:09.579Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Bamboo Cutting Board",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2023-04-11T18:30:30.546Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "17",
+    "object_repr": "Handwoven Cotton Rug",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2023-04-12T19:54:01.818Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Stainless Steel Water Bottle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2023-04-12T19:54:15.393Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Stainless Steel Water Bottle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2023-04-12T20:12:49.153Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "18",
+    "object_repr": "Marble Top Dining Table",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2023-04-12T20:14:26.691Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "18",
+    "object_repr": "Marble Top Dining Table",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2023-04-12T20:22:13.895Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "19",
+    "object_repr": "Velvet Accent Chair",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2023-04-12T20:30:28.601Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "20",
+    "object_repr": "Stainless Steel Flatware Set",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2023-04-12T20:31:01.826Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "19",
+    "object_repr": "Velvet Accent Chair",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2023-04-12T20:38:33.112Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "21",
+    "object_repr": "Cast Iron Dutch Oven",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2023-04-12T20:47:18.991Z",
+    "user": [
+      "joe@blog.com"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "22",
+    "object_repr": "Farmhouse Kitchen Table",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]
