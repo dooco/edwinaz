@@ -9,6 +9,9 @@ body {
     color: #555;
     font-family: 'Lato';
 }
+a {
+    color: #555; 
+}
 
 /* from Bulma */
 .icon {
