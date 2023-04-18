@@ -48,6 +48,8 @@ def checkout(request):
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
+        'stripe_public_key': 'pk_test_51MmNj9KSG7N8mbvfp0osX4bA8yfYs6bzt5kAm4A9QQS4nAq5LDtJHTZVHE8WnR3dThzbO4z4Na7N5iKJNyM0woUc00AUrnLYJ1',
+        'client_secret': 'sk_test_51MmNj9KSG7N8mbvfr0NpjOfFgmaWCyxGHiYY4BPlVKqLn8nhlZa7eUTfPSIbohASdeglRxg8KLs6xWgRULhMdnPC003TeLFERl',
     }
 
     return render(request, template, context)
@@ -149,12 +151,12 @@ def checkout(request):
         messages.warning(request, ('Stripe public key is missing. '
                                    'Did you forget to set it in '
                                    'your environment?'))
-
+    
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
-        'stripe_public_key': stripe_public_key,
-        'client_secret': intent.client_secret,
+        'stripe_public_key': 'pk_test_51MmNj9KSG7N8mbvfp0osX4bA8yfYs6bzt5kAm4A9QQS4nAq5LDtJHTZVHE8WnR3dThzbO4z4Na7N5iKJNyM0woUc00AUrnLYJ1',
+        'client_secret': 'sk_test_51MmNj9KSG7N8mbvfr0NpjOfFgmaWCyxGHiYY4BPlVKqLn8nhlZa7eUTfPSIbohASdeglRxg8KLs6xWgRULhMdnPC003TeLFERl',
     }
 
     return render(request, template, context)
