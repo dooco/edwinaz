@@ -30,7 +30,7 @@ card.mount('#card-element');
 
 
 // Handle realtime validation errors on the card element
-/*
+
 card.addEventListener('change', function (event) {
     var errorDiv = document.getElementById('card-errors');
     if (event.error) {
@@ -47,6 +47,7 @@ card.addEventListener('change', function (event) {
 });
 
 // Handle form submit
+
 var form = document.getElementById('payment-form');
 
 form.addEventListener('submit', function(ev) {
@@ -119,4 +120,4 @@ form.addEventListener('submit', function(ev) {
         location.reload();
     })
 });
-*/
+
