@@ -65,3 +65,8 @@ select option[value=""] {
     margin: 0;
     height: 100%;
 }
+
+.order-confirmation-wrapper {
+    align-items: right;
+    margin: 0;
+}
