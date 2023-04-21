@@ -38,12 +38,12 @@ def checkout(request):
 
         order_form = OrderForm(form_data)
         if order_form.is_valid():
-            order = order_form.save(commit=False)
-            pid = request.POST.get('client_secret').split('_secret')[0]
-            order.stripe_pid = pid
-            order.original_bag = json.dumps(bag)
-            order.save()
-            print('order saved')
+            order = order_form.save()
+            # pid = request.POST.get('client_secret').split('_secret')[0]
+            # order.stripe_pid = pid
+            # order.original_bag = json.dumps(bag)
+            # order.save()
+            # print('order saved')
             for item_id, item_data in bag.items():
                 try:
                     product = Product.objects.get(id=item_id)
@@ -73,7 +73,6 @@ def checkout(request):
                     return redirect(reverse('view_bag'))
 
             # Save the info to the user's profile if all is well
-            print('Checkout Success')
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success',
                                     args=[order.order_number]))
@@ -96,17 +95,19 @@ def checkout(request):
             currency=settings.STRIPE_CURRENCY,
         )
 
+        order_form = OrderForm()
+
         # Attempt to prefill the form with any info
         # the user maintains in their profile
         
-        if request.user.is_authenticated:
-            try:
-                print('user authenticated')
+        # if request.user.is_authenticated:
+        #     try:
+        #         print('user authenticated')
                
-            except UserProfile.DoesNotExist:
-                order_form = OrderForm()
-        else:
-            order_form = OrderForm()
+        #     except UserProfile.DoesNotExist:
+        #         order_form = OrderForm()
+        # else:
+        #     order_form = OrderForm()
 
     if not stripe_public_key:
         messages.warning(request, ('Stripe public key is missing. '
@@ -124,7 +125,7 @@ def checkout(request):
 
 
 def checkout_success(request, order_number):
-    
+
     """
     Handle successful checkouts
     """
