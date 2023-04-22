@@ -69,7 +69,7 @@
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
           <ul class="list-inline list-unstyled text-center text-lg-right my-0">
             <li class="list-inline-item dropdown">
-              <a class="text-black nav-link" href="#" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div class="text-center">
                     <div><i class="fas fa-user fa-lg"></i></div>
                     <p class="my-0">My Account</p>
@@ -80,7 +80,7 @@
                       {% if request.user.is_superuser %}
                           <a href="{% url 'home' %}" class="dropdown-item">Product Management</a>
                       {% endif %}
-                      <a href="{% url 'home' %}" class="dropdown-item">My Profile</a>
+                      <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                       <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                   {% else %}
                       <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
@@ -94,9 +94,9 @@
                     <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                     <p class="my-0">
                         {% if grand_total %}
-                            ${{ grand_total|floatformat:2 }}
+                            €{{ grand_total|floatformat:2 }}
                         {% else %}
-                            $0.00
+                            €0.00
                         {% endif %}
                     </p>
                 </div>
@@ -108,7 +108,7 @@
       </div>
       <div class="row bg-white">
         <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
           {% include 'includes/mobile-top-header.html' %}
