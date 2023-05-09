@@ -31,20 +31,30 @@ def vendor(request):
     return render(request, template, context)
 
 
+@login_required
 def become_vendor(request):
-    if request.method == 'POST':
-        form = UserCreationForm(request.Post)
+    """ Display the vendor's profile. """
 
+    profile = get_object_or_404(UserProfile, user=request.user)
+
+    if request.method == 'POST':
+        form = UserProfileForm(request.POST, instance=profile)
         if form.is_valid():
-            user = form.save()
-            login(request, user)
-            vendor = Vendor.objects.create(name=user.username, created_by=user)
-            return redirect('home')
+            form.save(commit=False)
+            form.userprofile.is_vendor = True
+            form.save()
+            messages.success(request, 'Profile updated successfully')
+        else:
+            messages.error(request,
+                        ('Update failed. Please ensure '
+                            'the form is valid.'))
     else:
-        form = UserCreationForm()
+        form = UserProfileForm(instance=profile)
+
     template = 'vendor/become_vendor.html'
     context = {
-        'form': form
+        'form': form,
+        'on_profile_page': True
     }
 
     return render(request, template, context)

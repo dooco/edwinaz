@@ -1,3 +1,4 @@
+from typing import Any, Dict
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -6,6 +7,7 @@ from django.db.models.functions import Lower
 
 from .models import Product, Category, Vendor
 from .forms import ProductForm
+from blog.models import Post
 
 
 def all_products(request):
@@ -17,6 +19,7 @@ def all_products(request):
     vendor = None
     sort = None
     direction = None
+    posts = Post.objects.all()
 
     if request.GET:
         if 'sort' in request.GET:
@@ -54,13 +57,15 @@ def all_products(request):
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
-
+    post_list = posts[:4]
+   
     context = {
         'products': products,
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
         'current_vendor': vendor,
+        'post_list': post_list,
     }
 
     return render(request, 'products/products.html', context)
@@ -148,3 +153,7 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+
+
+
