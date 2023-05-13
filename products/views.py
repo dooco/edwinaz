@@ -4,6 +4,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.views.generic import DetailView
 
 from .models import Product, Category, Vendor
 from .forms import ProductForm
@@ -155,5 +156,8 @@ def delete_product(request, product_id):
     return redirect(reverse('products'))
 
 
+class PostDetailView(DetailView):
+    model = Post
 
+    template_name = 'blog/post_detail.html'
 

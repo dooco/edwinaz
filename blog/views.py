@@ -15,18 +15,19 @@ from .forms import PostForm
 class PostsListView(ListView):
     model = Post
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        return context
+    # def get_context_data(self, **kwargs):
+    #     context = super(PostsListView, self).get_context_data(**kwargs)
+    #     return context
 
 
 class PostDetailView(DetailView):
     model = Post
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-    
-        return context
+    template_name = 'blog/post_detail.html'
+
+    # def get_context_data(self, **kwargs):
+    #     context = super(PostsListView, self).get_context_data(**kwargs)
+    #     return context
 
 
 class CreatePost(LoginRequiredMixin, CreateView):
