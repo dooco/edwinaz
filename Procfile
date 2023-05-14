@@ -1,0 +1,1 @@
+web: guincorn edwinaz.wsgi:application
