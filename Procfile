@@ -1,1 +1,1 @@
-web: guincorn edwinaz.wsgi:application
+web: gunicorn edwinaz.wsgi:application
