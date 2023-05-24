@@ -12,15 +12,19 @@
 {% block content %}
     <div container h-100>
         <div row h-100>
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
+            <div class="my-auto">
+                <h1 class="display-4 logo-font text-black text-center">
                     Edwinaz  Vendor  Catalogue
                 </h1>
-                <div class="my-5">
+                <div class="my-5 text-center">
                     <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Products Here</a>
-                        <a href="{% url 'posts' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Articles Here</a>
+                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-full text-uppercase py-3">Products</a>
+                        <a href="{% url 'posts' %}" class="shop-now-button btn btn-lg rounded-full text-uppercase py-3">Articles</a>
                     </h4>
+                    <div class="row">
+                        <div class="col my-3 text-center">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

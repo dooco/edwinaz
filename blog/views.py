@@ -7,7 +7,8 @@ from django.contrib.auth.mixins import (
     UserPassesTestMixin, LoginRequiredMixin
 )
 
-
+from random import sample
+from django.views import View
 from .models import Post
 from .forms import PostForm
 
@@ -69,3 +70,11 @@ def photo_carousel(request):
         'photos': queryset,
     }
     return render(request, 'blog/photo_carousel.html', context)
+
+
+class RandomPostsView(View):
+    def get(self, request):
+        posts = Post.objects.all()
+        random_posts = sample(list(posts), 4)
+        context = {'random_posts': random_posts}
+        return render(request, 'blog/random_posts.html', context)

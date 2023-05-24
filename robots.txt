@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://edwinaz.herokuapp.com/sitemap.xml

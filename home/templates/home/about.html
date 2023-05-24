@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+        <div row h-100>
+            <div class="my-auto">
+                <h1 class="display-4 logo-font text-black text-center">
+                    Edwinaz Homeware Online Store  
+                </h1>
+                <div class="col text-center">
+                    <p>We have been stocking stylish, beautifully designed products through our devoted vendors for over a decade. Our aim is to provide timeless style, quality and an attention to detail in everything we do, from hand-finished bed linen to our second to none customer service.
+                        We believe in bringing some of the most simplest pleasures to our customer. Our team are constantly looking to bring moments of effortless enjoyment to our customers by offering steadfast inspiration in our collections that are built to last.
+                        The thought, care, and attention to detail that our team spends on our product selection goes into every item we stock at Edwinaz.
+                        Delighted to be of service to you - enjoy your shopping with us!
+                    </p>
+                </div>
+                <div class="my-5 text-center">
+                    <h4>
+                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-full text-uppercase py-3">Products Here</a>
+                        <a href="{% url 'posts' %}" class="shop-now-button btn btn-lg rounded-full text-uppercase py-3">Articles Here</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

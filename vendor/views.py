@@ -32,8 +32,8 @@ def vendor(request):
 
 
 @login_required
-def become_vendor(request):
-    """ Display the vendor's profile. """
+def become_vendor_OLD(request):
+    """ Become a vendor OLD """
 
     profile = get_object_or_404(UserProfile, user=request.user)
 
@@ -43,6 +43,7 @@ def become_vendor(request):
             form.save(commit=False)
             form.userprofile.is_vendor = True
             form.save()
+            print(userprofile)
             messages.success(request, 'Profile updated successfully')
         else:
             messages.error(request,
@@ -59,6 +60,19 @@ def become_vendor(request):
 
     return render(request, template, context)
 
+@login_required
+def become_a_vendor(request):
+    """ Become a vendor """
+
+    profile = get_object_or_404(UserProfile, user=request.user)
+    profile.is_vendor = 'True'
+    profile.save()
+    context = {
+        'UserProfile': profile
+    }
+    template = 'vendor/become_a_vendor.html'
+    
+    return render(request, template, context)
 
 def vendor_product_detail(request, product_id):
     """ A view to show individual vendor's product details """

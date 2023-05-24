@@ -1,4 +1,5 @@
 from typing import Any, Dict
+from django.views import View
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -160,4 +161,12 @@ class PostDetailView(DetailView):
     model = Post
 
     template_name = 'blog/post_detail.html'
+
+
+class RandomPostsView(View):
+    def get(self, request):
+        posts = Post.objects.all()
+        random_posts = sample(list(posts), 4)
+        context = {'random_posts': random_posts}
+        return render(request, 'blog/random_posts.html', context)
 
