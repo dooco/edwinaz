@@ -557,13 +557,8 @@ It provides a platform for registered vendors to display their range of products
     - #### **Change configuration to allow for production and development mode**
        - Secret Key: ```SECRET_KEY = os.environ.get('SECRET_KEY', '')```
        - Debug: ```DEBUG = 'DEVELOPMENT' in os.environ``` so that debug is true in your development environment, but false in production
-       - Allowed Hosts: ```ALLOWED_HOSTS = ['localhost']``` 
-       - Add Heroku's URL to allowed hosts     
-          ```
-          RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
-          if RENDER_EXTERNAL_HOSTNAME:
-            ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
-          ```
+       - Allowed Hosts: ```ALLOWED_HOSTS = ['edwinaz.herokuapp.com', 'localhost']``` 
+      
        - Using an if statement in settings.py, the app will be connected to Postgres in production mode and SQlite when in development.
           ```
             if 'DATABASE_URL' in os.environ:
@@ -582,9 +577,9 @@ It provides a platform for registered vendors to display their range of products
          ```
          if 'DEVELOPMENT' in os.environ:
             EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-            DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_USER')
-            EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
+            DEFAULT_FROM_EMAIL = 'edwinaz@example.com'
          else:
+            EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
             EMAIL_USE_TLS = True
             EMAIL_PORT = 587
             EMAIL_HOST = 'smtp.gmail.com'
@@ -595,22 +590,22 @@ It provides a platform for registered vendors to display their range of products
        - Add, commit and push changes to github
 
 
-    - #### **Create a webservice app on Render**
+    - #### **Create a webservice app on Heroku**
 
-      - Log onto Render and click the "new" button in the top menu
-      ![Heroku add app](documentation/deploy/screenshots/render-new-button.png)
+      - Log onto Heroku and click the "new" button in the top menu
+      ![Heroku add app](documentation/deploy/screenshots/heroku-new-button.png)
       - Select the option "new webservice"
-        ![Heroku add app](documentation/deploy/screenshots/render-new-webservice.png)
+        ![Heroku add app](documentation/deploy/screenshots/heroku-new-webservice.png)
       - Search and select the relevant repo, then click connect
       - Enter a unique name for your application
       - Select the region closest to you 
       - Enter "main" as branch
       - Enter "Python 3" as runtime
-          ![Heroku add app](documentation/deploy/screenshots/render-set.png)
+          ![Heroku add app](documentation/deploy/screenshots/heroku-set.png)
       - Set the build command as ```./build.sh```
       - Set the start command as ```gunicorn edwinaz.wsgi:application```
       - Make sure you select the free option under instance type 
-      ![Heroku add app](documentation/deploy/screenshots/render_build.png)
+      ![Heroku add app](documentation/deploy/screenshots/heroku_build.png)
       - Add your environment variables, by selecting "advance" then select option to add variables:    
       	| KEY | VALUE |
         | ----------- | ----------- |
@@ -623,13 +618,13 @@ It provides a platform for registered vendors to display their range of products
         | EMAIL_HOST_USER | Your_value |
         | EMAIL_HOST_PASS | Your_value |
       - Select "yes" for auto-deploy
-      ![Heroku connect github](documentation/deploy/screenshots/render-auto-deploy.png) 
+      ![Heroku connect github](documentation/deploy/screenshots/heroku-auto-deploy.png) 
       - Click "create webservice" - you should see the following message when build is successful
-      ![Heroku connect github](documentation/deploy/screenshots/render-success.png) 
+      ![Heroku connect github](documentation/deploy/screenshots/heroku-success.png) 
 
 
     - #### **Create Amazon AWS S3 bucket**
-        - This project uses the cloud-based storage service Amazon Web Services s3 to store static files (css, javascript) and images. The following instructions explains how to create and configure a bucket, group and user for the purpose of this project [View Instructions](documentation/deploy/amazon.md).      
+        - Edwinaz uses Amazon's Web Services s3 cloud-based storage service to store static files (css, javascript) and images. The following instructions explains how to create and configure a bucket, group and user for the purpose of this project [View Instructions](documentation/deploy/amazon.md).      
   
     - #### **Connect Amazon AWS S3 bucket to django**
         - In your CLI, install the following packages:
@@ -642,8 +637,8 @@ It provides a platform for registered vendors to display their range of products
           ![amazon settings](documentation/deploy/screenshots/amazon_settings.png)
 
 
-    - #### **Update your environment in Render**
-        - Go to dashboard, then click on your app and navigate to Envrironment in left handside menuSTRIPEer](documentation/deploy/screenshots/render-amazon.png)
+    - #### **Update your environment in Heroku**
+        - Go to dashboard, then click on your app and navigate to Envrironment in left handside menuSTRIPEer](documentation/deploy/screenshots/heroku-amazon.png)
         - Add additional Amazon AWS key - values pairs
         - Make sure to remove DISABLE_COLLECTSTATIC = 1 when setting Amazon AWS
         - Your configuration variables should now look like this: 

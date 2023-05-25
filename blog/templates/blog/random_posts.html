@@ -1,10 +1,29 @@
 {% extends 'base.html' %}
 
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
 {% block content %}
-<h1>Random Posts</h1>
-<ul>
-    {% for post in random_posts %}
-    <li><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+    <div class="overlay"></div>
+    <div class="container-fluid">
+        <h1>Random Posts</h1>
+        <div class="row">
+            <ul>
+                {% for post in random_posts %}
+                <li>
+                    <div class="image-container my-5">
+                        <a href="{{ post.image.url }}" target="_blank">
+                            <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.title }}">
+                            <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+                        </a>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            
 {% endblock %}

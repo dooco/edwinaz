@@ -4,6 +4,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
+from random import sample
 from django.db.models.functions import Lower
 from django.views.generic import DetailView
 
@@ -59,7 +60,9 @@ def all_products(request):
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
-    post_list = posts[:4]
+
+    posts = Post.objects.all()
+    random_posts = sample(list(posts), 4)
    
     context = {
         'products': products,
@@ -67,7 +70,7 @@ def all_products(request):
         'current_categories': categories,
         'current_sorting': current_sorting,
         'current_vendor': vendor,
-        'post_list': post_list,
+        'random_posts': random_posts,
     }
 
     return render(request, 'products/products.html', context)
@@ -162,11 +165,4 @@ class PostDetailView(DetailView):
 
     template_name = 'blog/post_detail.html'
 
-
-class RandomPostsView(View):
-    def get(self, request):
-        posts = Post.objects.all()
-        random_posts = sample(list(posts), 4)
-        context = {'random_posts': random_posts}
-        return render(request, 'blog/random_posts.html', context)
 
