@@ -54,7 +54,7 @@ View live project here [link to deployed link](https://edwinaz.herokuapp.com/)
 
  - ### **Strategy**  
 
-Edwinaz is a fully functional responsive multi-vendor e-commerce platform with the home owner who is interested in home decoration and home improvement as it target audience. The site offers informative articles on home improvements where the visitors can browse through blog like articles developed by the administrator and vendors of the site on home improvement ideas. 
+Edwinaz is a fully functional responsive multi-vendor e-commerce platform with the home owner in mind who is interested in home decoration and home improvement as it target audience. The site offers informative articles on home improvements where the visitors can browse through blog like articles developed by the administrator and vendors of the site on home improvement ideas. 
 It provides a platform for registered vendors to display their range of products they wish to promote on the platform and also offers them an article post option where the vendor can write informative articles which will act as both an informative source for prospective customers and also an opportunity to gain prominence on search engines by implementing good search engine optimisation.
    
    - #### **Site Owner's Goals**
@@ -72,7 +72,7 @@ It provides a platform for registered vendors to display their range of products
 
  - ### **User Stories** 
 
-    1. **Navigation**
+  - **Navigation**
         1. As a user I want to be able to view the site on desktop, tablet and phone so that I can view the site with ease on each device
         2. As a user I want to be able to view a catalogue of products so that I can select products to purchase
         3. As a user I want to be able to click on a product so that I can view more details about this product
@@ -81,14 +81,14 @@ It provides a platform for registered vendors to display their range of products
         6. As a user I want to be able to view all articles from a listed vendor so that I can view articles of interest from that particular vendor
         7. As a user I want to be able to search for product in name or description field so that I can find a product I want to buy
        
-    2. **Registration and account management** 
+  - **Registration and account management** 
         8. As a user I want to be able to register for an account so that I can place orders, save my details and view previous orders
         9. As a site user I want to be able to easily login and log out so that I can access my personal information and so that my history and address details are saved
         10. As a site user I want to be able to have a personal user profile so that I can view my personal history and order confirmation, and save my payment information
         11. As a site user I want to be able to receive an email confirmation after registering so that I can verify my account registration was successful
         12. As a site user I want to be able to recover my password should I forget it so that I can recover access to my account
 
-    3. **Shopping and Checkout**
+  - **Shopping and Checkout**
         13. As a shopper I want to be able to add products to cart so that I can purchase the items I want
         14. As a shopper I want to be able to select a product and quantity so that I can purchase multiple products
         15. As a shopper I want to be able to view items in my cart so that I can see all my purchases, their subtotal cost and total for cart
@@ -99,7 +99,7 @@ It provides a platform for registered vendors to display their range of products
         20. As a shopper I want to be able to view an order confirmation so that I can make sure that I haven't made an error
     
 
-    4. **Vendor Functions**
+  - **Vendor Functions**
         21. As a user I want to be able to log onto site and request to be register as a vendor so that I can become a vendor and promote my products for sale
         22. As a vendor I want to be able to view my product list so that I can ensure its up to date
         23. As a Vendor I want to be able to add a product so that I can expand my inventory for sale
@@ -110,11 +110,11 @@ It provides a platform for registered vendors to display their range of products
         28. As a vendor I want to be able to edit my articles so that I can keep my articles up to date
         29. As a vendor I want to be able to delete articles so that I can keep my articles up to date
 
-    5. **Newsletter**
+  - **Newsletter**
         30. As a shopper I want to be able to sign up for a newsletter so that I can be emailed with regular updates from website
         31. As a shopper I want to be able to unregister for receiving newsletters so that I can opt out of receiving any further newsletters should I wish
 
-    7. **Admin** 
+  - **Admin** 
 
         32. As an admin I want to be able to add edit and delete articles and products so that I can keep site functional and up to date
         33. As an admin I want to be able to view and manage orders received so that I can ensure that orders are processed in a timely manner
