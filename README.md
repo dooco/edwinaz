@@ -73,13 +73,13 @@ It provides a platform for registered vendors to display their range of products
  - ### **User Stories** 
 
   - **Navigation**
-        1. As a user I want to be able to view the site on desktop, tablet and phone so that I can view the site with ease on each device
-        2. As a user I want to be able to view a catalogue of products so that I can select products to purchase
-        3. As a user I want to be able to click on a product so that I can view more details about this product
-        4. As a user I want to be able to select a category of products so that I can view products I am interested in and avoid searching through all of the products
-        5. As a user I want to be able to view all of the products from a vendor so that I can select the products from the vendor's product list that I like
-        6. As a user I want to be able to view all articles from a listed vendor so that I can view articles of interest from that particular vendor
-        7. As a user I want to be able to search for product in name or description field so that I can find a product I want to buy
+        1. --  As a user I want to be able to view the site on desktop, tablet and phone so that I can view the site with ease on each device
+        2. - As a user I want to be able to view a catalogue of products so that I can select products to purchase
+        3. - As a user I want to be able to click on a product so that I can view more details about this product
+        4. - As a user I want to be able to select a category of products so that I can view products I am interested in and avoid searching through all of the products
+        5. - As a user I want to be able to view all of the products from a vendor so that I can select the products from the vendor's product list that I like
+        6. - As a user I want to be able to view all articles from a listed vendor so that I can view articles of interest from that particular vendor
+        7. - As a user I want to be able to search for product in name or description field so that I can find a product I want to buy
        
   - **Registration and account management** 
         8. As a user I want to be able to register for an account so that I can place orders, save my details and view previous orders
@@ -127,7 +127,7 @@ It provides a platform for registered vendors to display their range of products
         Edwinaz website will be developed to demonstrate coder’s competence in delivering a minimal viable product for compliance with Code Institute’s Pass criteria.
 
      - #### **Minimum Viable Product**
-     A pdf version can be seen [here](documentation/design/scope.pdf).
+    
 	  - #### **Non functional requirements**
          - Incorporate a narative in articles that will engage visitors to revisit site and view content.
 
