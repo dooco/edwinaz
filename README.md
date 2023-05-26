@@ -73,7 +73,7 @@ It provides a platform for registered vendors to display their range of products
  - ### **User Stories** 
 
   - **Navigation**
-        1. --  As a user I want to be able to view the site on desktop, tablet and phone so that I can view the site with ease on each device
+        1. - As a user I want to be able to view the site on desktop, tablet and phone so that I can view the site with ease on each device
         2. - As a user I want to be able to view a catalogue of products so that I can select products to purchase
         3. - As a user I want to be able to click on a product so that I can view more details about this product
         4. - As a user I want to be able to select a category of products so that I can view products I am interested in and avoid searching through all of the products

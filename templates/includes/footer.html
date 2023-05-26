@@ -1,49 +1,93 @@
 {% load static %}
 
-<footer>   
-    <div class="footer container-fluid bg-dark text-light mt-5 pt-5">
+<footer id="footer" class="bg-dark text-light d-flex-column text-center">   
+    <hr class="mt-0">
+    <div class="text-center">
+        <h4>Follow Us</h4>
         <div class="container py-0">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/Edwinaz-107287325695098" target="_blank" rel="me" class="sbtn btn-large mx-1" title="Facebook">
+                        <i class="fa-brands fa-facebook fa-lg white-text fa-2x"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://twitter.com/dooleyp24" target="_blank" rel="me" class="sbtn btn-large mx-1" title="Twitter">
+                        <i class="fa-brands fa-twitter fa-lg white-text fa-2x"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.instagram.com/p/Cry4ZOMIVfk/" target="_blank" rel="me" class="sbtn btn-large mx-1" title="Instagram">
+                        <i class="fa-brands fa-instagram fa-lg white-text fa-2x"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/padraig-dooley-924a3620" target="_blank" rel="me" class="sbtn btn-large mx-1" title="Linkedin">
+                        <i class="fa-brands fa-linkedin fa-lg white-text fa-2x"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/dooco" target="_blank" rel="me" class="sbtn btn-large mx-1" title="Github">
+                        <i class="fa-brands fa-github fa-lg white-text fa-2x"> </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <hr class="mb-0">
+        <div class="container text-left text-md-center">
             <div class="row">
-                <div class="col-sm-12 col-md-3 col-lg-3">
-                    <h6>Contact Us</h6>
-                    <p class="font-weight-light">info@edwinaz.com</p>
-                </div>
-                <div class="col-sm-12 col-md-3 col-lg-3">
-                    <h6>Follow Us</h6>
-                        <p class="font-weight-light">
-                            <a href="https://www.facebook.com/Edwinaz-107287325695098" target="_blank"><i class="fa-brands fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
-                        
-                            <a href="https://twitter.com/dooleyp24" target="_blank"><i class="fa-brands fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
-                     
-                            <a href="https://www.instagram.com/p/Cry4ZOMIVfk/" target="_blank"><i class="fa-brands fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
-                        
-                            <a href="https://www.linkedin.com/in/padraig-dooley-924a3620" target="_blank"><i class="fa-brands fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
-                        
-                        
-                            <a href="https://github.com/dooco" target="_blank"><i class="fa-brands fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
-                        </p>
+                <div class="col-md-3 mx-auto shfooter">
+                    <h5 class="my-2 font-weight-bold d-none d-md-block">Contact</h5>
+                    <div class="d-md-none title" data-target="#Contact" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold">Contact
+                            <div class="float-right navbar-toggler">
+                                <i class="fas fa-angle-down"></i>
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </div>
                     </div>
-                <div class="col-sm-12 col-md-3 col-lg-3">  
-                    <h6>Links</h6>
-                    <div>
-                        <div><small><a href="{% url 'become_a_vendor' %}" class="text-white font-weight-light text-decoration-none">Become a vendor</a></small></div>
-                        <div><small><a href="{% url 'about' %}" class="text-white font-weight-light text-decoration-none">About us</a></small></div>
-                        <div><small><a href="https://www.housewares.org/" rel="noopener noreferrer" class="text-white font-weight-light text-decoration-none">IHA</a></small></div>
+                <ul class="list-unstyled collapse" id="Contact">
+                    <li><a href="mailto:info@edwinaz.com">e: info@edwinaz.com</a></li>
+                    <li><a href="tel:0862526443">p: 01 1231234</a></li>
+                </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none mb-0">
+                    <div class="col-md-3 mx-auto shfooter">
+                        <h5 class="my-2 font-weight-bold d-none d-md-block">Links</h5>
+                        <div class="d-md-none title" data-target="#Links" data-toggle="collapse">
+                            <div class="mt-3 font-weight-bold">Links
+                                <div class="float-right navbar-toggler">
+                                    <i class="fas fa-angle-down"></i>
+                                    <i class="fas fa-angle-up"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled collapse" id="Links">
+                            <li><a href="{% url 'become_a_vendor' %}">Become a Vendor</a></li>
+                            <li><a href="{% url 'about' %}">About Us</a></li>
+                            <li><a href="https://www.housewares.org/">Housewares.org</a></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-3 col-lg-3">  
-                    
-                        <p>Subscribe to our mailing list.</p>
-                    
-                            <a href="{% url 'subscribe' %}"><button type="submit" class="btn btn-outline-black rounded-0 mt-2">Subscribe</button></a>
-                        </form>
-                        <p class="mt-2 text-decoration-none text-muted"><a href="{% url 'unsubscribe' %}">Unsubscribe</a></p>
-                
-                </div>
+                    <hr class="clearfix w-100 d-md-none mb-0">
+                    <div class="col-md-3 mx-auto shfooter">
+                        <h5 class="my-2 font-weight-bold d-none d-md-block">Newsletter</h5>
+                            <div class="d-md-none title" data-target="#Newsletter" data-toggle="collapse">
+                                <div class="mt-3 font-weight-bold">Newsletter
+                                    <div class="float-right navbar-toggler">
+                                        <i class="fas fa-angle-down"></i>
+                                        <i class="fas fa-angle-up"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        <ul class="list-unstyled collapse" id="Newsletter">
+                            <li><a href="{% url 'subscribe' %}"><button type="submit" class="btn btn-outline-black rounded-0 mt-2">Subscribe</button></a></li>
+                            <li><a href="{% url 'unsubscribe' %}">Unsubscribe</a></li>
+                        </ul>
+                    </div>
             </div>
         </div>
-        <div class="container text-center py-1">
-            <p style="font-size:12px">Copyright © 2023 All Rights Reserved.</p>
+        <hr class="mb-0">
+        <div class="py-3 text-center">
+            <small> dooco © 2023 All Rights Reserved.</small>
         </div>
-    </div>
 </footer>

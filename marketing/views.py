@@ -39,6 +39,8 @@ def subscribe_view(request):
                     settings.MAILCHIMP_MARKETING_AUDIENCE_ID,
                     member_info,
                 )
+                messages.success(request, 'Successfully Suscribed!')
+
                 logger.info(f'API call successful: {response}')
                 return redirect('subscribe-success')
 
