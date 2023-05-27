@@ -5,12 +5,7 @@ from django.contrib import messages
 from marketing.forms import EmailForm
 from mailchimp_marketing import Client
 from mailchimp_marketing.api_client import ApiClientError
-import logging
 import hashlib
-
-
-logger = logging.getLogger(__name__)
-
 
 
 mailchimp = Client()
@@ -41,11 +36,10 @@ def subscribe_view(request):
                 )
                 messages.success(request, 'Successfully Suscribed!')
 
-                logger.info(f'API call successful: {response}')
                 return redirect('subscribe-success')
 
             except ApiClientError as error:
-                logger.error(f'An exception occurred: {error.text}')
+                messages.error(request, 'An exception occurred.')
                 return redirect('subscribe-fail')
 
     return render(request, 'marketing/subscribe.html', {
@@ -79,10 +73,11 @@ def unsubscribe_view(request):
                     form_email_hash,
                     member_update,
                 )
-                logger.info(f'API call successful: {response}')
+                messages.success(request, 'Successfully Un-suscribed!')
                 return redirect('unsubscribe-success')
             except ApiClientError as error:
-                logger.error(f'An exception occurred: {error.text}')
+                messages.error(request,
+                   ('Exception occured.'))
                 return redirect('unsubscribe-fail')
 
     return render(request, 'marketing/unsubscribe.html', {
