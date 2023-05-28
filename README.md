@@ -228,25 +228,23 @@ It provides a platform for registered vendors to display their range of products
       
        
         - **Post model**
-          - The post model is used to hold article information posted bt vendors.
-          - It consists of title, content, excerpt, image and data added fields.
+          - The post model is used to hold article information posted by vendors.
+          - It consists of title, content, excerpt, image and date added fields.
           - A user field has a foreign key relationship with UserProfile model which can be checked if is_vendor true.
 
  - ### **Skeleton**
     
     - ### **Wireframes**
 
-       ![homepage wireframes](documentation/wireframes/homepage.png)
-
-       Please find all the wireframes in pdf format [here](documentation/wireframes/wireframes.pdf). 
+       ![homepage wireframes](documentation/wireframes/homepage.png) 
     
        Please find below links to a selection of wireframe used for this project (png format)
          - [Homepage menu](documentation/wireframes/homepage_menu.png)
-         - [Work](documentation/wireframes/Work.png) 
-         - [Article details](documentation/wireframes/collection_details.png)
+         - [Products](documentation/wireframes/products.png) 
+         - [Articles](documentation/wireframes/articles.png)
          - [About page](documentation/wireframes/about.png)
          - [Shop](documentation/wireframes/shop.png)
-         - [Product details](documentation/wireframes/a_details.png)
+         - [Product details](documentation/wireframes/product-detail.png)
          - [Shopping bag](documentation/wireframes/shopping_bag.png)
          - [Checkout page](documentation/wireframes/checkout_page.png)
          - [Order successful](documentation/wireframes/order_successful.png)
