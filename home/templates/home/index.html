@@ -12,12 +12,12 @@
 {% block content %}
     <div container h-100>
         <div row h-100>
-            <div class="my-auto">
-                <h1 class="display-4 logo-font text-white text-center w-100" style="background-color: rgba(0, 0, 0, 0.7);">
-                    Multi-Vendor
-                    Homeware online shop
+            <div class="my-auto" id="cover-text">
+                <h1 class="display-4 logo-font text-white text-center w-100">
+                    Multi-Vendor Homeware Online Shop
                 </h1>
-                <h3 class="logo-font text-center mt-5 mb-5 text-white" style="background-color: rgba(0, 0, 0, 0.7);"> You can request to vecome a vendor by clicking on 'become a vendor' in footer</h3>
+                <h3 class="logo-font text-center mt-5 mb-5 text-white"> You can request to vecome a vendor by clicking on 'become a vendor' in footer</h3>
+            </div>
                 <div class="my-5 mb-5 text-center">
                     <h4>
                         <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-full text-uppercase py-3">Products</a>
@@ -30,5 +30,4 @@
                 </div>
             </div>
         </div>
-    </div>
 {% endblock %}

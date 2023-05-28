@@ -24,7 +24,7 @@
     <div class="row">
         <div class="product-container col-10 offset-1">
             <div class="row">
-                {% if request.user.is_superuser or request.userprofile.is_vendor %}
+                {% if request.user.is_superuser or request.user.vendor %}
                 <a href="{% url 'add_post' %}" class="shop-now-button btn btn-lg btn-black rounded-full text-uppercase py-3 mt-3 mb-3">Add Article</a>
                 {% endif %}
                 {% for post in post_list %}

@@ -11,6 +11,19 @@ body {
     font-family: 'Lato';
     margin-bottom: 160px;
 }
+
+/* from Love running */
+#cover-text {
+    width: 90%;
+    height: 5%;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgba(28, 14, 14, 0.5);
+    top: 10px;
+    left: 5%;
+    right: 5%;
+    position: relative;
+}
 .wrapper{
     flex: 1;
   }

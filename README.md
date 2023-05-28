@@ -125,9 +125,25 @@ It provides a platform for registered vendors to display their range of products
 
     
         Edwinaz website is developed to demonstrate coder’s competence in delivering a django application which complies with Code Institute's PP5 criteria.
+
+    - #### **Functional requirements**
+        - To be able to login and logout
+        - To be able to sign-up using email address and secure password
+        - To be able to reset password 
+        - To be able to view and edit profile information
+        - To be able to add/view/edit/delete a product as vendor
+        - To be able to add/view/edit/delete an article as vendor
+        - To be able to view and edit shopping bag
+        - To be able to process orders and add order to profile history
+        - To be able to process card payement
+        - To be able to sort shop items according to a set of criteria 
+        - To be able to email notification to users
+        - To be able to notify user on success of failure on actions  
+        - To be able to handle errors: page 404 not found, page 500 Internal Server Error and page 403 access denied
+        
     
 	  - #### **Non functional requirements**
-         - Incorporate a narative in articles that will engage visitors to revisit site and view content.
+        - Incorporate a narative in articles that will engage visitors to revisit site and view content.
 
      - #### **Becoming a Vendor**
        - The process of vendor setup is simplified for the purpose of this project
@@ -158,13 +174,15 @@ It provides a platform for registered vendors to display their range of products
         - Article page to include articles for visitor to brouse through.
         - Shopping bag page to display items added in the bag, price, delivery cost, total and options to change quantity.
         - Profile page to allow user to update their information and also to view older orders.
-        - Vendor page to display articles published by vendor and provide links to add, edit and delete articles and products. 
-        - Footer to include links to about, social media, newsletter sign-up and become vendor link.
+        - Article page to display articles published by vendors and provide links to add, edit and delete articles to vendor with privaleges. 
+        - Product page to display products published by vendors and provide links to add, edit and delete products to vendor with privaleges.
+        - Footer to include links to about, contact, social media, newsletter sign-up and become vendor link.
 
      - #### **Interaction design**
 
         - Collapsible menu
-        - Buttons, icons and links with hovering effect
+        - Collapsible footer
+        - Responsive design with mobile first approach
 
      - #### **Database structure**
 
@@ -201,7 +219,7 @@ It provides a platform for registered vendors to display their range of products
           - Order details that have been added to the user’s shopping bag is stored here.
           - Order field has a foreign key relationship with order model.
           - Product field has a foreign key relationship with product model.
-          - The quantity field holds r=the quantity of product purchased.
+          - The quantity field holds the quantity of product purchased.
           - Line item total records the product of quantity and product price.
         
         - **Vendor model**
