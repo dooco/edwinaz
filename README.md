@@ -236,21 +236,20 @@ It provides a platform for registered vendors to display their range of products
     
     - ### **Wireframes**
 
-       ![homepage wireframes](documentation/wireframes/homepage.png) 
+       ![homepage wireframes](documentation/wireframes/home.png) 
     
        Please find below links to a selection of wireframe used for this project (png format)
-         - [Homepage menu](documentation/wireframes/homepage_menu.png)
+         - [Homepage](documentation/wireframes/home.png)
          - [Products](documentation/wireframes/products.png) 
          - [Articles](documentation/wireframes/articles.png)
          - [About page](documentation/wireframes/about.png)
-         - [Shop](documentation/wireframes/shop.png)
          - [Product details](documentation/wireframes/product-detail.png)
-         - [Shopping bag](documentation/wireframes/shopping_bag.png)
-         - [Checkout page](documentation/wireframes/checkout_page.png)
+         - [Shopping bag](documentation/wireframes/shopping-bag.png)
+         - [Checkout page](documentation/wireframes/checkout.png)
          - [Order successful](documentation/wireframes/order_successful.png)
          - [Saved items](documentation/wireframes/saved_items.png)
          - [Sign up page](documentation/wireframes/signup.png)
-         - [Login page](documentation/wireframes/login.png)
+         - [Login page](documentation/wireframes/log-in.png)
          - [Profile page](documentation/wireframes/profile.png)
          - [Add article](documentation/wireframes/add_c.png)
          - [Contact us page](documentation/wireframes/contact.png)
