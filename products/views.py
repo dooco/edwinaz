@@ -61,7 +61,6 @@ def all_products(request):
 
     current_sorting = f'{sort}_{direction}'
 
-    posts = Post.objects.all()
     random_posts = sample(list(posts), 4)
    
     context = {

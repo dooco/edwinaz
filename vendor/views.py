@@ -9,6 +9,7 @@ from django.contrib.auth.forms import UserCreationForm
 from .models import Vendor
 from products.models import Product
 from products.forms import ProductForm
+from blog.models import Post
 
 from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
@@ -20,45 +21,19 @@ def vendor(request):
     """ A view to return the vendor page """
     
     products = Product.objects.filter(user=request.user)
+    posts = Post.objects.filter(user=request.user)
+
    
     template = 'vendor/vendor.html'
 
     context = {
         'vendor': vendor,
         'products': products,
+        'posts': posts,
     }
 
     return render(request, template, context)
 
-
-@login_required
-def become_vendor_OLD(request):
-    """ Become a vendor OLD """
-
-    profile = get_object_or_404(UserProfile, user=request.user)
-
-    if request.method == 'POST':
-        form = UserProfileForm(request.POST, instance=profile)
-        if form.is_valid():
-            form.save(commit=False)
-            form.userprofile.is_vendor = True
-            form.save()
-            print(userprofile)
-            messages.success(request, 'Profile updated successfully')
-        else:
-            messages.error(request,
-                        ('Update failed. Please ensure '
-                            'the form is valid.'))
-    else:
-        form = UserProfileForm(instance=profile)
-
-    template = 'vendor/become_vendor.html'
-    context = {
-        'form': form,
-        'on_profile_page': True
-    }
-
-    return render(request, template, context)
 
 @login_required
 def become_a_vendor(request):

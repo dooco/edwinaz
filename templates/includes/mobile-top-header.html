@@ -33,6 +33,9 @@
                 <a href="{% url 'add_product' %}" class="dropdown-item">Admin Product Add</a>
                 <a href="{% url 'add_post' %}" class="dropdown-item">Admin Article Add</a>
             {% endif %}
+            {% if request.user.userprofile.is_vendor %}
+            <a href="{% url 'vendor' %}" class="dropdown-item">{{ user.username }} Store</a>
+            {% endif %}
             <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
         {% else %}

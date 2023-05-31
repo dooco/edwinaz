@@ -246,13 +246,13 @@ It provides a platform for registered vendors to display their range of products
          - [Product details](documentation/wireframes/product-detail.png)
          - [Shopping bag](documentation/wireframes/shopping-bag.png)
          - [Checkout page](documentation/wireframes/checkout.png)
-         - [Order successful](documentation/wireframes/order_successful.png)
+         - [Thank You page](documentation/wireframes/thank-you.png)
          - [Sign up page](documentation/wireframes/sign-up.png)
          - [Login page](documentation/wireframes/log-in.png)
          - [Profile page](documentation/wireframes/profile.png)
          - [Add article](documentation/wireframes/add_c.png)
          - [Error page](documentation/wireframes/error_pages.png)
-         - [Policy page](documentation/wireframes/policy_pages.png)
+         - [Vendor page](documentation/wireframes/vendor.png)
 
     - #### **Difference to implement**
       - Sections in the profile pages feature own dedicated pages
