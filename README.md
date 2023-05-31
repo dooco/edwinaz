@@ -247,12 +247,10 @@ It provides a platform for registered vendors to display their range of products
          - [Shopping bag](documentation/wireframes/shopping-bag.png)
          - [Checkout page](documentation/wireframes/checkout.png)
          - [Order successful](documentation/wireframes/order_successful.png)
-         - [Saved items](documentation/wireframes/saved_items.png)
-         - [Sign up page](documentation/wireframes/signup.png)
+         - [Sign up page](documentation/wireframes/sign-up.png)
          - [Login page](documentation/wireframes/log-in.png)
          - [Profile page](documentation/wireframes/profile.png)
          - [Add article](documentation/wireframes/add_c.png)
-         - [Contact us page](documentation/wireframes/contact.png)
          - [Error page](documentation/wireframes/error_pages.png)
          - [Policy page](documentation/wireframes/policy_pages.png)
 
