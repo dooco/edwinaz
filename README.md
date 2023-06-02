@@ -251,8 +251,9 @@ It provides a platform for registered vendors to display their range of products
          - [Login page](documentation/wireframes/log-in.png)
          - [Profile page](documentation/wireframes/profile.png)
          - [Add article](documentation/wireframes/add_c.png)
-         - [Error page](documentation/wireframes/error_pages.png)
+         - [Error page](documentation/wireframes/404.png)
          - [Vendor page](documentation/wireframes/vendor.png)
+         - [Newsletter Subscribe page](documentation/wireframes/newsletter-subscribe.png)
 
     - #### **Difference to implement**
       - Sections in the profile pages feature own dedicated pages
