@@ -242,6 +242,8 @@ It provides a platform for registered vendors to display their range of products
          - [Homepage](documentation/wireframes/home.png)
          - [Products](documentation/wireframes/products.png) 
          - [Articles](documentation/wireframes/articles.png)
+         - [Article Detail](documentation/wireframes/article-detail.png)
+         - [Add an Article](documentation/wireframes/add-article.png)
          - [About page](documentation/wireframes/about.png)
          - [Product details](documentation/wireframes/product-detail.png)
          - [Add Product](documentation/wireframes/add-product.png)
