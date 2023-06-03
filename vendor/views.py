@@ -46,6 +46,7 @@ def become_a_vendor(request):
         'UserProfile': profile
     }
     template = 'vendor/become_a_vendor.html'
+    messages.success(request, 'You have successfully become a vendor!')
     
     return render(request, template, context)
 

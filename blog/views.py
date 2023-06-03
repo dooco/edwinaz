@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.contrib import messages
 from django.views.generic import (
  DetailView, CreateView, UpdateView, DeleteView, ListView
 )
@@ -14,21 +15,15 @@ from .forms import PostForm
 
 
 class PostsListView(ListView):
+    """ View to list articles """
     model = Post
-
-    # def get_context_data(self, **kwargs):
-    #     context = super(PostsListView, self).get_context_data(**kwargs)
-    #     return context
 
 
 class PostDetailView(DetailView):
+    """ View to view an article details"""
     model = Post
 
     template_name = 'blog/post_detail.html'
-
-    # def get_context_data(self, **kwargs):
-    #     context = super(PostsListView, self).get_context_data(**kwargs)
-    #     return context
 
 
 class CreatePost(LoginRequiredMixin, CreateView):
@@ -39,7 +34,7 @@ class CreatePost(LoginRequiredMixin, CreateView):
     success_url = '/'
 
     def form_valid(self, form):
-        form.instance.user = self.request.user
+        form.instance.user = self.request.user 
         return super(CreatePost, self).form_valid(form)
 
 
@@ -48,8 +43,8 @@ class EditPost(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     template_name = 'blog/edit_post.html'
     model = Post
     form_class = PostForm
-    success_url = "/"
-
+    success_url = "/blog/"
+     
     def test_func(self):
         return self.request.user == self.get_object().user
 
@@ -57,24 +52,7 @@ class EditPost(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
 class DeletePost(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     """ A view to delete an article """
     model = Post
-    success_url = "/"
+    success_url = "/blog/"
 
     def test_func(self):
         return self.request.user == self.get_object().user
-
-
-def photo_carousel(request):
-    print('photo_carousel View')
-    queryset = Post.objects.all()
-    context = {
-        'photos': queryset,
-    }
-    return render(request, 'blog/photo_carousel.html', context)
-
-
-# class RandomPostsView(View):
-#     def get(self, request):
-#         posts = Post.objects.all()
-#         random_posts = sample(list(posts), 4)
-#         context = {'random_posts': random_posts}
-#         return render(request, 'blog/random_posts.html', context)

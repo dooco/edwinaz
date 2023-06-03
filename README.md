@@ -244,6 +244,7 @@ It provides a platform for registered vendors to display their range of products
          - [Articles](documentation/wireframes/articles.png)
          - [About page](documentation/wireframes/about.png)
          - [Product details](documentation/wireframes/product-detail.png)
+         - [Add Product](documentation/wireframes/add-product.png)
          - [Shopping bag](documentation/wireframes/shopping-bag.png)
          - [Checkout page](documentation/wireframes/checkout.png)
          - [Thank You page](documentation/wireframes/thank-you.png)

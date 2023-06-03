@@ -14,13 +14,8 @@ mailchimp.set_config({
   'server': settings.MAILCHIMP_REGION,
 })
 
-
-def mailchimp_ping_view(request):
-    response = mailchimp.ping.get()
-    return JsonResponse(response)
-
-
 def subscribe_view(request):
+    """ A view to suscribe to mailchimp page """
     if request.method == 'POST':
         form = EmailForm(request.POST)
         if form.is_valid():
@@ -48,17 +43,20 @@ def subscribe_view(request):
 
 
 def subscribe_success_view(request):
+    """ Suscribe success view """
     messages.success(request, 'Successfully subscribed to our mailing list')
     return redirect(reverse('products'))
 
 
 def subscribe_fail_view(request):
+    """ Suscribe fail view """
     messages.error(request,
                    ('Failed to subscribe. Please ensure the form is valid.'))
     return redirect(reverse('subscribe'))
 
 
 def unsubscribe_view(request):
+    """ A view to unsuscribe to mailchimp page """
     if request.method == 'POST':
         form = EmailForm(request.POST)
         if form.is_valid():
@@ -86,11 +84,13 @@ def unsubscribe_view(request):
 
 
 def unsubscribe_success_view(request):
+    """ Unsuscribe success view """
     messages.success(request, 'Successfully un-subscribed from our mailing list')
     return redirect(reverse('products'))
 
 
 def unsubscribe_fail_view(request):
+    """ Unsuscribe fail view """
     messages.error(request,
                    ('Failed to un-subscribe. Please ensure the form is valid.'))
     return redirect(reverse('unsubscribe'))
