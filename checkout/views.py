@@ -106,7 +106,7 @@ def checkout(request):
             currency=settings.STRIPE_CURRENCY,
         )
 
-        order_form = OrderForm()
+        # order_form = OrderForm()
 
         # Attempt to prefill the form with any info
         # the user maintains in their profile

@@ -104,6 +104,7 @@ class StripeWH_Handler:
                 attempt += 1
                 time.sleep(1)
         if order_exists:
+            print('order_exists in database')
             self._send_confirmation_email(order)
             return HttpResponse(
                 content=(f'Webhook received: {event["type"]} | SUCCESS: '
@@ -137,6 +138,7 @@ class StripeWH_Handler:
                         order_line_item.save()
                     else:
                         print('item_data not an integer')
+                        order_line_item.save()
             except Exception as e:
                 if order:
                     order.delete()
@@ -144,6 +146,7 @@ class StripeWH_Handler:
                     content=f'Webhook received: {event["type"]} | ERROR: {e}',
                     status=500)
         self._send_confirmation_email(order)
+        print('order_exists in webhook')
         return HttpResponse(
             content=(f'Webhook received: {event["type"]} | SUCCESS: '
                      'Created order in webhook'),
