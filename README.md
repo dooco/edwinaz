@@ -381,13 +381,15 @@ It provides a platform for registered vendors to display their range of products
    
 
   - ### **Libraries and Frameworks**
-    - [Django](https://www.djangoproject.com/): Python web framework for dynamic development of front and backend projects
+    - [Django](https://www.djangoproject.com/): Django 3.2 Long Term Support version, Python web framework for dynamic development of front and backend projects
     - [Font Awesome](https://fontawesome.com/): Icon repository used for icons used on the site
     - [Google font](https://fonts.google.com/): Font family warehouse for selecting fonts for website design
     - [Jquery](https://jquery.com/): A simplified DOM manipulation tool for developong JavaScript code
     - [Gunicorn](https://gunicorn.org/): Server to support WSGI HTTP deployment of Django applications
+    - [Pillow](https://pypi.org/project/Pillow/) Python library for working with images
     - [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/): Template for responsive web development
-    - [Crispy form](https://django-crispy-forms.readthedocs.io/en/latest/): Django forms rendering app
+    - [Django allauth](https://django-allauth.readthedocs.io/) Authentication, registration, login/log out
+    - [Django Crispy FormS](https://django-crispy-forms.readthedocs.io/en/latest/): Django forms rendering app
     - [Django-countries](https://pypi.org/project/django-countries/): Django pre-built country field app supporting valid country codes
     - [Mailchimp-marketing](https://mailchimp.com): Mailchimp newsletter app for integrating newsletter mail on site
    
@@ -405,16 +407,18 @@ It provides a platform for registered vendors to display their range of products
     - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): Google development tool to test site responsiveness and errors
     - [Google lighthouse](https://developers.google.com/web/tools/lighthouse): Google lighthouse tool forsite  performance assessment
     - [Xml Sitmap](https://www.xml-sitemaps.com/) Site map generator
+    - [Wordtracker](https://www.wordtracker.com/) Keyword research tool
 
 
 ## **TESTING**
 
   - ### **Introduction**
-    The website was extensively tested as it was developed with the implementation of new features, using:
+    The website was tested as it was being developed using:
     - Chrome developer tools and Firefox developer tools
     - Use of console.log() in JS testing to check if code is functioning 
     - Viewing terminal for backend functionalities by printing expected outcome
     - Manual testing of user stories
+    - Site navigation and functionality
 
   - ### **Testing User stories**
     User stories were tested manually and details can be found here:
@@ -468,6 +472,10 @@ It provides a platform for registered vendors to display their range of products
 | 40 | Shopper | unregister for receiving newsletters | opt out of receiving any further newsletters should I wish | . | [Newsletter opt out](documentation/testing/user-stories/us-27.png) |
 | 41 | Admin | uadd edit and delete articles and products | As an admin I want to be able to add edit and delete articles and products so that I can keep site functional and up to date | . | [Admin product & article CRUD](documentation/testing/user-stories/us-27.png) |
 | 42 | Admin | view and manage orders received | ensure that orders are processed in a timely manner | . | [Mange orders](documentation/testing/user-stories/us-27.png) |
+
+  - ### **Site navigation and functionality**
+    A manual test of the navigation and functioning of each element was conducted with relevant conditions, i.e. not logged in, logged in as shopper, logged in as vendor and logged in as admin. A description of test is outlined and comment on result noted.
+    [Site Navigation & Functionality Manual Test](documentation/testing/site-navigation/site-navigation-test.png)
 
   - ### **Automated testing**
 

@@ -11,7 +11,7 @@ class Post(models.Model):
     title = models.CharField(max_length=255, null=False, blank=False)
     content = models.TextField(null=False, blank=False)
     excerpt = models.CharField(max_length=1000, null=False, blank=False)
-    image = models.ImageField(upload_to="images/", null=False, blank=False)
+    image = models.ImageField(upload_to="images/", null=True, blank=True)
     date_added = models.DateTimeField(auto_now=True)
 
     class Meta:

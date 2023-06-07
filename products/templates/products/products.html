@@ -144,11 +144,9 @@
                                             </a>
                                         </p>
                                         {% endif %}
-                                        {% if product.vendor %}
+                                        {% if product.user %}
                                         <p class="small mt-1 mb-0">
-                                            <a class="text-decoration-none" href="{% url 'products' %}?vendor={{ product.vendor }}">
-                                                <i class="fas fa-store mr-1"></i>{{ product.vendor }}
-                                            </a>
+                                                <i class="fas fa-store mr-1"></i>{{ product.user }}
                                         </p>
                                         {% endif %}
                                         {% if request.user.is_superuser %}

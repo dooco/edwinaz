@@ -33,9 +33,15 @@
                 {% for post in posts %}
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card h-100 border-0">
-                        <a href="post/{{ post.id }}">
+                        {% if post.image %}
+                        <a href="{% url 'post_detail' post.id %}">
                             <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.name }}">
                         </a>
+                        {% else %}
+                        <a href="{% url 'post_detail' post.id %}">
+                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}">
+                        </a>
+                        {% endif %}
                         <div class="card-body pb-0">
                             <p class="mb-0">{{ post.title }}</p>
                         </div>
@@ -95,11 +101,11 @@
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
                                 {% if product.image %}
-                                <a href="{% url 'vendor_product_detail' product.id %}">
+                                <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
                                 {% else %}
-                                <a href="{% url 'vendor_product_detail' product.id %}">
+                                <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
@@ -117,11 +123,9 @@
                                                 </a>
                                             </p>
                                             {% endif %}
-                                            {% if product.vendor %}
+                                            {% if product.user %}
                                             <p class="small mt-1 mb-0">
-                                                <a class="text-decoration-none" href="{% url 'products' %}?vendor={{ product.vendor }}">
-                                                    <i class="fas fa-store mr-1"></i>{{ product.vendor }}
-                                                </a>
+                                                    <i class="fas fa-store mr-1"></i>{{ product.user }}  
                                             </p>
                                             {% endif %}
                                             {% if request.user %}

@@ -7,6 +7,7 @@ from django.db.models import Q
 
 from django.contrib.auth.forms import UserCreationForm
 from .models import Vendor
+from .forms import VendorProductForm
 from products.models import Product
 from products.forms import ProductForm
 from blog.models import Post
@@ -40,8 +41,11 @@ def become_a_vendor(request):
     """ Become a vendor """
 
     profile = get_object_or_404(UserProfile, user=request.user)
+    
     profile.is_vendor = 'True'
+    
     profile.save()
+    
     context = {
         'UserProfile': profile
     }
@@ -71,7 +75,6 @@ def vendor_add_product(request):
         return redirect(reverse('home'))
 
     if request.method == 'POST':
-        
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
             product = form.save()

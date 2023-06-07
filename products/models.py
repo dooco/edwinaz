@@ -29,7 +29,7 @@ class Category(models.Model):
 class Product(models.Model):
     name = models.CharField(max_length=255)
     user = models.ForeignKey(User, related_name='products', on_delete=models.CASCADE)
-    vendor = models.ForeignKey(Vendor, related_name='products', on_delete=models.CASCADE)
+    vendor = models.ForeignKey(Vendor, related_name='products',null=True, blank=True, on_delete=models.CASCADE)
     description = models.TextField(blank=True, null=True)
     style = models.CharField(max_length=255)
     category = models.ForeignKey('Category', related_name='products', null=True, blank=True, on_delete=models.SET_NULL)
