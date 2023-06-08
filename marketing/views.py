@@ -10,9 +10,10 @@ import hashlib
 
 mailchimp = Client()
 mailchimp.set_config({
-  'api_key': settings.MAILCHIMP_API_KEY,
-  'server': settings.MAILCHIMP_REGION,
+    'api_key': settings.MAILCHIMP_API_KEY,
+    'server': settings.MAILCHIMP_REGION,
 })
+
 
 def subscribe_view(request):
     """ A view to suscribe to mailchimp page """
@@ -62,7 +63,8 @@ def unsubscribe_view(request):
         if form.is_valid():
             try:
                 form_email = form.cleaned_data['email']
-                form_email_hash = hashlib.md5(form_email.encode('utf-8').lower()).hexdigest()
+                form_email_hash = hashlib.md5(
+                    form_email.encode('utf-8').lower()).hexdigest()
                 member_update = {
                     'status': 'unsubscribed',
                 }
@@ -75,7 +77,7 @@ def unsubscribe_view(request):
                 return redirect('unsubscribe-success')
             except ApiClientError as error:
                 messages.error(request,
-                   ('Exception occured.'))
+                               ('Exception occured.'))
                 return redirect('unsubscribe-fail')
 
     return render(request, 'marketing/unsubscribe.html', {
@@ -85,12 +87,15 @@ def unsubscribe_view(request):
 
 def unsubscribe_success_view(request):
     """ Unsuscribe success view """
-    messages.success(request, 'Successfully un-subscribed from our mailing list')
+    messages.success(
+        request,
+        'Successfully un-subscribed from our mailing list')
     return redirect(reverse('products'))
 
 
 def unsubscribe_fail_view(request):
     """ Unsuscribe fail view """
-    messages.error(request,
-                   ('Failed to un-subscribe. Please ensure the form is valid.'))
+    messages.error(
+        request,
+        ('Failed to un-subscribe. Please ensure the form is valid.'))
     return redirect(reverse('unsubscribe'))

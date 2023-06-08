@@ -32,9 +32,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 
-
-
-ALLOWED_HOSTS = ['edwinaz.herokuapp.com', '127.0.0.1', 'localhost', 'https://*.gitpod.io/']
+ALLOWED_HOSTS = [
+    'edwinaz.herokuapp.com',
+    '127.0.0.1',
+    'localhost',
+    'https://*.gitpod.io/']
 
 
 CSRF_TRUSTED_ORIGINS = ['https://*.gitpod.io/']
@@ -63,7 +65,7 @@ INSTALLED_APPS = [
 
     'crispy_forms',
     'storages',
-    ]
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -83,8 +85,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-    os.path.join(BASE_DIR, 'templates'),
-    os.path.join(BASE_DIR, 'templates', 'allauth'),
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'templates', 'allauth'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -132,14 +134,16 @@ WSGI_APPLICATION = 'edwinaz.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 if 'DATABASE_URL' in os.environ:
-    DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
+    DATABASES = {
+        'default': dj_database_url.parse(
+            os.environ.get('DATABASE_URL'))}
 else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',
-            }
-            }
+        }
+    }
 
 
 # Password validation
@@ -230,7 +234,8 @@ else:
 
 MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_API_KEY')
 MAILCHIMP_REGION = os.environ.get('MAILCHIMP_REGION')
-MAILCHIMP_MARKETING_AUDIENCE_ID = os.environ.get('MAILCHIMP_MARKETING_AUDIENCE_ID')
+MAILCHIMP_MARKETING_AUDIENCE_ID = os.environ.get(
+    'MAILCHIMP_MARKETING_AUDIENCE_ID')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

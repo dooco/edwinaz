@@ -53,16 +53,18 @@ def all_products(request):
             query = request.GET['q']
             if not query:
                 messages.error(request,
-                                ("You didn't enter any search criteria!"))
+                               ("You didn't enter any search criteria!"))
                 return redirect(reverse('products'))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(
+                name__icontains=query) | Q(
+                description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
 
     random_posts = sample(list(posts), 4)
-   
+
     context = {
         'products': products,
         'search_term': query,
@@ -163,5 +165,3 @@ class PostDetailView(DetailView):
     model = Post
 
     template_name = 'blog/post_detail.html'
-
-

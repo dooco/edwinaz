@@ -17,14 +17,14 @@ from profiles.forms import UserProfileForm
 
 from checkout.models import Order
 
+
 @login_required
 def vendor(request):
     """ A view to return the vendor page """
-    
+
     products = Product.objects.filter(user=request.user)
     posts = Post.objects.filter(user=request.user)
 
-   
     template = 'vendor/vendor.html'
 
     context = {
@@ -41,18 +41,19 @@ def become_a_vendor(request):
     """ Become a vendor """
 
     profile = get_object_or_404(UserProfile, user=request.user)
-    
+
     profile.is_vendor = 'True'
-    
+
     profile.save()
-    
+
     context = {
         'UserProfile': profile
     }
     template = 'vendor/become_a_vendor.html'
     messages.success(request, 'You have successfully become a vendor!')
-    
+
     return render(request, template, context)
+
 
 def vendor_product_detail(request, product_id):
     """ A view to show individual vendor's product details """
@@ -137,4 +138,3 @@ def vendor_delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('vendor'))
-

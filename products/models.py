@@ -4,15 +4,17 @@ from vendor.models import Vendor
 
 
 class Style(models.Model):
+    """ Style Model """
 
     name = models.CharField(max_length=255)
 
     def __str__(self):
         return self.name
- 
+
 
 class Category(models.Model):
-  
+    """ Category Model """
+
     class Meta:
         verbose_name_plural = 'Categories'
 
@@ -20,19 +22,33 @@ class Category(models.Model):
     friendly_name = models.CharField(max_length=255)
 
     def __str__(self):
-        return self.name   
+        return self.name
 
     def get_friendly_name(self):
         return self.friendly_name
 
 
 class Product(models.Model):
+    """ Product Model """
     name = models.CharField(max_length=255)
-    user = models.ForeignKey(User, related_name='products', on_delete=models.CASCADE)
-    vendor = models.ForeignKey(Vendor, related_name='products',null=True, blank=True, on_delete=models.CASCADE)
+    user = models.ForeignKey(
+        User,
+        related_name='products',
+        on_delete=models.CASCADE)
+    vendor = models.ForeignKey(
+        Vendor,
+        related_name='products',
+        null=True,
+        blank=True,
+        on_delete=models.CASCADE)
     description = models.TextField(blank=True, null=True)
     style = models.CharField(max_length=255)
-    category = models.ForeignKey('Category', related_name='products', null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ForeignKey(
+        'Category',
+        related_name='products',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL)
     sku = models.CharField(max_length=255, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     image = models.ImageField(null=True, blank=True)

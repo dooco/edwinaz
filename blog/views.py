@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.contrib import messages
 from django.views.generic import (
- DetailView, CreateView, UpdateView, DeleteView, ListView
+    DetailView, CreateView, UpdateView, DeleteView, ListView
 )
 
 from django.contrib.auth.mixins import (
@@ -34,7 +34,7 @@ class CreatePost(LoginRequiredMixin, CreateView):
     success_url = '/'
 
     def form_valid(self, form):
-        form.instance.user = self.request.user 
+        form.instance.user = self.request.user
         return super(CreatePost, self).form_valid(form)
 
 
@@ -44,7 +44,7 @@ class EditPost(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Post
     form_class = PostForm
     success_url = "/blog/"
-     
+
     def test_func(self):
         return self.request.user == self.get_object().user
 

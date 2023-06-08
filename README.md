@@ -346,12 +346,13 @@ It provides a platform for registered vendors to display their range of products
      
 
     - #### **Add/edit/delete articless**
-      - Conditions in place to ensure that only the superuser can add/edit/delete articles
+      - Conditions in place to ensure that only the superuser and vendor can add/edit/delete articles
       - If an article has been posted, it can be seen by all visitors to site.
 
     - #### **Add/edit/delete products**
-      - Vendors and admin can only add products. 
-      - Vendor and admin can edit and delete a products.
+      - Admin can add products and assign then to vendor. 
+      - Admin can edit and delete any of the products.
+      - Vendor can add and delete products on their own store.
 
     - #### **Checkout page**
       - Users can order and not set up an account but will not have their order saved to their profile.
@@ -360,7 +361,7 @@ It provides a platform for registered vendors to display their range of products
 
   Stripe was selected as payment method for the following consideration:  
   - Ease of implementation and customisation 
-  - Very little experience of using stripe, but well documented. 
+  - Well documented and maintained. 
   - Paypal as a option for method of payement in future.   
   
 
@@ -419,9 +420,9 @@ It provides a platform for registered vendors to display their range of products
     - Viewing terminal for backend functionalities by printing expected outcome
     - Manual testing of user stories
     - Site navigation and functionality
+    - A sample of unit tests were conducted 'home' and 'blog' app 
 
-  - ### **Testing User stories**
-    User stories were tested manually and details can be found here:
+  
 
   - ### **Manual testing**
   ### Testing User Stories
@@ -475,21 +476,46 @@ It provides a platform for registered vendors to display their range of products
 
   - ### **Site navigation and functionality**
     A manual test of the navigation and functioning of each element was conducted with relevant conditions, i.e. not logged in, logged in as shopper, logged in as vendor and logged in as admin. A description of test is outlined and comment on result noted.
-    [Site Navigation & Functionality Manual Test](documentation/testing/site-navigation/site-navigation-test.png)
+    ![Site Navigation & Functionality Manual Test](documentation/testing/site-navigation/site-navigation-test.png)
 
   - ### **Automated testing**
 
-    The implementing of automated testing, namely checking all responses on views as well as testing form. 
-
-    Unit test function was used to create test classes - as explained in this [django documentation](https://docs.djangoproject.com/en/4.0/topics/testing/overview/)
-
-    The website was tested manually, going through different inputs.
+    Django provides a testing framework that makes it easy to write automated tests for applications. The testing framework allows developers to write tests for views, models, forms, and other components of the application.
+    Certain limitations arise to the Django framework when it comes to testing. One limitation is that the testing framework does not provide support for testing JavaScript, HTML and CSS. Testing complex database queries can be challenging as it requires creating test data and verifying the results.
+    Unit tests are automated tests that are used to test individual components of an application and are written using the built-in testing framework. They are essential for detecting errors and ensuring that individual components of the application are functioning correctly. In this project, a sample of 17 unit tests were created, to test views and form functionality of the 'Home' and 'blog' apps. All tests passed. The unit tests are included in the app's tests.py and test_forms.py files. A screenshot of the result is shown below.
+    ![Unit Test Results](documentation/testing/unit-test/unit-test-results.png)
   
   - ### **Code validation**
 
     - #### **W3C HTML Code Validator**
       Each page for the website was run through the [W3C Markup Validation Service](https://validator.w3.org/) and returned no errors. 
       As all web pages are rendered dynamically using Jinja template, each page and scenario had to be validated by direct input by copying and pasting the source code for the page.
+
+
+- Bag app: 
+    [Bag](docs/testing/html-pages/bag.JPG)
+
+- Blog app: 
+    [Blog](docs/testing/html-pages/bag.JPG)
+
+- Checkout app:
+    [Checkout Page](docs/testing/html-pages/checkout.JPG), [Checkout Success page](docs/testing/html-pages/checkout-success.JPG)
+
+- Home app:
+    [Homepage](docs/testing/html-pages/homepage.JPG),
+    [Aboutpage](docs/testing/html-pages/homepage.JPG)
+
+- Marketing app:
+    [Subscribe Page](docs/testing/html-pages/contact.JPG)
+    [Unsubscribe Page](docs/testing/html-pages/contact.JPG)
+  
+- Products app: [Products](docs/testing/html-pages/products.JPG), [Edit Product](docs/testing/html-pages/edit-product.JPG), [Delete Product](docs/testing/html-pages/delete-product.JPG)
+
+- Profiles app: 
+    [My Profile](docs/testing/html-pages/myprofile.JPG)
+
+- Vendor app:
+     [Vendor Store](docs/testing/html-pages/tutorial-detail.JPG), [Add Product Page](docs/testing/html-pages/add-tutorial.JPG), [Edit product](docs/testing/html-pages/edit-tutorial.JPG), [Add Article](docs/testing/html-pages/tutorials-add-post.JPG), [Edit Article](docs/testing/html-pages/edit-tutorial-post.JPG), [Delete Article](docs/testing/html-pages/delete-product.JPG), [Delete Product](docs/testing/html-pages/delete-tutorial.JPG)
 
     - #### **W3C CSS Jigsaw Validator**
       Each CSS file was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) via direct input and returned no errors
@@ -500,7 +526,76 @@ It provides a platform for registered vendors to display their range of products
       ![screenshots jshint issues](documentation/testing/screenshots/jshint_braintree.png)
 
     - #### **Python 8**
-      Each python file was run through [PEP8 online](http://pep8online.com/) and returned no errors, except for settings.py and password validation section.
+    I used [autopep8](https://gist.github.com/hygull/7db576c5d739e87832aa2341dbeb5242) in my project to maintain compatibility with python validation PEP8. To show validation most of python files contents were cut and pasted into the Code Institute's Python Linter. Autopep8, in some cases, was unable to break up lines and these long lines instances were left for code readibility.
+
+Screen shots of PEP8 code validation can be fount below:
+
+[settings](documentation/validation/pep8/settings-lint.png)
+
+[urls](documentation/validation/pep8/urls-lint.png)
+
+[bag views](documentation/validation/pep8/bag-views-lint.png)
+
+[bag urls](documentation/validation/pep8/bag-urls-lint.png)
+
+[blog views](documentation/validation/pep8/blog-views-lint.png)
+
+[blog urls](documentation/validation/pep8/blog-urls-lint.png)
+
+[blog test form](documentation/validation/pep8/blog-test-form-lint.png)
+
+[blog tests](documentation/validation/pep8/blog-tests-lint.png)
+
+[blog models](documentation/validation/pep8/blog-models-lint.png)
+
+[checkout webhook](documentation/validation/pep8/checkout-webhook-lint.png)
+
+[checkout webhook handler](documentation/validation/pep8/checkout-webhookhandler-lint.png)
+
+[checkout views](documentation/validation/pep8/checkout-views-lint.png)
+
+[checkout urls](documentation/validation/pep8/checkout-urls-lint.png)
+
+[checkout forms](documentation/validation/pep8/checkout-forms-lint.png)
+
+[checkout models](documentation/validation/pep8/checkout-models-lint.png)
+
+[home views](documentation/validation/pep8/home-views-lint.png)
+
+[home urls](documentation/validation/pep8/home-urls-lint.png)
+
+[home tests](documentation/validation/pep8/home-tests-lint.png)
+
+[marketing views](documentation/validation/pep8/marketing-views-lint.png)
+
+[marketing urls](documentation/validation/pep8/marketing-urls-lint.png)
+
+[products views](documentation/validation/pep8/products-views-lint.png)
+
+[products urls](documentation/validation/pep8/products-urls-lint.png)
+
+[products models](documentation/validation/pep8/products-models-lint.png)
+
+[products forms](documentation/validation/pep8/products-forms-lint.png)
+
+[profiles views](documentation/validation/pep8/profiles-views-lint.png)
+
+[profiles urls](documentation/validation/pep8/profiles-urls-lint.png)
+
+[profiles models](documentation/validation/pep8/profiles-models-lint.png)
+
+[profiles forms](documentation/validation/pep8/profiles-forms-lint.png)
+
+[vendor views](documentation/validation/pep8/vendor-views-lint.png)
+
+[vendor urls](documentation/validation/pep8/vendor-urls-lint.png)
+
+[vendor models](documentation/validation/pep8/vendor-models-lint.png)
+
+[vendor forms](documentation/validation/pep8/vendor-forms-lint.png)
+
+
+
 
   - ### **Responsiveness and compatibility**
     The website was tested on the following devices and browsers:
