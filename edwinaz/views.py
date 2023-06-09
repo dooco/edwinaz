@@ -9,6 +9,6 @@ def handler403(request, exception):
     """ Error Handler 403 - Insufficient rights to resource """
     return render(request, "errors/403.html", status=403)
 
-def handler500(request, exception):
+def handler500(request):
     """ Error Handler 500 - Server Error """
     return render(request, "errors/500.html", status=500)
