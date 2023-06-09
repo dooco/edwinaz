@@ -6,6 +6,7 @@ from blog.models import Post
 
 
 def bag_contents(request):
+    # update bag session 
 
     bag_items = []
     total = 0

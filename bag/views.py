@@ -2,6 +2,7 @@ from django.shortcuts import (
     render, redirect, reverse, HttpResponse, get_object_or_404
 )
 from django.contrib import messages
+from django.http import HttpResponseServerError
 from products.models import Product
 
 
@@ -37,23 +38,28 @@ def add_to_bag(request, item_id):
 def adjust_bag(request, item_id):
     """ Adjust the quantity of the specified product to the shopping bag """
 
-    product = get_object_or_404(Product, pk=item_id)
-    quantity = int(request.POST.get('quantity'))
+    try:
+        product = get_object_or_404(Product, pk=item_id)
+        quantity = int(request.POST.get('quantity'))
 
-    bag = request.session.get('bag', {})
+        bag = request.session.get('bag', {})
 
-    if quantity > 0:
-        bag[item_id] = quantity
-        messages.success(request,
-                         (f'Updated {product.name} '
-                             f'quantity to {bag[item_id]}'))
-    else:
-        bag.pop(item_id)
-        messages.success(request, f'Removed {product.name} from your bag')
+        if quantity > 0:
+            bag[item_id] = quantity
+            messages.success(request,
+                            (f'Updated {product.name} '
+                                f'quantity to {bag[item_id]}'))
+        else:
+            bag.pop(item_id)
+            messages.success(request, f'Removed {product.name} from your bag')
 
-    request.session['bag'] = bag
+        request.session['bag'] = bag
 
-    return redirect(reverse('view_bag'))
+        return redirect(reverse('view_bag'))
+    except Exception as e:
+        messages.error(request, f'Error resolving item: {e}')
+        return HttpResponseServerError('Internal Server Error')
+        # return HttpResponse(status=500)
 
 
 def remove_from_bag(request, item_id):
