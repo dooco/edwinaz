@@ -58,8 +58,8 @@ def adjust_bag(request, item_id):
         return redirect(reverse('view_bag'))
     except Exception as e:
         messages.error(request, f'Error resolving item: {e}')
-        return HttpResponseServerError('Internal Server Error')
-        # return HttpResponse(status=500)
+        # return HttpResponseServerError('Internal Server Error')
+        return HttpResponse(status=500)
 
 
 def remove_from_bag(request, item_id):
