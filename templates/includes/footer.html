@@ -1,5 +1,5 @@
 {% load static %}
-
+<!-- Inspiration for code for footer from www.w3schools.com -->
 <footer id="footer" class="bg-dark text-light d-flex-column text-center">   
     <hr class="mt-0">
     <div class="text-center">
@@ -7,27 +7,27 @@
         <div class="container py-0">
             <ul class="list-unstyled list-inline">
                 <li class="list-inline-item">
-                    <a href="https://www.facebook.com/Edwinaz-107287325695098" target="_blank" rel="me" class="sbtn btn-large mx-1" title="Facebook">
+                    <a href="https://www.facebook.com/Edwinaz-107287325695098" target="_blank" rel="me" class="text-light sbtn btn-large mx-1" title="Facebook">
                         <i class="fa-brands fa-facebook fa-lg white-text fa-2x"> </i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https://twitter.com/dooleyp24" target="_blank" rel="me" class="sbtn btn-large mx-1" title="Twitter">
+                    <a href="https://twitter.com/dooleyp24" target="_blank" rel="me" class="text-light sbtn btn-large mx-1" title="Twitter">
                         <i class="fa-brands fa-twitter fa-lg white-text fa-2x"> </i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https://www.instagram.com/p/Cry4ZOMIVfk/" target="_blank" rel="me" class="sbtn btn-large mx-1" title="Instagram">
+                    <a href="https://www.instagram.com/p/Cry4ZOMIVfk/" target="_blank" rel="me" class="text-light sbtn btn-large mx-1" title="Instagram">
                         <i class="fa-brands fa-instagram fa-lg white-text fa-2x"> </i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https://www.linkedin.com/in/padraig-dooley-924a3620" target="_blank" rel="me" class="sbtn btn-large mx-1" title="Linkedin">
+                    <a href="https://www.linkedin.com/in/padraig-dooley-924a3620" target="_blank" rel="me" class="text-light sbtn btn-large mx-1" title="Linkedin">
                         <i class="fa-brands fa-linkedin fa-lg white-text fa-2x"> </i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https://github.com/dooco" target="_blank" rel="me" class="sbtn btn-large mx-1" title="Github">
+                    <a href="https://github.com/dooco" target="_blank" rel="me" class="text-light sbtn btn-large mx-1" title="Github">
                         <i class="fa-brands fa-github fa-lg white-text fa-2x"> </i>
                     </a>
                 </li>
@@ -37,7 +37,7 @@
         <div class="container text-left text-md-center">
             <div class="row">
                 <div class="col-md-3 mx-auto shfooter">
-                    <h5 class="my-2 font-weight-bold d-none d-md-block">Contact</h5>
+                    <h5 class="text-light my-2 font-weight-bold d-none d-md-block">Contact</h5>
                     <div class="d-md-none title" data-target="#Contact" data-toggle="collapse">
                         <div class="mt-3 font-weight-bold">Contact
                             <div class="float-right navbar-toggler">
@@ -46,9 +46,9 @@
                             </div>
                         </div>
                     </div>
-                    <ul class="list-unstyled collapse" id="Contact">
-                        <li><a href="mailto:info@edwinaz.com">e: info@edwinaz.com</a></li>
-                        <li><a href="tel:0862526443">p: 01 1231234</a></li>
+                    <ul class="text-light list-unstyled collapse" id="Contact">
+                        <li><a class="text-light" href="mailto:info@edwinaz.com">e: info@edwinaz.com</a></li>
+                        <li><a class="text-light" href="tel:0862526443">p: 01 1231234</a></li>
                     </ul>
                 </div>
                 <hr class="clearfix w-100 d-md-none mb-0">
@@ -63,9 +63,9 @@
                             </div>
                         </div>
                         <ul class="list-unstyled collapse text-light" id="Links">
-                            <li><a href="{% url 'become_a_vendor' %}">Become a Vendor</a></li>
-                            <li><a href="{% url 'about' %}">About Us</a></li>
-                            <li><a href="https://www.housewares.org/" rel="noopener noreferrer">Housewares.org</a></li>
+                            <li><a class="text-light" href="{% url 'become_a_vendor' %}">Become a Vendor</a></li>
+                            <li><a class="text-light" href="{% url 'about' %}">About Us</a></li>
+                            <li><a class="text-light" href="https://www.housewares.org/" rel="noopener noreferrer">Housewares.org</a></li>
                         </ul>
                     </div>
                     <hr class="clearfix w-100 d-md-none mb-0">
@@ -80,8 +80,8 @@
                                 </div>
                             </div>
                         <ul class="list-unstyled collapse" id="Newsletter">
-                            <li><a href="{% url 'subscribe' %}"><button type="submit" class="btn btn-outline-black rounded-0 mt-2">Subscribe</button></a></li>
-                            <li><a href="{% url 'unsubscribe' %}">Unsubscribe</a></li>
+                            <li><a href="{% url 'subscribe' %}" class="btn btn-outline-black rounded-full mt-2"> Subscribe </a></li>
+                            <li><a href="{% url 'unsubscribe' %}" class="text-light">Unsubscribe</a></li>
                         </ul>
                     </div>
             </div>
@@ -92,3 +92,4 @@
         </div>
     </div>
 </footer>
+
