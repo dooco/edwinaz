@@ -2,7 +2,6 @@ from django.shortcuts import (
     render, redirect, reverse, HttpResponse, get_object_or_404
 )
 from django.contrib import messages
-from django.http import HttpResponseServerError
 from products.models import Product
 
 
@@ -58,7 +57,6 @@ def adjust_bag(request, item_id):
         return redirect(reverse('view_bag'))
     except Exception as e:
         messages.error(request, f'Error resolving item: {e}')
-        # return HttpResponseServerError('Internal Server Error')
         return HttpResponse(status=500)
 
 
