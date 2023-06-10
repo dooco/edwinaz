@@ -135,7 +135,7 @@
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                            <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
                                                 <a class="text-decoration-none" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -195,11 +195,13 @@
 {% block postloadjs %}
 {{ block.super }}
 <script>
+    // scroll to top
     $('.btt-link').click(function(e) {
-        window.scrollTo(0,0)
-    })
+        window.scrollTo(0,0);
+    });
 </script>
 <script>
+    // determine sort paramater & direction
     $('#sort-selector').change(function() {
         var selector = $(this);
         var currentUrl = new URL(window.location);
@@ -219,6 +221,6 @@
 
             window.location.replace(currentUrl);
         }
-    })
+    });
 </script>
 {% endblock %}

@@ -120,9 +120,10 @@
 {% block postloadjs %}
 {{ block.super }}
 <script>
+    // Scroll to top
     $('.btt-link').click(function(e) {
-        window.scrollTo(0,0)
-    })
+        window.scrollTo(0,0);
+    });
 </script>
 {% include 'products/includes/quantity_input_script.html' %}
 
@@ -133,7 +134,7 @@
         var form = $(this).prev('.update-form');
             form.submit();
 
-    })
+    });
 
     // Remove item and reload on click
     $('.remove-item').click(function(e) {
@@ -146,6 +147,6 @@
          .done(function() {
              location.reload();
          });
-    })
+    });
 </script>
 {% endblock %}

@@ -7,6 +7,8 @@ from mailchimp_marketing import Client
 from mailchimp_marketing.api_client import ApiClientError
 import hashlib
 
+# Credit to Pythonstacks for code to implement mail chimp newsletter
+# https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/
 
 mailchimp = Client()
 mailchimp.set_config({

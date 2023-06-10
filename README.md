@@ -57,206 +57,205 @@ View live project here [link to deployed link](https://edwinaz.herokuapp.com/)
 Edwinaz is a fully functional responsive multi-vendor e-commerce platform with the home owner in mind who is interested in home decoration and home improvement as it target audience. The site offers informative articles on home improvements where the visitors can browse through blog like articles developed by the administrator and vendors of the site on home improvement ideas. 
 It provides a platform for registered vendors to display their range of products they wish to promote on the platform and also offers them an article post option where the vendor can write informative articles which will act as both an informative source for prospective customers and also an opportunity to gain prominence on search engines by implementing good search engine optimisation.
    
-   - #### **Site Owner's Goals**
-     - To carve out a presence in the home improvement online sector
-     - To connect with target audience of home improvement enthusiasts
-     - To offer site users informative articles that are of interest
-     - To provide a platform for vendors to upload their products
+- #### **Site Owner's Goals**
+  - To carve out a presence in the home improvement online sector
+  - To connect with target audience of home improvement enthusiasts
+  - To offer site users informative articles that are of interest
+  - To provide a platform for vendors to upload their products
 
-   - #### **User Goals** 
-     - To be presented with an informative and well designed responsive platform to browse home improvement products and articles
-     - To be able to order multiple items from different vendors on one site
-     - To be able to adjust order conveniently during purchase session
-     - To be able to save profile and delivery details 
-     - To view orders previously made
+- #### **User Goals** 
+  - To be presented with an informative and well designed responsive platform to browse home improvement products and articles
+  - To be able to order multiple items from different vendors on one site
+  - To be able to adjust order conveniently during purchase session
+  - To be able to save profile and delivery details 
+  - To view orders previously made
 
- - ### **User Stories** 
+- ### **User Stories** 
 
-  - #### **Navigation**
-        1. - As a user I want to be able to view the site on desktop, tablet and phone so that I can view the site with ease on each device
-        2. - As a user I want to be able to view a catalogue of products so that I can select products to purchase
-        3. - As a user I want to be able to click on a product so that I can view more details about this product
-        4. - As a user I want to be able to select a category of products so that I can view products I am interested in and avoid searching through all of the products
-        5. - As a user I want to be able to view all of the products from a vendor so that I can select the products from the vendor's product list that I like
-        6. - As a user I want to be able to view all articles from a listed vendor so that I can view articles of interest from that particular vendor
-        7. - As a user I want to be able to search for product in name or description field so that I can find a product I want to buy
+- #### **Navigation**
+      1. - As a user I want to be able to view the site on desktop, tablet and phone so that I can view the site with ease on each device
+      2. - As a user I want to be able to view a catalogue of products so that I can select products to purchase
+      3. - As a user I want to be able to click on a product so that I can view more details about this product
+      4. - As a user I want to be able to select a category of products so that I can view products I am interested in and avoid searching through all of the products
+      5. - As a user I want to be able to view all of the products from a vendor so that I can select the products from the vendor's product list that I like
+      6. - As a user I want to be able to view all articles from a listed vendor so that I can view articles of interest from that particular vendor
+      7. - As a user I want to be able to search for product in name or description field so that I can find a product I want to buy
        
-  - #### **Registration and account management** 
-        8. As a user I want to be able to register for an account so that I can place orders, save my details and view previous orders
-        9. As a site user I want to be able to easily login and log out so that I can access my personal information and so that my history and address details are saved
-        10. As a site user I want to be able to have a personal user profile so that I can view my personal history and order confirmation, and save my payment information
-        11. As a site user I want to be able to receive an email confirmation after registering so that I can verify my account registration was successful
-        12. As a site user I want to be able to recover my password should I forget it so that I can recover access to my account
+- #### **Registration and account management** 
+      8. As a user I want to be able to register for an account so that I can place orders, save my details and view previous orders
+      9. As a site user I want to be able to easily login and log out so that I can access my personal information and so that my history and address details are saved
+      10. As a site user I want to be able to have a personal user profile so that I can view my personal history and order confirmation, and save my payment information
+      11. As a site user I want to be able to receive an email confirmation after registering so that I can verify my account registration was successful
+      12. As a site user I want to be able to recover my password should I forget it so that I can recover access to my account
 
-  - #### **Shopping and Checkout**
-        13. As a shopper I want to be able to add products to cart so that I can purchase the items I want
-        14. As a shopper I want to be able to select a product and quantity so that I can purchase multiple products
-        15. As a shopper I want to be able to view items in my cart so that I can see all my purchases, their subtotal cost and total for cart
-        16. As a shopper I want to be able to adjust or remove items in my cart so that I can easily make changes to my purchases before I check out
-        17. As a shopper I want to be able to easily enter my card details so that I can check out and complete purchase
-        18. As a shopper, I want to receive confirmation for my order so that I can have a proof of purchase
-        19. As a shopper I want to be able to feel my personal and payment information is safe and secure so that I can confidently provide needed information to complete purchase
-        20. As a shopper I want to be able to view an order confirmation so that I can make sure that I haven't made an error
+- #### **Shopping and Checkout**
+      13. As a shopper I want to be able to add products to cart so that I can purchase the items I want
+      14. As a shopper I want to be able to select a product and quantity so that I can purchase multiple products
+      15. As a shopper I want to be able to view items in my cart so that I can see all my purchases, their subtotal cost and total for cart
+      16. As a shopper I want to be able to adjust or remove items in my cart so that I can easily make changes to my purchases before I check out
+      17. As a shopper I want to be able to easily enter my card details so that I can check out and complete purchase
+      18. As a shopper, I want to receive confirmation for my order so that I can have a proof of purchase
+      19. As a shopper I want to be able to feel my personal and payment information is safe and secure so that I can confidently provide needed information to complete purchase
+      20. As a shopper I want to be able to view an order confirmation so that I can make sure that I haven't made an error
     
 
-  - #### **Vendor Functions**
-        21. As a user I want to be able to log onto site and request to be register as a vendor so that I can become a vendor and promote my products for sale
-        22. As a vendor I want to be able to view my product list so that I can ensure its up to date
-        23. As a Vendor I want to be able to add a product so that I can expand my inventory for sale
-        24. As a Vendor I want to be able to edit my products so that I can keep my inventory up to date
-        25. As a Vendor I want to be able to delete a product so that I can keep my inventory up to date
-        26. As a Vendor I want to be able to view my list of articles so that I can keep up to date with my articles
-        27. As a Vendor I want to be able to add new articles so that I can add informational posts and promote my products
-        28. As a vendor I want to be able to edit my articles so that I can keep my articles up to date
-        29. As a vendor I want to be able to delete articles so that I can keep my articles up to date
+- #### **Vendor Functions**
+      21. As a user I want to be able to log onto site and request to be register as a vendor so that I can become a vendor and promote my products for sale
+      22. As a vendor I want to be able to view my product list so that I can ensure its up to date
+      23. As a Vendor I want to be able to add a product so that I can expand my inventory for sale
+      24. As a Vendor I want to be able to edit my products so that I can keep my inventory up to date
+      25. As a Vendor I want to be able to delete a product so that I can keep my inventory up to date
+      26. As a Vendor I want to be able to view my list of articles so that I can keep up to date with my articles
+      27. As a Vendor I want to be able to add new articles so that I can add informational posts and promote my products
+      28. As a vendor I want to be able to edit my articles so that I can keep my articles up to date
+      29. As a vendor I want to be able to delete articles so that I can keep my articles up to date
 
-  - #### **Newsletter**
-        30. As a shopper I want to be able to sign up for a newsletter so that I can be emailed with regular updates from website
-        31. As a shopper I want to be able to unregister for receiving newsletters so that I can opt out of receiving any further newsletters should I wish
+- #### **Newsletter**
+      30. As a shopper I want to be able to sign up for a newsletter so that I can be emailed with regular updates from website
+      31. As a shopper I want to be able to unregister for receiving newsletters so that I can opt out of receiving any further newsletters should I wish
 
-  - #### **Admin** 
+- #### **Admin** 
 
-        32. As an admin I want to be able to add edit and delete articles and products so that I can keep site functional and up to date
-        33. As an admin I want to be able to view and manage orders received so that I can ensure that orders are processed in a timely manner
+      32. As an admin I want to be able to add edit and delete articles and products so that I can keep site functional and up to date
+      33. As an admin I want to be able to view and manage orders received so that I can ensure that orders are processed in a timely manner
        
-  - ### **Scope**
+- ### **Scope**
+
+    - #### **Features**
+
+    
+      Edwinaz website is developed to demonstrate coder’s competence in delivering a django application which complies with Code Institute's PP5 criteria.
+
+- #### **Functional requirements**
+    - To be able to login and logout
+    - To be able to sign-up using email address and secure password
+    - To be able to reset password 
+    - To be able to view and edit profile information
+    - To be able to add/view/edit/delete a product as vendor
+    - To be able to add/view/edit/delete an article as vendor
+    - To be able to view and edit shopping bag
+    - To be able to process orders and add order to profile history
+    - To be able to process card payement
+    - To be able to sort shop items according to a set of criteria 
+    - To be able to email notification to users
+    - To be able to notify user on success of failure on actions  
+    - To be able to handle errors: page 404 not found, page 500 Internal Server Error and page 403 access denied
+        
+    
+- #### **Non functional requirements**
+    - Incorporate a narative in articles that will engage visitors to revisit site and view content.
+
+  - #### **Becoming a Vendor**
+    - The process of vendor setup is simplified for the purpose of this project
+    - After registering and logging in the user can request to be a vendor by clicking on 'become vendor' in footer
+    - Although in reality the become vendor process would be a more arduous process the request to become vendor is sanctioned instantly
+    - The privileges of being able to add, edit, list and delete products and posts are conferred to the vendor
   
-     - #### **Features**
+  - #### **Vendor and Admin Content generation**
+    - Articles to be generated by vendors and admin.
+    - Admin are able to add, edit and delete articles and products
+    - Image to be included in article along with title, content and excerpt.
+    - Vendor are able to add, edit and delete articles and products.
+    - Details of product include product image, name, category, style, description and price.
+    - The use of forms where user input is required.
+    - Text and headings to identify main sections of the site.
+    - The use of icons for visual conciseness. 
 
     
-        Edwinaz website is developed to demonstrate coder’s competence in delivering a django application which complies with Code Institute's PP5 criteria.
+  - ### **Structure**
 
-    - #### **Functional requirements**
-        - To be able to login and logout
-        - To be able to sign-up using email address and secure password
-        - To be able to reset password 
-        - To be able to view and edit profile information
-        - To be able to add/view/edit/delete a product as vendor
-        - To be able to add/view/edit/delete an article as vendor
-        - To be able to view and edit shopping bag
-        - To be able to process orders and add order to profile history
-        - To be able to process card payement
-        - To be able to sort shop items according to a set of criteria 
-        - To be able to email notification to users
-        - To be able to notify user on success of failure on actions  
-        - To be able to handle errors: page 404 not found, page 500 Internal Server Error and page 403 access denied
-        
-    
-	  - #### **Non functional requirements**
-        - Incorporate a narative in articles that will engage visitors to revisit site and view content.
+  - #### **Functionality and Content**
 
-     - #### **Becoming a Vendor**
-       - The process of vendor setup is simplified for the purpose of this project
-       - After registering and logging in the user can request to be a vendor by clicking on 'become vendor' in footer
-       - Although in reality the become vendor process would be a more arduous process the request to become vendor is sanctioned instantly
-       - The privileges of being able to add, edit, list and delete products and posts are conferred to the vendor
-     
-     - #### **Vendor and Admin Content generation**
-       - Articles to be generated by vendors and admin.
-       - Admin are able to add, edit and delete articles and products
-       - Image to be included in article along with title, content and excerpt.
-       - Vendor are able to add, edit and delete articles and products.
-       - Details of product include product image, name, category, style, description and price.
-       - The use of forms where user input is required.
-       - Text and headings to identify main sections of the site.
-       - The use of icons for visual conciseness. 
+    - Header section to include site name logo and navigational links with collapsible menu on small screens.
+    - The homepage  will consist of a hero image and links to articles and products.
+    - About page to include information about the company and its vendors.
+    - Products page to include a selection of products.
+    - Products to be filtered by selection in navigation bar.
+    - Article page to include articles for visitor to brouse through.
+    - Shopping bag page to display items added in the bag, price, delivery cost, total and options to change quantity.
+    - Profile page to allow user to update their information and also to view older orders.
+    - Article page to display articles published by vendors and provide links to add, edit and delete articles to vendor with privaleges. 
+    - Product page to display products published by vendors and provide links to add, edit and delete products to vendor with privaleges.
+    - Footer to include links to about, contact, social media, newsletter sign-up and become vendor link.
+
+  - #### **Interaction design**
+
+    - Collapsible menu
+    - Collapsible footer
+    - Responsive design with mobile first approach
+
+  - #### **Database structure**
+
+    The database structure is shown in the [database relationship table](/documentation/design/edwinaz-database-relationship-table.png ).
 
     
- - ### **Structure**
+    - **User**
+      - Allauth is used for registration of user upon signing up
 
-     - #### **Functionality and Content**
+    - **UserProfile model**
+      - A one to one relationship is made with Auth User model.
+      - Other information such as full name, phone number and address can be updated at checkout or on profile page.
+      - is_vendor boolean field is used to identify if the user is a vendor and confer vendor privilages
+      - The order models has a foreign key relationship to this model to easily retrieve users' order details.
 
-        - Header section to include site name logo and navigational links with collapsible menu on small screens.
-        - The homepage  will consist of a hero image and links to articles and products.
-        - About page to include information about the company and its vendors.
-        - Products page to include a selection of products.
-        - Products to be filtered by selection in navigation bar.
-        - Article page to include articles for visitor to brouse through.
-        - Shopping bag page to display items added in the bag, price, delivery cost, total and options to change quantity.
-        - Profile page to allow user to update their information and also to view older orders.
-        - Article page to display articles published by vendors and provide links to add, edit and delete articles to vendor with privaleges. 
-        - Product page to display products published by vendors and provide links to add, edit and delete products to vendor with privaleges.
-        - Footer to include links to about, contact, social media, newsletter sign-up and become vendor link.
+    - **Category model**
+      - Category model has two fields, name and friendly name.
+      - The product models has a foreign key relationship to this model to easily identify categories in products.
 
-     - #### **Interaction design**
+    - **Style model**
+      - Style model has one field, name field, which holds the style type of the product which could be used for filtering.
 
-        - Collapsible menu
-        - Collapsible footer
-        - Responsive design with mobile first approach
+    - **Product model**
+      - Product details such as name, description, category, style, sku, price and image have their own fields in this model.
+      - User and vendor fields create a foreign key relationship to this models UserProfile and Vendor.
+    
+    - **Order model**
+      - Customer details such as full name, address, email, phone number are stored as fields in this model.
+      - Order number, automatically generated, grand total, delivery cost and order total are stored in fields also. 
+      - Original bag and strip pid fields are used in verifying payment and order recording.
+      - User profile field has a foreign key relationship with UserProfile model.
 
-     - #### **Database structure**
-
-        The database structure is shown in the [database relationship table](/documentation/design/edwinaz-database-relationship-table.png ).
-
-        
-        - **User**
-          - Allauth is used for registration of user upon signing up
-
-        - **UserProfile model**
-          - A one to one relationship is made with Auth User model.
-          - Other information such as full name, phone number and address can be updated at checkout or on profile page.
-          - is_vendor boolean field is used to identify if the user is a vendor and confer vendor privilages
-          - The order models has a foreign key relationship to this model to easily retrieve users' order details.
-
-        - **Category model**
-          - Category model has two fields, name and friendly name.
-          - The product models has a foreign key relationship to this model to easily identify categories in products.
-
-        - **Style model**
-          - Style model has one field, name field, which holds the style type of the product which could be used for filtering.
-
-        - **Product model**
-          - Product details such as name, description, category, style, sku, price and image have their own fields in this model.
-          - User and vendor fields create a foreign key relationship to this models UserProfile and Vendor.
-        
-        - **Order model**
-          - Customer details such as full name, address, email, phone number are stored as fields in this model.
-          - Order number, automatically generated, grand total, delivery cost and order total are stored in fields also. 
-          - Original bag and strip pid fields are used in verifying payment and order recording.
-          - User profile field has a foreign key relationship with UserProfile model.
-
-        - **OrderLineItem model**
-          - Order details that have been added to the user’s shopping bag is stored here.
-          - Order field has a foreign key relationship with order model.
-          - Product field has a foreign key relationship with product model.
-          - The quantity field holds the quantity of product purchased.
-          - Line item total records the product of quantity and product price.
-        
-        - **Vendor model**
-          - The vendor model stores the vendor's name in one field.
-          - A one to ine field, created by, points to the user model.
+    - **OrderLineItem model**
+      - Order details that have been added to the user’s shopping bag is stored here.
+      - Order field has a foreign key relationship with order model.
+      - Product field has a foreign key relationship with product model.
+      - The quantity field holds the quantity of product purchased.
+      - Line item total records the product of quantity and product price.
+    
+    - **Vendor model**
+      - The vendor model stores the vendor's name in one field.
+      - A one to ine field, created by, points to the user model.
       
-       
-        - **Post model**
-          - The post model is used to hold article information posted by vendors.
-          - It consists of title, content, excerpt, image and date added fields.
-          - A user field has a foreign key relationship with UserProfile model which can be checked if is_vendor true.
+    - **Post model**
+      - The post model is used to hold article information posted by vendors.
+      - It consists of title, content, excerpt, image and date added fields.
+      - A user field has a foreign key relationship with UserProfile model which can be checked if is_vendor true.
 
- - ### **Skeleton**
+- ### **Skeleton**
     
-    - ### **Wireframes**
+- ### **Wireframes**
 
-       ![homepage wireframes](documentation/wireframes/home.png) 
-    
-       Please find below links to a selection of wireframe used for this project (png format)
-         - [Homepage](documentation/wireframes/home.png)
-         - [Products](documentation/wireframes/products.png) 
-         - [Articles](documentation/wireframes/articles.png)
-         - [Article Detail](documentation/wireframes/article-detail.png)
-         - [Add an Article](documentation/wireframes/add-article.png)
-         - [About page](documentation/wireframes/about.png)
-         - [Product details](documentation/wireframes/product-detail.png)
-         - [Add Product](documentation/wireframes/add-product.png)
-         - [Shopping bag](documentation/wireframes/shopping-bag.png)
-         - [Checkout page](documentation/wireframes/checkout.png)
-         - [Thank You page](documentation/wireframes/thank-you.png)
-         - [Sign up page](documentation/wireframes/sign-up.png)
-         - [Login page](documentation/wireframes/log-in.png)
-         - [Profile page](documentation/wireframes/profile.png)
-         - [Add article](documentation/wireframes/add_c.png)
-         - [Error page](documentation/wireframes/404.png)
-         - [Vendor page](documentation/wireframes/vendor.png)
-         - [Newsletter Subscribe page](documentation/wireframes/newsletter-subscribe.png)
+    ![homepage wireframes](documentation/wireframes/home.png) 
+
+    Please find below links to a selection of wireframe used for this project (png format)
+      - [Homepage](documentation/wireframes/home.png)
+      - [Products](documentation/wireframes/products.png) 
+      - [Articles](documentation/wireframes/articles.png)
+      - [Article Detail](documentation/wireframes/article-detail.png)
+      - [Add an Article](documentation/wireframes/add-article.png)
+      - [About page](documentation/wireframes/about.png)
+      - [Product details](documentation/wireframes/product-detail.png)
+      - [Add Product](documentation/wireframes/add-product.png)
+      - [Shopping bag](documentation/wireframes/shopping-bag.png)
+      - [Checkout page](documentation/wireframes/checkout.png)
+      - [Thank You page](documentation/wireframes/thank-you.png)
+      - [Sign up page](documentation/wireframes/sign-up.png)
+      - [Login page](documentation/wireframes/log-in.png)
+      - [Profile page](documentation/wireframes/profile.png)
+      - [Add article](documentation/wireframes/add_c.png)
+      - [Error page](documentation/wireframes/404.png)
+      - [Vendor page](documentation/wireframes/vendor.png)
+      - [Newsletter Subscribe page](documentation/wireframes/newsletter-subscribe.png)
 
     - #### **Difference to implement**
       - Sections in the profile pages feature own dedicated pages
@@ -487,115 +486,98 @@ It provides a platform for registered vendors to display their range of products
   
   - ### **Code validation**
 
-    - #### **W3C HTML Code Validator**
-      Each page for the website was run through the [W3C Markup Validation Service](https://validator.w3.org/) and returned no errors. 
-      As all web pages are rendered dynamically using Jinja template, each page and scenario had to be validated by direct input by copying and pasting the source code for the page.
+  - #### **W3C HTML Code Validator**
+    Each page for the website was run through the [W3C Markup Validation Service](https://validator.w3.org/) and returned no errors. 
+    As all web pages are rendered dynamically using Jinja template, each page and scenario had to be validated by direct input by copying and pasting the source code for the page.
 
-| Page | rersult | Evidence |
+| Page | Result | Evidence |
 | :--- | :--- | :--- | 
-| Home | PASS | [Homepage](documentation/validation/html/html-validation.png)
-| About | PASS | [About](documentation/validation/html/html-validation.png)
-| Bag app | 
-    [Bag](docs/testing/html-pages/bag.JPG)
+| Home | PASS | [home](documentation/validation/html/index.png)
+| About | PASS | [About](documentation/validation/html/about.png)
+| Bag | PASS | [Bag](documentation/validation/html/bag.png)
+| Blog | PASS | [Blog](documentation/validation/html/blog.png)
+| Blog/add | PASS | [blog/add](documentation/validation/html/blog-add.png)
+| Blog Edit | PASS | [blog/edit/blog-id](documentation/validation/html/blog-edit-3.png)
+| Blog Delete | PASS | [blog/delete/blog-id](documentation/validation/html/blog-delete-3.png)
+| Marketing| PASS | [marketing](documentation/validation/html/marketing.png)
+| Products | PASS | [products](documentation/validation/html/products.png)
+| Product Detail | PASS | [products/product-id ](documentation/validation/html/products-3.png)
+| Product Add| PASS | [products/add](documentation/validation/html/products-add.png)
+| Product Edit | PASS | [products/edit/product-id](documentation/validation/html/products-edit-3.png)
+| Product Delete | PASS | [products/delete/product-id ](documentation/validation/html/products-delete-3.png)
+| Profile | PASS | [profile](documentation/validation/html/profile.png)
+| Vendor | PASS | [vendor](documentation/validation/html/vendor.png)
+| Vendor Add Product| PASS | [vendor/vendor_add_product](documentation/validation/html/vendor-add-product.png)
+| Vendor Edit Product | PASS | [vendor/vendor_edit_product](documentation/validation/html/vendor-edit-product-3.png)
+| Vendor Delete Product | PASS | [vendor/vendor_delete_product/product-id](documentation/validation/html/vendor-delete-product-3.png)
+    
+- ### **W3C CSS Jigsaw Validator**
 
-- Blog app: 
-    [Blog](docs/testing/html-pages/bag.JPG)
+  Each CSS file was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) via direct input and returned no errors
 
-- Checkout app:
-    [Checkout Page](docs/testing/html-pages/checkout.JPG), [Checkout Success page](docs/testing/html-pages/checkout-success.JPG)
+| Page | Result | Evidence |
+| :--- | :--- | :--- | 
+| Base | PASS | [static/css/base](documentation/validation/css/base-css.png)
+| Checkout| PASS | [checkout/css/checkout](documentation/validation/css/checkout-css.png)
+| Profiles| PASS | [profiles/static/css](documentation/validation/css/profile-css.png)
 
-- Home app:
-    [Homepage](docs/testing/html-pages/homepage.JPG),
-    [Aboutpage](docs/testing/html-pages/homepage.JPG)
 
-- Marketing app:
-    [Subscribe Page](docs/testing/html-pages/contact.JPG)
-    [Unsubscribe Page](docs/testing/html-pages/contact.JPG)
-  
-- Products app: [Products](docs/testing/html-pages/products.JPG), [Edit Product](docs/testing/html-pages/edit-product.JPG), [Delete Product](docs/testing/html-pages/delete-product.JPG)
 
-- Profiles app: 
-    [My Profile](docs/testing/html-pages/myprofile.JPG)
+- #### **JSHint validator**
+  Javascripts files were tested with [JSHint](https://jshint.com/) and returned no errors except for stripe scripts and minor warnings. 
 
-- Vendor app:
-     [Vendor Store](docs/testing/html-pages/tutorial-detail.JPG), [Add Product Page](docs/testing/html-pages/add-tutorial.JPG), [Edit product](docs/testing/html-pages/edit-tutorial.JPG), [Add Article](docs/testing/html-pages/tutorials-add-post.JPG), [Edit Article](docs/testing/html-pages/edit-tutorial-post.JPG), [Delete Article](docs/testing/html-pages/delete-product.JPG), [Delete Product](docs/testing/html-pages/delete-tutorial.JPG)
+| JS function | Evidence |
+| :--- | :--- | 
+| Update quantity | [Update-quantity](documentation/validation/js/update-qty-onclick.png)
+| Remove item | [Remove-item](documentation/validation/js/remove-item.png)
+| Scroll to top | [Scroll-to-top](documentation/validation/js/scroll-to-top.png)
+| Stripe elements | [Stripe-elements](documentation/validation/js/stripe-elements.png)
+| Sort and direction | [Sort-and-direction](documentation/validation/js/sort-direction.png)
+| Quantity input | [Quantity-input](documentation/validation/js/quantity-input.png)
+| New image helper | [New-image-helper](documentation/validation/js/new-image-helper.png)
+| Countryfield | [Countryfield](documentation/validation/js/countryfield.png)
 
-    - #### **W3C CSS Jigsaw Validator**
-      Each CSS file was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) via direct input and returned no errors
 
-    - #### **JSHint validator**
-      All javascripts files were tested with [JSHint](https://jshint.com/) and returned no errors except for stripe scripts. 
 
-      ![screenshots jshint issues](documentation/testing/screenshots/jshint_braintree.png)
-
-    - #### **Python 8**
-    I used [autopep8](https://gist.github.com/hygull/7db576c5d739e87832aa2341dbeb5242) in my project to maintain compatibility with python validation PEP8. To show validation most of python files contents were cut and pasted into the Code Institute's Python Linter. Autopep8, in some cases, was unable to break up lines and these long lines instances were left for code readibility.
+  - #### **Python 8**
+  In this project [autopep8](https://gist.github.com/hygull/7db576c5d739e87832aa2341dbeb5242) is used to maintain compatibility with python validation PEP8. Autopep8, in some cases, was unable to break up lines and these long lines instances were left for code readibility. To show validation most of python files contents were cut and pasted into the Code Institute's Python Linter.
 
 Screen shots of PEP8 code validation can be fount below:
+| App | File | Evidence |
+| :--- | :--- | :--- | 
+|Edwinaz | Settings | [settings](documentation/validation/pep8/settings-lint.png)
+| Edwinaz | Urls | [urls](documentation/validation/pep8/urls-lint.png)
+| Bag | Views | [bag views](documentation/validation/pep8/bag-views-lint.png)
+| Bag | Urls | [bag urls](documentation/validation/pep8/bag-urls-lint.png)
+| Blog | Views | [blog views](documentation/validation/pep8/blog-views-lint.png)
+| Blog | Urls | [blog urls](documentation/validation/pep8/blog-urls-lint.png)
+| Blog | Test form | [blog test form](documentation/validation/pep8/blog-test-form-lint.png)
+| Blog | Tests | [blog tests](documentation/validation/pep8/blog-tests-lint.png)
+| Blog | Models | [blog models](documentation/validation/pep8/blog-models-lint.png)
+| Checkout | Webhook | [checkout webhook](documentation/validation/pep8/checkout-webhook-lint.png)
+| Checkout | Checkout Handler | [checkout webhook handler](documentation/validation/pep8/checkout-webhookhandler-lint.png)
+| Checkout | Views | [checkout views](documentation/validation/pep8/checkout-views-lint.png)
+| Checkout | Urls | [checkout urls](documentation/validation/pep8/checkout-urls-lint.png)
+| Checkout | Forms | [checkout forms](documentation/validation/pep8/checkout-forms-lint.png)
+| Checkout | Models | [checkout models](documentation/validation/pep8/checkout-models-lint.png)
+| Home | Views | [home views](documentation/validation/pep8/home-views-lint.png)
+| Home | Urls | [home urls](documentation/validation/pep8/home-urls-lint.png)
+| Home | Tests | [home tests](documentation/validation/pep8/home-tests-lint.png)
+| Marketing| Views | [marketing views](documentation/validation/pep8/marketing-views-lint.png)
+| Marketing | Urls | [marketing urls](documentation/validation/pep8/marketing-urls-lint.png)
+| Products | Views | [products views](documentation/validation/pep8/products-views-lint.png)
+| Products | Urls | [products urls](documentation/validation/pep8/products-urls-lint.png)
+| Products | Models | [products models](documentation/validation/pep8/products-models-lint.png)
+| Products | Forms | [products forms](documentation/validation/pep8/products-forms-lint.png)
+| Profiles | Views | [profiles views](documentation/validation/pep8/profiles-views-lint.png)
+| Profiles | Urls | [profiles urls](documentation/validation/pep8/profiles-urls-lint.png)
+| Profiles | Models | [profiles models](documentation/validation/pep8/profiles-models-lint.png)
+| Profiles | Forms | [profiles forms](documentation/validation/pep8/profiles-forms-lint.png)
+| Vendor | Views | [vendor views](documentation/validation/pep8/vendor-views-lint.png)
+| Vendor | Urls | [vendor urls](documentation/validation/pep8/vendor-urls-lint.png)
+| Vendor | Models | [vendor models](documentation/validation/pep8/vendor-models-lint.png)
+| Vendor | Forms | [vendor forms](documentation/validation/pep8/vendor-forms-lint.png)
 
-[settings](documentation/validation/pep8/settings-lint.png)
-
-[urls](documentation/validation/pep8/urls-lint.png)
-
-[bag views](documentation/validation/pep8/bag-views-lint.png)
-
-[bag urls](documentation/validation/pep8/bag-urls-lint.png)
-
-[blog views](documentation/validation/pep8/blog-views-lint.png)
-
-[blog urls](documentation/validation/pep8/blog-urls-lint.png)
-
-[blog test form](documentation/validation/pep8/blog-test-form-lint.png)
-
-[blog tests](documentation/validation/pep8/blog-tests-lint.png)
-
-[blog models](documentation/validation/pep8/blog-models-lint.png)
-
-[checkout webhook](documentation/validation/pep8/checkout-webhook-lint.png)
-
-[checkout webhook handler](documentation/validation/pep8/checkout-webhookhandler-lint.png)
-
-[checkout views](documentation/validation/pep8/checkout-views-lint.png)
-
-[checkout urls](documentation/validation/pep8/checkout-urls-lint.png)
-
-[checkout forms](documentation/validation/pep8/checkout-forms-lint.png)
-
-[checkout models](documentation/validation/pep8/checkout-models-lint.png)
-
-[home views](documentation/validation/pep8/home-views-lint.png)
-
-[home urls](documentation/validation/pep8/home-urls-lint.png)
-
-[home tests](documentation/validation/pep8/home-tests-lint.png)
-
-[marketing views](documentation/validation/pep8/marketing-views-lint.png)
-
-[marketing urls](documentation/validation/pep8/marketing-urls-lint.png)
-
-[products views](documentation/validation/pep8/products-views-lint.png)
-
-[products urls](documentation/validation/pep8/products-urls-lint.png)
-
-[products models](documentation/validation/pep8/products-models-lint.png)
-
-[products forms](documentation/validation/pep8/products-forms-lint.png)
-
-[profiles views](documentation/validation/pep8/profiles-views-lint.png)
-
-[profiles urls](documentation/validation/pep8/profiles-urls-lint.png)
-
-[profiles models](documentation/validation/pep8/profiles-models-lint.png)
-
-[profiles forms](documentation/validation/pep8/profiles-forms-lint.png)
-
-[vendor views](documentation/validation/pep8/vendor-views-lint.png)
-
-[vendor urls](documentation/validation/pep8/vendor-urls-lint.png)
-
-[vendor models](documentation/validation/pep8/vendor-models-lint.png)
-
-[vendor forms](documentation/validation/pep8/vendor-forms-lint.png)
 
 
 
@@ -880,3 +862,4 @@ Screen shots of PEP8 code validation can be fount below:
   - ### **Acknowledgments**
     - Code Institute tutor services for their advice and support,
     - The Code Institute slack community for support and advice
+    - Credit to Pythonstacks for code to implement mail chimp newsletter: https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/
