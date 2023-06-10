@@ -35,3 +35,5 @@ urlpatterns = [
     path('marketing/', include('marketing.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 handler404 = 'edwinaz.views.handler404'
+handler403 = 'edwinaz.views.handler403'
+handler500 = 'edwinaz.views.handler500'

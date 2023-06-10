@@ -491,8 +491,11 @@ It provides a platform for registered vendors to display their range of products
       Each page for the website was run through the [W3C Markup Validation Service](https://validator.w3.org/) and returned no errors. 
       As all web pages are rendered dynamically using Jinja template, each page and scenario had to be validated by direct input by copying and pasting the source code for the page.
 
-
-- Bag app: 
+| Page | rersult | Evidence |
+| :--- | :--- | :--- | 
+| Home | PASS | [Homepage](documentation/validation/html/html-validation.png)
+| About | PASS | [About](documentation/validation/html/html-validation.png)
+| Bag app | 
     [Bag](docs/testing/html-pages/bag.JPG)
 
 - Blog app: 

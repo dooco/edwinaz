@@ -25,12 +25,10 @@
                   <div class="container mb-5 mt-md-5">
                       <p class="mb-0"><strong>{{ post.title }}</strong></p>
                       <p class="lead mb-0 text-left font-weight-bold">{{ post.user }}</p>
-
                         <p class="small mt-1 mb-0">
-                              <i class="fas fa-calendar mr-1"></i> {{ post.date_added }}
-                      </p>
-                    <p class="small mt-1 mb-0"> {{ post.excerpt }}
-                    </p>
+                              <i class="fas fa-calendar mr-1"></i> {{ post.date_added.date }}
+                        </p>
+                        <p class="small mt-1 mb-0"> {{ post.excerpt }}</p>
                     {% if request.user == post.user %}
                       <small class="ml-3">
                           <a href="{% url 'edit_post' post.id %}">Edit</a> | 
@@ -44,13 +42,9 @@
                         </span>
                         <span class="text-uppercase">Keep Shopping</span>
                     </a>
-                            
-                          </div>
-                      </form>
-                  </div>
-              </div>
-          </div>
-      </div>
-
+                    </div>
+                </div>
+            </div>
+        </div>
 
 {% endblock %}
