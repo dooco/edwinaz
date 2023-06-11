@@ -58,17 +58,57 @@ Edwinaz is a fully functional responsive multi-vendor e-commerce platform with t
 It provides a platform for registered vendors to display their range of products they wish to promote on the platform and also offers them an article post option where the vendor can write informative articles which will act as both an informative source for prospective customers and also an opportunity to gain prominence on search engines by implementing good search engine optimisation.
    
 - #### **Site Owner's Goals**
-  - To carve out a presence in the home improvement online sector
-  - To connect with target audience of home improvement enthusiasts
-  - To offer site users informative articles that are of interest
-  - To provide a platform for vendors to upload their products
+  - To carve out a presence in the home improvement online sector.
+  - To connect with target audience of home improvement enthusiasts.
+  - To offer site users informative articles that are of interest.
+  - To provide a platform for vendors to upload their products and articles.
 
 - #### **User Goals** 
-  - To be presented with an informative and well designed responsive platform to browse home improvement products and articles
-  - To be able to order multiple items from different vendors on one site
-  - To be able to adjust order conveniently during purchase session
-  - To be able to save profile and delivery details 
-  - To view orders previously made
+  - To be presented with an informative and well designed responsive platform to browse home improvement products and articles.
+  - To be able to order multiple items from different vendors on one site.
+  - To be able to adjust order conveniently during purchase session.
+  - To be able to save profile and delivery details.
+  - To view orders made previously.
+
+- ### **E-Commerce Business Model**
+Objective of this project is to sell directly to individuals, a Business-to-Customer (B2C) model, where the customer makes a single payment for goods purchased and there are no subscriptions charges or repeating fees. Even though the business sells its products through different vendors directly to the customer, there is no involvement of any third parties in the model.
+
+- #### **Marketing Goals**
+Marketing of the site would take many different stategeis. The site's target audience are home makers that are interested in current trends in home decoration, homeware, home improvement and bringing these ideas into their own home. With a relatively modest budget for marketing the site owner's strategy is to use social media marketing to promote the site at it's target audience. Social media platforms Facebook, Instagram, Youtube, WhatsApp, Pinterest, TikTok and many others provide a channel to their audience that can be utilised at a free or a relatively competitive charge. A comprehensive marketing strategy would include regular feeds into a selection of these channels. Facebook's presence as a social media platform is a good match for the Edwinaz target audience as it's audience is older and more mature. 
+- Showcase the site by publishing informative, engageing content on a regular basis. Use facebook's pages to spread your marketing message to a much larger audience.
+- Build brand awareness at every opportunity. Include your logo and site's slogan on all communication. Use eye catching colours and fonts that will be memorable to new customers.
+- Generate leads by using call to action landing pages, emails and offers.
+- Engage with customers and followers. Respond to enquiries and comments from customers offering them a positive experience every time they engage with your site or social media portal.
+- Drive sales through e-mail marketing by bringing special offers to your customer.
+
+
+- #### **SEO & Keyword Research**
+Keyword research forms the foundation of any successful SEO strategy. Identify relevant keywords and phrases that the site's target audience is likely to use when searching for homeware products. Working with tools sucj as wordtracker.com, Google Keyword Planner or SEMrush can assist in finding popular keywords but using the free version of these packages will not produce sufficient search results as keywords are limited.
+Keywords and phrases after brainstorming, keyword research, using Google auto-fill and related terms resulted in the following:
+
+    <meta name="description" content="Buy homeware, soft furnishings, household gifts, bed linen, home decor, housewarming gifts, furniture and designer makeover products at Edwinaz .Our shop provide quality, refined dining room, living room and bedroom furniture. Edwinaz is a comprehensive lifestyle and homeware online store.">
+
+    <meta name="keywords" content="homeware,house warming presents and gifts,interiors,modern,urban,contemporary,stylish,bohemian,rustic,chic,classic,high end,lifestyle,wedding gift,home,furniture,">
+
+
+ Keywords are then introduced into website's content, meta tags (as shown above), headings, and product descriptions. This increase the chance of ranking higher in search engine results.
+
+ 
+Creating high-quality and engaging content is essential not only for attracting search engine attention but also for captivating your website visitors. Articles, and guides that are informative, useful, and relevant to the site's target audience's interests are uploaded by vendors on a regular basis to build  an affinity with the site's audience. Typical ideas include home decor tips, DIY projects, and product reviews. Chosen keywords are incorporated naturally into the content which strives to provide value to readers, encouraging them to spend more time on the website and increasing the likelihood of conversions.
+
+
+Detailed and optimised product descriptions are crucial for both search engines and potential customers. Each vendor crafts a unique and compelling descriptions for each product, highlighting their features, benefits, and any relevant keywords. Extra fields, categories and style accommodate a structured attachment of certain keywords with products. The use of high-quality images, that showcase products and articles, optimise the image alt tags with relevant keywords improves the accessibility of the website but also enhances chances of appearing in image search results. 
+Responsive website design which is optimised for mobile devices increases the number of users browsing and making purchases through their smartphones. Mobile friendly design ensures that the website looks and functions well on any device, improving user satisfaction and search engine rankings. 
+
+![Facebook Edwinaz Page](documentation/marketing/Facebook-edwinaz-page.png)
+
+Optimise Facebook page by including relevant keywords in the page name, About section, and post descriptions. The use of cover photos and copy that reflects brand's identity is replicated on Facebook page and posts. Regular updates, including product showcases, home decor inspiration, and tips related to your homeware niche are uploaded to Facebook page.
+
+![Facebook Posts](documentation/marketing/facebook-posts.png)
+
+
+
+
 
 - ### **User Stories** 
 
@@ -186,7 +226,8 @@ It provides a platform for registered vendors to display their range of products
 
   - #### **Database structure**
 
-    The database structure is shown in the [database relationship table](/documentation/design/edwinaz-database-relationship-table.png ).
+    The database structure is shown below:
+    ![database relationship table](/documentation/design/edwinaz-database-relationship-table.jpeg).
 
     
     - **User**
@@ -270,30 +311,33 @@ It provides a platform for registered vendors to display their range of products
 
     - #### **Imagery**
 
-       The website will feature images from vendor's posts. 
+       The website features images from vendor's posts and products. Images of products are 450x450 pixels with image filling most of card and a white backgroun. This is to keep site simple and clean. The images used in the article section of vendor post is 800x450 pixels 
 
     - #### **Colour scheme**
  
        Appart from the hero image black and white are the main colours, the website will use mostly black and white with some additional colours for interactive purposes.
        The website will use the following colour palette, which was custom-made and checked for accessibility using Adobe Color:
 
-       ![colour palette](documentation/design/palette.jpeg)       
+       ![colour palette](documentation/design/colour-palette.png)       
 
      - #### **Typography**
-        The website will use the following fonts from Google:
-        - [Lato](https://fonts.google.com/specimen/lato) will use Lato style in line with the site's overall style 
-        - Body: [Mulish](https://fonts.google.com/specimen/Mulish?query=mulish#glyphs) for its minimalist and light style, in sharp contrast with the headers.
+        As the design of the website is to be clean and simple, two fonts were chosen to reflect this. The website uses the Nunito Google font for headings and titles. Font weight of 800 is used predominatly which gives a strong bold look for headings:
+
+        ![Nunito](documentation/design/font-nunito-800.png) 
+        
+         The Lato font is used for general text in line with the site's overall clear and simple style. Font weight of 400 is used throughout and is distinctive and easy to read.
+
+        ![Lato](documentation/design/font-lato-400.png) 
+
 
      - #### **Icons**
-       Icons by font-awesome will be used throughout the website to allow users to quickly access functionalities such as adding items to the shopping cart or wishlist.
+       Icons by font-awesome are used throughout the website to allow users to quickly access functionalities such as adding items to the shopping cart and also used to in footer to link to social media accounts. They are also associated with representing product and article fields and easily identify date as a calander, vendor as a cart, category as a tag etc. 
 
      - #### **Styling**
-        - Horizontal lines to structure and make the content of the website easy to read.
-        - Slightly rounded edge borders and buttons for a more user friendly and inviting interface.
-        - Some light shadows to add further dimension and depth to the website.
+        Horizontal lines to structure and make the content of the website easy to read.
+        Slightly rounded edge borders and buttons for a more user friendly and inviting interface.
+       
 
-     - #### **Design issues** 
-        The images used in the articles are presented by the vendor who posted the article. Whilst it works relatively well when there are many images, it does look a bit odd when there are only a few items to display.
 
 ## **FEATURES**
 
@@ -446,11 +490,11 @@ It provides a platform for registered vendors to display their range of products
 | 16 | Shopper |  have a personal user profile | view my personal history and order confirmation, and save my payment information | .  | [Search Bar](documentation/testing/user-stories/us-16.png) |
 | 17 | Shopper | register for account | Quickly decide whether the product I want is available | Users are given feedback on their search term and the number of products which match the search term on the results page in the top left. | [Search Results](documentation/testing/user-stories/us-17.png) |
 | 18 | Shopper | easily login and log out| access my personal information and so that my history and address details are saved |.  | [Log in / log out](documentation/testing/user-stories/us-18.png) |
-| 19 | Shopper | receive an email confirmation after registering |  verify my account registration was successful | r. | [Register email](documentation/testing/user-stories/us-19.png) |
-| 20 | Shopper | ecover my password should I forget it | recover access to my account | .  | [Bag Quantity Selector](documentation/testing/user-stories/us-20.png) |
-| 21 | Shopper | select a product and add it to cart | purchase item from site | . | [Add to cart](documentation/testing/user-stories/us-21.png) |
+| 19 | site user | receive an email to confirm my email for registering | verify my email and register successfully | r. | [Register email](documentation/testing/user-stories/confirm-email-address.png) |
+| 20 | Shopper | recover my password should I forget it | recover access to my account | .  | [Password Reset](documentation/testing/user-stories/password-reset.png) |
+| 21 | Shopper | receive an email to reset my password  |  securely reset my password | . | [Reset Password Confirmation email](documentation/testing/user-stories/reset-password-email.png) |
 | 22 | Shopper | add multiple items to cart | purchase more than one item | e | [Update cart](https://stripe.com/docs/security?locale=en-GB) |
-| 23 | Shopper | review my cart items | add, increase or delete products in my cart | . | [Update cart](documentation/testing/user-stories/us-23.png) |
+| 23 | Shopper | review my cart items | add, increase or delete products in my cart | . | [Update cart](documentation/testing/user-stories/user-checkout.png) |
 | 24 | Shopper | enter my card details | complete checkout | Upon successful checkout, a user will be sent a confirmation email to the email address provided at checkout to confirm their order. | [Email Confirmation](documentation/testing/user-stories/us-24.png) |
 | 25 | Shopper | enter my delivery details | have my purchase delivered | . | [User profile](documentation/testing/user-stories/us-25.png) |
 | 26 | Shopper | save my delivery details | keep my profile on record save on entering details again | . | [Delivery Details](documentation/testing/user-stories/us-26.png) |
