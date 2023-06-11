@@ -219,12 +219,10 @@ STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.environ.get('STRIPE_WH_SECRET', '')
 DEFAULT_FROM_EMAIL = 'edwinaz@example.com'
 
-if 'DEVELOPMENT True' in os.environ:
-    print(DEVELOPMENT)
+if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     DEFAULT_FROM_EMAIL = 'edwinaz@example.com'
 else:
-    print("DEVELOPMENT False")
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True
     EMAIL_PORT = '587'
