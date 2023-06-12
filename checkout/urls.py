@@ -20,7 +20,7 @@ urlpatterns = [
         views.cache_checkout_data,
         name='cache_checkout_data'),
     path(
-        'wk/',
+        'wh/',
         webhook,
         name='webhook'),
 ]
