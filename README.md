@@ -339,6 +339,28 @@ Please find below links to a selection of wireframe used for this project (png f
 
 
 ## **FEATURES**
+### **General**
+- Responsive design on all devices.
+### **User Authentication**
+  - To be able to login and logout securely.
+  - To be able to sign-up using email address and secure password.
+  - To be able to reset password 
+
+  ### **Profile management**
+  - To be able to view and edit profile information.
+  - To be able to reequest to become a vendor.
+  - As admin  add, delete users
+
+
+  - To be able to add/view/edit/delete a product as vendor
+  - To be able to add/view/edit/delete an article as vendor
+  - To be able to view and edit shopping bag
+  - To be able to process orders and add order to profile history
+  - To be able to process card payement
+  - To be able to sort shop items according to a set of criteria 
+  - To be able to email notification to users
+  - To be able to notify user on success of failure on actions  
+  - To be able to handle errors: page 404 not found, page 500 Internal Server Error and page 403 access denied
 
 ### **Existing features**
   
