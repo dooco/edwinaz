@@ -1,4 +1,5 @@
 asgiref==3.6.0
+autopep8==2.0.2
 boto3==1.26.133
 botocore==1.29.133
 certifi==2022.12.7

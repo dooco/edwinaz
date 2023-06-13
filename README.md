@@ -52,28 +52,28 @@ View live project here [link to deployed link](https://edwinaz.herokuapp.com/)
 
 ## **UX DESIGN**
 
- - ### **Strategy**  
+### **Strategy**  
 
 Edwinaz is a fully functional responsive multi-vendor e-commerce platform with the home owner in mind who is interested in home decoration and home improvement as it target audience. The site offers informative articles on home improvements where the visitors can browse through blog like articles developed by the administrator and vendors of the site on home improvement ideas. 
 It provides a platform for registered vendors to display their range of products they wish to promote on the platform and also offers them an article post option where the vendor can write informative articles which will act as both an informative source for prospective customers and also an opportunity to gain prominence on search engines by implementing good search engine optimisation.
    
-- #### **Site Owner's Goals**
+#### **Site Owner's Goals**
   - To carve out a presence in the home improvement online sector.
   - To connect with target audience of home improvement enthusiasts.
   - To offer site users informative articles that are of interest.
   - To provide a platform for vendors to upload their products and articles.
 
-- #### **User Goals** 
+#### **User Goals** 
   - To be presented with an informative and well designed responsive platform to browse home improvement products and articles.
   - To be able to order multiple items from different vendors on one site.
   - To be able to adjust order conveniently during purchase session.
   - To be able to save profile and delivery details.
   - To view orders made previously.
 
-- ### **E-Commerce Business Model**
+### **E-Commerce Business Model**
 Objective of this project is to sell directly to individuals, a Business-to-Customer (B2C) model, where the customer makes a single payment for goods purchased and there are no subscriptions charges or repeating fees. Even though the business sells its products through different vendors directly to the customer, there is no involvement of any third parties in the model.
 
-- #### **Marketing Goals**
+#### **Marketing Goals**
 Marketing of the site would take many different stategeis. The site's target audience are home makers that are interested in current trends in home decoration, homeware, home improvement and bringing these ideas into their own home. With a relatively modest budget for marketing the site owner's strategy is to use social media marketing to promote the site at it's target audience. Social media platforms Facebook, Instagram, Youtube, WhatsApp, Pinterest, TikTok and many others provide a channel to their audience that can be utilised at a free or a relatively competitive charge. A comprehensive marketing strategy would include regular feeds into a selection of these channels. Facebook's presence as a social media platform is a good match for the Edwinaz target audience as it's audience is older and more mature. 
 - Showcase the site by publishing informative, engageing content on a regular basis. Use facebook's pages to spread your marketing message to a much larger audience.
 - Build brand awareness at every opportunity. Include your logo and site's slogan on all communication. Use eye catching colours and fonts that will be memorable to new customers.
@@ -82,7 +82,7 @@ Marketing of the site would take many different stategeis. The site's target aud
 - Drive sales through e-mail marketing by bringing special offers to your customer.
 
 
-- #### **SEO & Keyword Research**
+#### **SEO & Keyword Research**
 Keyword research forms the foundation of any successful SEO strategy. Identify relevant keywords and phrases that the site's target audience is likely to use when searching for homeware products. Working with tools sucj as wordtracker.com, Google Keyword Planner or SEMrush can assist in finding popular keywords but using the free version of these packages will not produce sufficient search results as keywords are limited.
 Keywords and phrases after brainstorming, keyword research, using Google auto-fill and related terms resulted in the following:
 
@@ -110,11 +110,11 @@ Optimise Facebook page by including relevant keywords in the page name, About se
 
 
 
-- ### **User Stories** 
+### **User Stories** 
 GitHub issues, projects, and milestones were used to manage this story. The user stories were defined as issues and are available at: [edwinaz issues](https://github.com/dooco/edwinaz/issues?page=1&q=is%3Aissue+is%3Aopen) 
-The project is available at:[edwinaz project](https://github.com/users/dooco/projects/7)
+The project is available at: [edwinaz project](https://github.com/users/dooco/projects/7)
 
-- #### **Navigation**
+#### **Navigation**
       1. - As a user I want to be able to view the site on desktop, tablet and phone so that I can view the site with ease on each device
       2. - As a user I want to be able to view a catalogue of products so that I can select products to purchase
       3. - As a user I want to be able to click on a product so that I can view more details about this product
@@ -123,14 +123,14 @@ The project is available at:[edwinaz project](https://github.com/users/dooco/pro
       6. - As a user I want to be able to view all articles from a listed vendor so that I can view articles of interest from that particular vendor
       7. - As a user I want to be able to search for product in name or description field so that I can find a product I want to buy
        
-- #### **Registration and account management** 
+#### **Registration and account management** 
       8. As a user I want to be able to register for an account so that I can place orders, save my details and view previous orders
       9. As a site user I want to be able to easily login and log out so that I can access my personal information and so that my history and address details are saved
       10. As a site user I want to be able to have a personal user profile so that I can view my personal history and order confirmation, and save my payment information
       11. As a site user I want to be able to receive an email confirmation after registering so that I can verify my account registration was successful
       12. As a site user I want to be able to recover my password should I forget it so that I can recover access to my account
 
-- #### **Shopping and Checkout**
+#### **Shopping and Checkout**
       13. As a shopper I want to be able to add products to cart so that I can purchase the items I want
       14. As a shopper I want to be able to select a product and quantity so that I can purchase multiple products
       15. As a shopper I want to be able to view items in my cart so that I can see all my purchases, their subtotal cost and total for cart
@@ -141,7 +141,7 @@ The project is available at:[edwinaz project](https://github.com/users/dooco/pro
       20. As a shopper I want to be able to view an order confirmation so that I can make sure that I haven't made an error
     
 
-- #### **Vendor Functions**
+#### **Vendor Functions**
       21. As a user I want to be able to log onto site and request to be register as a vendor so that I can become a vendor and promote my products for sale
       22. As a vendor I want to be able to view my product list so that I can ensure its up to date
       23. As a Vendor I want to be able to add a product so that I can expand my inventory for sale
@@ -152,45 +152,45 @@ The project is available at:[edwinaz project](https://github.com/users/dooco/pro
       28. As a vendor I want to be able to edit my articles so that I can keep my articles up to date
       29. As a vendor I want to be able to delete articles so that I can keep my articles up to date
 
-- #### **Newsletter**
+#### **Newsletter**
       30. As a shopper I want to be able to sign up for a newsletter so that I can be emailed with regular updates from website
       31. As a shopper I want to be able to unregister for receiving newsletters so that I can opt out of receiving any further newsletters should I wish
 
-- #### **Admin** 
+#### **Admin** 
 
       32. As an admin I want to be able to add edit and delete articles and products so that I can keep site functional and up to date
       33. As an admin I want to be able to view and manage orders received so that I can ensure that orders are processed in a timely manner
        
-- ### **Scope**
+### **Scope**
 
-    - #### **Features**
+#### **Features**
 
     
-      Edwinaz website is developed to demonstrate coder’s competence in delivering a django application which complies with Code Institute's PP5 criteria.
+  Edwinaz website is developed to demonstrate coder’s competence in delivering a django application which complies with Code Institute's PP5 criteria.
 
-- #### **Functional requirements**
-    - To be able to login and logout
-    - To be able to sign-up using email address and secure password
-    - To be able to reset password 
-    - To be able to view and edit profile information
-    - To be able to add/view/edit/delete a product as vendor
-    - To be able to add/view/edit/delete an article as vendor
-    - To be able to view and edit shopping bag
-    - To be able to process orders and add order to profile history
-    - To be able to process card payement
-    - To be able to sort shop items according to a set of criteria 
-    - To be able to email notification to users
-    - To be able to notify user on success of failure on actions  
-    - To be able to handle errors: page 404 not found, page 500 Internal Server Error and page 403 access denied
+#### **Functional requirements**
+  - To be able to login and logout
+  - To be able to sign-up using email address and secure password
+  - To be able to reset password 
+  - To be able to view and edit profile information
+  - To be able to add/view/edit/delete a product as vendor
+  - To be able to add/view/edit/delete an article as vendor
+  - To be able to view and edit shopping bag
+  - To be able to process orders and add order to profile history
+  - To be able to process card payement
+  - To be able to sort shop items according to a set of criteria 
+  - To be able to email notification to users
+  - To be able to notify user on success of failure on actions  
+  - To be able to handle errors: page 404 not found, page 500 Internal Server Error and page 403 access denied
         
     
-- #### **Non functional requirements**
-    - Incorporate a narative in articles that will engage visitors to revisit site and view content.
+#### **Non functional requirements**
+ - Incorporate a narative in articles that will engage visitors to revisit site and view content.
 
-  - #### **Becoming a Vendor**
+#### **Becoming a Vendor**
   The process of vendor setup is simplified for the purpose of this project. After registering and logging in the user can request to be a vendor by clicking on 'become vendor' in footer. Although in reality the become vendor process would be a more arduous process the request to become vendor is sanctioned instantly. The privileges of being able to add, edit, list and delete products and posts are conferred to the vendor
   
-  - #### **Vendor and Admin Content generation**
+#### **Vendor and Admin Content generation**
     - Articles to be generated by vendors and admin.
     - Admin are able to add, edit and delete articles and products
     - Image to be included in article along with title, content and excerpt.
@@ -201,203 +201,203 @@ The project is available at:[edwinaz project](https://github.com/users/dooco/pro
     - The use of icons for visual conciseness. 
 
     
-  - ### **Structure**
+### **Structure**
 
-  - #### **Functionality and Content**
+#### **Functionality and Content**
 
-    - Header section to include site name logo and navigational links with collapsible menu on small screens.
-    - The homepage  will consist of a hero image and links to articles and products.
-    - About page to include information about the company and its vendors.
-    - Products page to include a selection of products.
-    - Products to be filtered by selection in navigation bar.
-    - Article page to include articles for visitor to brouse through.
-    - Shopping bag page to display items added in the bag, price, delivery cost, total and options to change quantity.
-    - Profile page to allow user to update their information and also to view older orders.
-    - Article page to display articles published by vendors and provide links to add, edit and delete articles to vendor with privaleges. 
-    - Product page to display products published by vendors and provide links to add, edit and delete products to vendor with privaleges.
-    - Footer to include links to about, contact, social media, newsletter sign-up and become vendor link.
+  - Header section to include site name logo and navigational links with collapsible menu on small screens.
+  - The homepage  will consist of a hero image and links to articles and products.
+  - About page to include information about the company and its vendors.
+  - Products page to include a selection of products.
+  - Products to be filtered by selection in navigation bar.
+  - Article page to include articles for visitor to brouse through.
+  - Shopping bag page to display items added in the bag, price, delivery cost, total and options to change quantity.
+  - Profile page to allow user to update their information and also to view older orders.
+  - Article page to display articles published by vendors and provide links to add, edit and delete articles to vendor with privaleges. 
+  - Product page to display products published by vendors and provide links to add, edit and delete products to vendor with privaleges.
+  - Footer to include links to about, contact, social media, newsletter sign-up and become vendor link.
 
-  - #### **Interaction design**
+#### **Interaction design**
 
-    - Collapsible menu
-    - Collapsible footer
-    - Responsive design with mobile first approach
+  - Collapsible menu
+  - Collapsible footer
+  - Responsive design with mobile first approach
 
-  - #### **Database structure**
+#### **Database structure**
 
-    The database structure is shown below:
-    ![database relationship table](/documentation/design/edwinaz-database-relationship-table.jpeg).
+  The database structure is shown below:
+  ![database relationship table](/documentation/design/edwinaz-database-relationship-table.jpeg).
 
     
-    - **User**
-      - Allauth is used for registration of user upon signing up
+**User**
+  - Allauth is used for registration of user upon signing up
 
-    - **UserProfile model**
-      - A one to one relationship is made with Auth User model.
-      - Other information such as full name, phone number and address can be updated at checkout or on profile page.
-      - is_vendor boolean field is used to identify if the user is a vendor and confer vendor privilages
-      - The order models has a foreign key relationship to this model to easily retrieve users' order details.
+**UserProfile model**
+  - A one to one relationship is made with Auth User model.
+  - Other information such as full name, phone number and address can be updated at checkout or on profile page.
+  - is_vendor boolean field is used to identify if the user is a vendor and confer vendor privilages
+  - The order models has a foreign key relationship to this model to easily retrieve users' order details.
 
-    - **Category model**
-      - Category model has two fields, name and friendly name.
-      - The product models has a foreign key relationship to this model to easily identify categories in products.
+**Category model**
+  - Category model has two fields, name and friendly name.
+  - The product models has a foreign key relationship to this model to easily identify categories in products.
 
-    - **Style model**
-      - Style model has one field, name field, which holds the style type of the product which could be used for filtering.
+**Style model**
+  - Style model has one field, name field, which holds the style type of the product which could be used for filtering.
 
-    - **Product model**
-      - Product details such as name, description, category, style, sku, price and image have their own fields in this model.
-      - User and vendor fields create a foreign key relationship to this models UserProfile and Vendor.
+ **Product model**
+  - Product details such as name, description, category, style, sku, price and image have their own fields in this model.
+  - User and vendor fields create a foreign key relationship to this models UserProfile and Vendor.
     
-    - **Order model**
-      - Customer details such as full name, address, email, phone number are stored as fields in this model.
-      - Order number, automatically generated, grand total, delivery cost and order total are stored in fields also. 
-      - Original bag and strip pid fields are used in verifying payment and order recording.
-      - User profile field has a foreign key relationship with UserProfile model.
+**Order model**
+  - Customer details such as full name, address, email, phone number are stored as fields in this model.
+  - Order number, automatically generated, grand total, delivery cost and order total are stored in fields also. 
+  - Original bag and strip pid fields are used in verifying payment and order recording.
+  - User profile field has a foreign key relationship with UserProfile model.
 
-    - **OrderLineItem model**
-      - Order details that have been added to the user’s shopping bag is stored here.
-      - Order field has a foreign key relationship with order model.
-      - Product field has a foreign key relationship with product model.
-      - The quantity field holds the quantity of product purchased.
-      - Line item total records the product of quantity and product price.
+**OrderLineItem model**
+  - Order details that have been added to the user’s shopping bag is stored here.
+  - Order field has a foreign key relationship with order model.
+  - Product field has a foreign key relationship with product model.
+  - The quantity field holds the quantity of product purchased.
+  - Line item total records the product of quantity and product price.
     
-    - **Vendor model**
-      - The vendor model stores the vendor's name in one field.
-      - A one to ine field, created by, points to the user model.
+**Vendor model**
+  - The vendor model stores the vendor's name in one field.
+  - A one to ine field, created by, points to the user model.
       
-    - **Post model**
-      - The post model is used to hold article information posted by vendors.
-      - It consists of title, content, excerpt, image and date added fields.
-      - A user field has a foreign key relationship with UserProfile model which can be checked if is_vendor true.
+**Post model**
+  - The post model is used to hold article information posted by vendors.
+  - It consists of title, content, excerpt, image and date added fields.
+  - A user field has a foreign key relationship with UserProfile model which can be checked if is_vendor true.
 
-- ### **Skeleton**
+### **Skeleton**
     
-- ### **Wireframes**
+### **Wireframes**
 
-    ![homepage wireframes](documentation/wireframes/home.png) 
+![homepage wireframes](documentation/wireframes/home.png) 
 
-    Please find below links to a selection of wireframe used for this project (png format)
-      - [Homepage](documentation/wireframes/home.png)
-      - [Products](documentation/wireframes/products.png) 
-      - [Articles](documentation/wireframes/articles.png)
-      - [Article Detail](documentation/wireframes/article-detail.png)
-      - [Add an Article](documentation/wireframes/add-article.png)
-      - [About page](documentation/wireframes/about.png)
-      - [Product details](documentation/wireframes/product-detail.png)
-      - [Add Product](documentation/wireframes/add-product.png)
-      - [Shopping bag](documentation/wireframes/shopping-bag.png)
-      - [Checkout page](documentation/wireframes/checkout.png)
-      - [Thank You page](documentation/wireframes/thank-you.png)
-      - [Sign up page](documentation/wireframes/sign-up.png)
-      - [Login page](documentation/wireframes/log-in.png)
-      - [Profile page](documentation/wireframes/profile.png)
-      - [Add article](documentation/wireframes/add_c.png)
-      - [Error page](documentation/wireframes/404.png)
-      - [Vendor page](documentation/wireframes/vendor.png)
-      - [Newsletter Subscribe page](documentation/wireframes/newsletter-subscribe.png)
+Please find below links to a selection of wireframe used for this project (png format)
+  - [Homepage](documentation/wireframes/home.png)
+  - [Products](documentation/wireframes/products.png) 
+  - [Articles](documentation/wireframes/articles.png)
+  - [Article Detail](documentation/wireframes/article-detail.png)
+  - [Add an Article](documentation/wireframes/add-article.png)
+  - [About page](documentation/wireframes/about.png)
+  - [Product details](documentation/wireframes/product-detail.png)
+  - [Add Product](documentation/wireframes/add-product.png)
+  - [Shopping bag](documentation/wireframes/shopping-bag.png)
+  - [Checkout page](documentation/wireframes/checkout.png)
+  - [Thank You page](documentation/wireframes/thank-you.png)
+  - [Sign up page](documentation/wireframes/sign-up.png)
+  - [Login page](documentation/wireframes/log-in.png)
+  - [Profile page](documentation/wireframes/profile.png)
+  - [Add article](documentation/wireframes/add_c.png)
+  - [Error page](documentation/wireframes/404.png)
+  - [Vendor page](documentation/wireframes/vendor.png)
+  - [Newsletter Subscribe page](documentation/wireframes/newsletter-subscribe.png)
 
-    - #### **Difference to implement**
-      - Sections in the profile pages feature own dedicated pages
-      - Articles details feature a panel above products and details articles posted by vendor.
-      - Product page needed, instead users will have access to each individual products using a search
-      - Saved items saved to cart
-      - Line items in the shopping bag can be modified.
+#### **Difference to implement**
+  - Sections in the profile pages feature own dedicated pages
+  - Articles details feature a panel above products and details articles posted by vendor.
+  - Product page needed, instead users will have access to each individual products using a search
+  - Saved items saved to cart
+  - Line items in the shopping bag can be modified.
 
- - ### **Surface / Design** 
+ ### **Surface / Design** 
 
-     The website will feature a simple, modern design, with minimum colours to keep the emphasis on the products.
+  The website will feature a simple, modern design, with minimum colours to keep the emphasis on the products.
 
-    - #### **Imagery**
+#### **Imagery**
 
-       The website features images from vendor's posts and products. Images of products are 450x450 pixels with image filling most of card and a white backgroun. This is to keep site simple and clean. The images used in the article section of vendor post is 800x450 pixels 
+  The website features images from vendor's posts and products. Images of products are 450x450 pixels with image filling most of card and a white backgroun. This is to keep site simple and clean. The images used in the article section of vendor post is 800x450 pixels 
 
-    - #### **Colour scheme**
+#### **Colour scheme**
  
-       Appart from the hero image black and white are the main colours, the website will use mostly black and white with some additional colours for interactive purposes.
-       The website will use the following colour palette, which was custom-made and checked for accessibility using Adobe Color:
+  Black and white are the main colours. To generate a simple clean style with good contrast the website will use mostly dark grey, black and white with some additional colours for interactive purposes.
+  The website will use the following colour palette, which was custom-made and checked for accessibility using Adobe Color:
 
-       ![colour palette](documentation/design/colour-palette.png)       
+  ![colour palette](documentation/design/colour-palette.png)       
 
-     - #### **Typography**
-        As the design of the website is to be clean and simple, two fonts were chosen to reflect this. The website uses the Nunito Google font for headings and titles. Font weight of 800 is used predominatly which gives a strong bold look for headings:
+#### **Typography**
+  As the design of the website is to be clean and simple, two fonts were chosen to reflect this. The website uses the Nunito Google font for headings and titles. Font weight of 800 is used predominatly which gives a strong bold look for headings:
 
-        ![Nunito](documentation/design/font-nunito-800.png) 
-        
-         The Lato font is used for general text in line with the site's overall clear and simple style. Font weight of 400 is used throughout and is distinctive and easy to read.
+  ![Nunito](documentation/design/font-nunito-800.png) 
+  
+  The Lato font is used for general text in line with the site's overall clear and simple style. Font weight of 400 is used throughout and is distinctive and easy to read.
 
-        ![Lato](documentation/design/font-lato-400.png) 
+  ![Lato](documentation/design/font-lato-400.png) 
 
 
-     - #### **Icons**
-       Icons by font-awesome are used throughout the website to allow users to quickly access functionalities such as adding items to the shopping cart and also used to in footer to link to social media accounts. They are also associated with representing product and article fields and easily identify date as a calander, vendor as a cart, category as a tag etc. 
+#### **Icons**
+  Icons by font-awesome are used throughout the website to allow users to quickly access functionalities such as adding items to the shopping cart and also used to in footer to link to social media accounts. They are also associated with representing product and article fields and easily identify date as a calander, vendor as a cart, category as a tag etc. 
 
-     - #### **Styling**
-        Horizontal lines to structure and make the content of the website easy to read.
-        Slightly rounded edge borders and buttons for a more user friendly and inviting interface.
+#### **Styling**
+  Horizontal lines to structure and make the content of the website easy to read.
+  Slightly rounded edge borders and buttons for a more user friendly and inviting interface.
        
 
 
 ## **FEATURES**
 
-  - ### **Existing features**
+### **Existing features**
   
-    Implemented features can be found in [this document](documentation/features/features.md).
+  Implemented features can be found in
  
-  - ### **Features left to implement**
-  	- Additional thumbnail images for product details 
-  	- Pagination on shop when displaying all items 
-  	- Full content management to display and update content on the homepage and other static pages
-  	- Improved user interface for the vendor to manage articles and products.
-    - Integration with paypal
-    - Allauth integration with social media platform
+### **Features left to implement**
+  - Additional thumbnail images for product details 
+  - Pagination on shop when displaying all items 
+  - Full content management to display and update content on the homepage and other static pages
+  - Improved user interface for the vendor to manage articles and products.
+  - Integration with paypal
+  - Allauth integration with social media platform
 
 ## **CRUD operations and defensive design**
 
-  - ### **CRUD operations**
-    Operations | all user | auth. user | Vendor/admin |
-    --- | --- | --- | --- 
-    View homepage | Yes | Yes | Yes |
-    View about page | Yes | Yes | Yes |
-    Add/edit/delete article | No | No | Yes |
-    Add/edit/delete categories | No | No | Yes |
-    View shop | Yes | Yes | Yes |
-    View product details | Yes | Yes | Yes |
-    Add/edit/delete articles | No | No | Yes |
-    Add/edit/delete products | No | No | Yes |
-    View add to bag | Yes | Yes | Yes |
-    Checkout page | Yes | Yes | Yes |
-    Login | No | Yes | Yes |
-    Register | Yes | No | No |
-    View profile | Yes | Yes | Yes |
-    Edit profile | No | Yes | Yes |
-    View order history | No | Yes | Yes |
-    View order details | No | Yes | Yes |
+### **CRUD operations**
+  Operations | all user | auth. user | Vendor/admin |
+  --- | --- | --- | --- 
+  View homepage | Yes | Yes | Yes |
+  View about page | Yes | Yes | Yes |
+  Add/edit/delete article | No | No | Yes |
+  Add/edit/delete categories | No | No | Yes |
+  View shop | Yes | Yes | Yes |
+  View product details | Yes | Yes | Yes |
+  Add/edit/delete articles | No | No | Yes |
+  Add/edit/delete products | No | No | Yes |
+  View add to bag | Yes | Yes | Yes |
+  Checkout page | Yes | Yes | Yes |
+  Login | No | Yes | Yes |
+  Register | Yes | No | No |
+  View profile | Yes | Yes | Yes |
+  Edit profile | No | Yes | Yes |
+  View order history | No | Yes | Yes |
+  View order details | No | Yes | Yes |
 
 
-  - ### **defensive design**
+### **defensive design**
 
-    - #### **Delete operations**
-      Users first need to confirm that they are sure that they want to delete the specifified product
+#### **Delete operations**
+  Users first need to confirm that they are sure that they want to delete the specifified product.
 
-    - #### **Adding quantity of a specified item to the shopping bag**
-      - The options for quantity to be added to the shopping bag are limited to stock availability 
-      - Users cannot add an item out of stock to their shopping cart and the button 'add to cart' to be removed from page when items are out of stock.
+#### **Adding quantity of a specified item to the shopping bag**
+  - The options for quantity to be added to the shopping bag are limited to stock availability 
+  - Users cannot add an item out of stock to their shopping cart and the button 'add to cart' to be removed from page when items are out of stock.
 
-    - #### **Articles and product status**
+#### **Articles and product status**
      
 
-    - #### **Add/edit/delete articless**
-      - Conditions in place to ensure that only the superuser and vendor can add/edit/delete articles
-      - If an article has been posted, it can be seen by all visitors to site.
+#### **Add/edit/delete articless**
+  - Conditions in place to ensure that only the superuser and vendor can add/edit/delete articles
+  - If an article has been posted, it can be seen by all visitors to site.
 
-    - #### **Add/edit/delete products**
-      - Admin can add products and assign then to vendor. 
-      - Admin can edit and delete any of the products.
-      - Vendor can add and delete products on their own store.
+#### **Add/edit/delete products**
+  - Admin can add products and assign then to vendor. 
+  - Admin can edit and delete any of the products.
+  - Vendor can add and delete products on their own store.
 
-    - #### **Checkout page**
-      - Users can order and not set up an account but will not have their order saved to their profile.
+#### **Checkout page**
+  - Users can order and not set up an account but will not have their order saved to their profile.
 
 ## **Stripe as a Payment Method**
 
@@ -409,65 +409,65 @@ The project is available at:[edwinaz project](https://github.com/users/dooco/pro
 
 ## **TECHNOLOGIES USED**
 
-  - ### **Languages**
-    - [HTML](https://html.spec.whatwg.org/multipage/)
-    - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
-    - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-    - [Python](https://www.python.org/)
+### **Languages**
+  - [HTML](https://html.spec.whatwg.org/multipage/)
+  - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+  - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - [Python](https://www.python.org/)
 
-  - ### **Databases and Cloud storage**
-    - [SQlite](https://www.sqlite.org/index.html): SQL development database integrated by default as part of Django framework
-    - [ElephantSQL](https://www.elephantsql.com/): SQL database service provided by Elephant SQL for database management
-    - [Heroku](https://www.heroku.com/): Deployment application to run production ready dynamic programs
-    - [Amazon AWS S3](https://aws.amazon.com/s3/): Static files storage bucket for image files in production
-    - [Stripe]*(https://stripe.com): Payment gateway
+### **Databases and Cloud storage**
+  - [SQlite](https://www.sqlite.org/index.html): SQL development database integrated by default as part of Django framework
+  - [ElephantSQL](https://www.elephantsql.com/): SQL database service provided by Elephant SQL for database management
+  - [Heroku](https://www.heroku.com/): Deployment application to run production ready dynamic programs
+  - [Amazon AWS S3](https://aws.amazon.com/s3/): Static files storage bucket for image files in production
+  - [Stripe]*(https://stripe.com): Payment gateway
    
 
-  - ### **Libraries and Frameworks**
-    - [Django](https://www.djangoproject.com/): Django 3.2 Long Term Support version, Python web framework for dynamic development of front and backend projects
-    - [Font Awesome](https://fontawesome.com/): Icon repository used for icons used on the site
-    - [Google font](https://fonts.google.com/): Font family warehouse for selecting fonts for website design
-    - [Jquery](https://jquery.com/): A simplified DOM manipulation tool for developong JavaScript code
-    - [Gunicorn](https://gunicorn.org/): Server to support WSGI HTTP deployment of Django applications
-    - [Pillow](https://pypi.org/project/Pillow/) Python library for working with images
-    - [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/): Template for responsive web development
-    - [Django allauth](https://django-allauth.readthedocs.io/) Authentication, registration, login/log out
-    - [Django Crispy FormS](https://django-crispy-forms.readthedocs.io/en/latest/): Django forms rendering app
-    - [Django-countries](https://pypi.org/project/django-countries/): Django pre-built country field app supporting valid country codes
-    - [Mailchimp-marketing](https://mailchimp.com): Mailchimp newsletter app for integrating newsletter mail on site
-   
+### **Libraries and Frameworks**
+  - [Django](https://www.djangoproject.com/): Django 3.2 Long Term Support version, Python web framework for dynamic development of front and backend projects
+  - [Font Awesome](https://fontawesome.com/): Icon repository used for icons used on the site
+  - [Google font](https://fonts.google.com/): Font family warehouse for selecting fonts for website design
+  - [Jquery](https://jquery.com/): A simplified DOM manipulation tool for developong JavaScript code
+  - [Gunicorn](https://gunicorn.org/): Server to support WSGI HTTP deployment of Django applications
+  - [Pillow](https://pypi.org/project/Pillow/) Python library for working with images
+  - [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/): Template for responsive web development
+  - [Django allauth](https://django-allauth.readthedocs.io/) Authentication, registration, login/log out
+  - [Django Crispy FormS](https://django-crispy-forms.readthedocs.io/en/latest/): Django forms rendering app
+  - [Django-countries](https://pypi.org/project/django-countries/): Django pre-built country field app supporting valid country codes
+  - [Mailchimp-marketing](https://mailchimp.com): Mailchimp newsletter app for integrating newsletter mail on site
+  
    
 
-  - ### **Other technologies**
-    - [Canva](https://canva.com/): Online graphic design tool for editing images
-    - [Balsamiq](https://balsamiq.com/): Wireframe design tool for mocking up pages on devices
-    - [Lucidchart](https://www.lucidchart.com/): Flow chart design tool
-    - [W3C Markup Validation Service](https://validator.w3.org/): HTML validation
-    - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): CSS validation
-    - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/): Web accessibility
-    - [PEP8 online](http://pep8online.com/): Python validation
-    - [JSHint](https://jshint.com/):  jquery/javascript validation
-    - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): Google development tool to test site responsiveness and errors
-    - [Google lighthouse](https://developers.google.com/web/tools/lighthouse): Google lighthouse tool forsite  performance assessment
-    - [Xml Sitmap](https://www.xml-sitemaps.com/) Site map generator
-    - [Wordtracker](https://www.wordtracker.com/) Keyword research tool
+### **Other technologies**
+  - [Canva](https://canva.com/): Online graphic design tool for editing images
+  - [Balsamiq](https://balsamiq.com/): Wireframe design tool for mocking up pages on devices
+  - [Lucidchart](https://www.lucidchart.com/): Flow chart design tool
+  - [W3C Markup Validation Service](https://validator.w3.org/): HTML validation
+  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): CSS validation
+  - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/): Web accessibility
+  - [PEP8 online](http://pep8online.com/): Python validation
+  - [JSHint](https://jshint.com/):  jquery/javascript validation
+  - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): Google development tool to test site responsiveness and errors
+  - [Google lighthouse](https://developers.google.com/web/tools/lighthouse): Google lighthouse tool forsite  performance assessment
+  - [Xml Sitmap](https://www.xml-sitemaps.com/) Site map generator
+  - [Wordtracker](https://www.wordtracker.com/) Keyword research tool
 
 
 ## **TESTING**
 
-  - ### **Introduction**
-    The website was tested as it was being developed using:
-    - Chrome developer tools and Firefox developer tools
-    - Use of console.log() in JS testing to check if code is functioning 
-    - Viewing terminal for backend functionalities by printing expected outcome
-    - Manual testing of user stories
-    - Site navigation and functionality
-    - A sample of unit tests were conducted 'home' and 'blog' app 
+### **Introduction**
+  The website was tested as it was being developed using:
+  - Chrome developer tools and Firefox developer tools
+  - Use of console.log() in JS testing to check if code is functioning 
+  - Viewing terminal for backend functionalities by printing expected outcome
+  - Manual testing of user stories
+  - Site navigation and functionality
+  - A sample of unit tests were conducted 'home' and 'blog' app 
 
   
 
-  - ### **Manual testing**
-  ### Testing User Stories
+### **Manual testing**
+### Testing User Stories
 
 | ID | As a | I want to be able to  | So that I can | Achieved by | Evidence |
 | :--- | :--- | :--- | :---| :--- | :---: |
@@ -511,22 +511,21 @@ The project is available at:[edwinaz project](https://github.com/users/dooco/pro
 | 41 | Admin | add edit and delete articles and products | As an admin I want to be able to add edit and delete articles and products so that I can keep site functional and up to date | Selecting 'Add Product' or 'Add Article' from 'My Account' dropdown as admin the admin has access to adding products or articles forms. While logged in as admin and viewing products or articles the admin has options 'edit' or 'delete' under each product. By clicking on these the admin can either delete or edit products/articles. | [Admin Product & Article CRUD](documentation/testing/user-stories/admin-crud.png) |
 | 42 | Admin | view and manage orders received | ensure that orders are processed in a timely manner | Admin logging into admin panel can select orders and view each individual order. As the orders are processed further functionality could be introduced to indicate that the order is completed. | [Mange orders](documentation/testing/user-stories/admin-orders.png) |
 
-  - ### **Site navigation and functionality**
-    A manual test of the navigation and functioning of each element was conducted with relevant conditions, i.e. not logged in, logged in as shopper, logged in as vendor and logged in as admin. A description of test is outlined and comment on result noted.
-    ![Site Navigation & Functionality Manual Test](documentation/testing/site-navigation/site-navigation-test.png)
+### **Site navigation and functionality**
+  A manual test of the navigation and functioning of each element was conducted with relevant conditions, i.e. not logged in, logged in as shopper, logged in as vendor and logged in as admin. A description of test is outlined and comment on result noted.
+  ![Site Navigation & Functionality Manual Test](documentation/testing/site-navigation/site-navigation-test.png)
 
-  - ### **Automated testing**
+### **Automated testing**
 
-    Django provides a testing framework that makes it easy to write automated tests for applications. The testing framework allows developers to write tests for views, models, forms, and other components of the application.
-    Certain limitations arise to the Django framework when it comes to testing. One limitation is that the testing framework does not provide support for testing JavaScript, HTML and CSS. Testing complex database queries can be challenging as it requires creating test data and verifying the results.
-    Unit tests are automated tests that are used to test individual components of an application and are written using the built-in testing framework. They are essential for detecting errors and ensuring that individual components of the application are functioning correctly. In this project, a sample of 17 unit tests were created, to test views and form functionality of the 'Home' and 'blog' apps. All tests passed. The unit tests are included in the app's tests.py and test_forms.py files. A screenshot of the result is shown below.
-    ![Unit Test Results](documentation/testing/unit-test/unit-test-results.png)
-  
-  - ### **Code validation**
+  Django provides a testing framework that makes it easy to write automated tests for applications. The testing framework allows developers to write tests for views, models, forms, and other components of the application.
+  Certain limitations arise to the Django framework when it comes to testing. One limitation is that the testing framework does not provide support for testing JavaScript, HTML and CSS. Testing complex database queries can be challenging as it requires creating test data and verifying the results.
+  Unit tests are automated tests that are used to test individual components of an application and are written using the built-in testing framework. They are essential for detecting errors and ensuring that individual components of the application are functioning correctly. In this project, a sample of 17 unit tests were created, to test views and form functionality of the 'Home' and 'blog' apps. All tests passed. The unit tests are included in the app's tests.py and test_forms.py files. A screenshot of the result is shown below.
+  ![Unit Test Results](documentation/testing/unit-test/unit-test-results.png)
+### **Code validation**
 
-  - #### **W3C HTML Code Validator**
-    Each page for the website was run through the [W3C Markup Validation Service](https://validator.w3.org/) and returned no errors. 
-    As all web pages are rendered dynamically using Jinja template, each page and scenario had to be validated by direct input by copying and pasting the source code for the page.
+#### **W3C HTML Code Validator**
+  Each page for the website was run through the [W3C Markup Validation Service](https://validator.w3.org/) and returned no errors. 
+  As all web pages are rendered dynamically using Jinja template, each page and scenario had to be validated by direct input by copying and pasting the source code for the page.
 
 | Page | Result | Evidence |
 | :--- | :--- | :--- | 
@@ -549,7 +548,7 @@ The project is available at:[edwinaz project](https://github.com/users/dooco/pro
 | Vendor Edit Product | PASS | [vendor/vendor_edit_product](documentation/validation/html/vendor-edit-product-3.png)
 | Vendor Delete Product | PASS | [vendor/vendor_delete_product/product-id](documentation/validation/html/vendor-delete-product-3.png)
     
-- ### **W3C CSS Jigsaw Validator**
+### **W3C CSS Jigsaw Validator**
 
   Each CSS file was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) via direct input and returned no errors
 
@@ -561,7 +560,7 @@ The project is available at:[edwinaz project](https://github.com/users/dooco/pro
 
 
 
-- #### **JSHint validator**
+#### **JSHint validator**
   Javascripts files were tested with [JSHint](https://jshint.com/) and returned no errors except for stripe scripts and minor warnings. 
 
 | JS function | Evidence |
@@ -577,7 +576,7 @@ The project is available at:[edwinaz project](https://github.com/users/dooco/pro
 
 
 
-  - #### **Python 8**
+#### **Python 8**
   In this project [autopep8](https://gist.github.com/hygull/7db576c5d739e87832aa2341dbeb5242) is used to maintain compatibility with python validation PEP8. Autopep8, in some cases, was unable to break up lines and these long lines instances were left for code readibility. To show validation most of python files contents were cut and pasted into the Code Institute's Python Linter.
 
 Screen shots of PEP8 code validation can be fount below:
@@ -620,47 +619,47 @@ Screen shots of PEP8 code validation can be fount below:
 
 
 
-  - ### **Responsiveness and compatibility**
-    The website was tested on the following devices and browsers:
-    ![browser testing](documentation/testing/screenshots/browser_test.png)
+### **Responsiveness and compatibility**
+  The website was tested on the following devices and browsers:
+  ![browser testing](documentation/testing/screenshots/browser_test.png)
 
-    The website was also tested using Google Inspect and Responsive viewer
-    ![responsive viewer](documentation/testing/screenshots/shop_responsive.png)
+  The website was also tested using Google Inspect and Responsive viewer
+  ![responsive viewer](documentation/testing/screenshots/shop_responsive.png)
 
-  - ### **Testing performance**
-    Google Lighthouse was run on different pages, with performances ranging from 83% to 100% depending on the number of images on the pages. The page with the lowest performance is the shop page with all products displayed. Below is an extract of the reports:
+### **Testing performance**
+  Google Lighthouse was run on different pages, with performances ranging from 83% to 100% depending on the number of images on the pages. The page with the lowest performance is the shop page with all products displayed. Below is an extract of the reports:
 
-    ![extract google lighthouse reports](documentation/testing/screenshots/google_lighthouse.jpg)
+  ![extract google lighthouse reports](documentation/testing/screenshots/google_lighthouse.jpg)
 
-  - ### **Testing accessibility**
+### **Testing accessibility**
 
-    Since the website was developed using Django templating, each page was tested individually for accessibility with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) and returned no errors except for Braintree hosted fields as the accessibility tools cannot identify labels for these fields.
-    
-    ![screenshot wave issues](documentation/testing/screenshots/wave_braintree_errors.png)
+  Since the website was developed using Django templating, each page was tested individually for accessibility with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) and returned no errors except for Braintree hosted fields as the accessibility tools cannot identify labels for these fields.
+  
+  ![screenshot wave issues](documentation/testing/screenshots/wave)
 
 
-  - ### **Issues and known bugs**
+### **Issues and known bugs**
 
-    - #### **Context**
+#### **Context**
       
       
     
 
-    - #### **Display profile**
+#### **Display profile**
       
 
-    - #### **Justifying**
+#### **Justifying**
   
 
-    - #### **Gitpod**
+#### **Gitpod**
 
-      - **Change to gitpod and Code Institute template**
+**Change to gitpod and Code Institute template**
 
 
-      - **Django variable to javascript**
+ **Django variable to javascript**
 
    
-    - #### **Known issues**
+#### **Known issues**
 
  
 ## **DEPLOYMENT**
@@ -668,236 +667,270 @@ Screen shots of PEP8 code validation can be fount below:
   Edwinaz django e-commerse website was developed on loal environment and used gitpod's git-based version control system for versioning of the project. Gitpod's issues and project generating facility was used to record the Agile methodology project management approach that breaks the project into smaller phases. The site was developed with regular commits and used Code Institute's student template with changes frequently committed to git then pushed onto GitHub.
   The application is deployed on [Heroku](https://heroku.com/) with the repository hosted on Github and the postgres database hosted on [ElephantSQL](https://www.elephantsql.com/)
 
-  - ### **Accounts setup needed**
-    - Amazon AWS account
-    - [Heroku](https://heroku.com/)
-    - [ElephantSQL](https://www.elephantsql.com/)
-    - [Mailchimp](https://mailchimp.com/)
-    - [Stripe](kttp://stripe.com)
-    - Gmail account with 2-step verification.
+### **Accounts setup needed**
+  - [Amazon AWS](https://aws.amazon.com/)
+  - [Heroku](https://heroku.com/)
+  - [ElephantSQL](https://www.elephantsql.com/)
+  - [Mailchimp](https://mailchimp.com/)
+  - [Stripe](kttp://stripe.com)
+  - Gmail account with 2-step verification.
+
+### **Deployment**
+
+#### **Database setup stage:**
+  - Log onto elephantSQL, click on 'Create new instance' Name your instance: 'edwinaz', choose Tiny Turtle plan and choose region: eu-west-1, click 'Review' and then 'Create instance', copy URL for use in Heroku.
+  - Log onto heroku, click on 'New' then 'Create new app'. Name it 'edwinaz' and choose a region: 'Europe', go to settings tab and click on 'Reveal Config Vars', create a new config variable of DATABASE_URL and paste the database URL you copied from elephantSQL into the value, it should not have quotation marks around it.
+  - Set new variable DISABLE_COLLECTSTATIC to 1 to prevent Heroku from loading static files.
+  - Under 'Deploy in Heroku select deploy from github and below search for your repo in github, and connect. Select enable auto deploys.
+   
+#### **Back up your current sqlite database**
+  - Use datadump to preserve all data in development database 
+  - Backup the current database and load it into a data.json file, by typing in CLI:
+    ```python3 manage.py dumpdata  > data.json```
+  - This data can be uploaded when deployed database is functioning.
+
+## In Gitpod/local environment
+
+  - Install dj_database_url and psycopg2:
+  ```pip3 install dj_database_url```
+```pip3 install psycopg2```
+
   
-  - ### **Deployment**
+  - update requirements.txt:
+```pip3 freeze > requirements.txt```
+  - In settings.py just after import os add:
+```import dj_database_url```
+  - Comment out for the moment:
+```DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+```
 
-    - #### **Database setup stage:**
-      - Log onto elephantSQL, click on 'Create new instance' Name your instance: 'edwinaz', choose Tiny Turtle plan and choose region: eu-west-1, click 'Review' and then 'Create instance'
-      - Log onto heroku, click on 'New' then 'Create new app'. Name it 'edwinaz' and choose a region close to where you are based: 'Europe' 
-      - connect to Postgres database and deploy the app without static files
-      - Create and connect Amazon bucket for storing images and static files
+  - Paste the following above the commented:
+```DATABASES = {
+    'default': dj_database_url.parse("paste-elephantsql-db-url-here")
+```
+}
+#### **Re-load your database**
+  - Load your data from the data.json file into postgres by typing in the CLI: ```python3 manage.py loaddata data.json``` 
+  - Migrate the database by entering: ```python3 manage.py migrate```
+  - Create superuser: ```python3 manage.py createsuperuser``` 
 
-    - #### **Local environment**
-      | KEY         | VALUE |
-      | ----------- | ----------- |
-      | DEVELOPMENT | True |
-      | SECRET_KEY  | Your_value |
-      | AWS_ACCESS_KEY_ID | Your_value |
-      | AWS_SECRET_ACCESS_KEY | Your_value |
-      | HEROKU_POSTGRESQL_AQUA_URL | Your_value |
-      | MAILCHIMP_API_KEY| Your_value |
-      | MAILCHIMP_MARKETING_AUDIENCE_ID | Your_value |
-      | MAILCHIMP_REGION| Your_value |
-      | PORT| 8000 |
-      | STRIPE_PUBLIC_KEY| Your_value |
-      | STRIPE_SECRET_KEY| Your_value |
-      | STRIPE_WH_SECRET| Your_value |
-      | USE_AWS| True |
-      | EMAIL_HOST_USER | Your_value |
-      | EMAIL_HOST_PASSWORD | Your_value |
+  - Install gunicorn using command: ```pip3 install gunicorn```
+  - Update requirement.txt by typing command in cli: ```pip3 freeze > requirements.txt```
+  - Create a Procfile in the root directory which tells Heroku to create a web dyno which runs gunicorn and serves our django app. Add the following to the file (do not leave any blank lines underneath):
 
-    - #### **Create a Postgres instance on ElephantSQL**
-      - Create new instance
-       ![elephant](documentation/deploy/screenshots/elephant_create.png)
-      - Enter a name and select Tiny Turtle (free plan)
-       ![elephant](documentation/deploy/screenshots/elephant_name.png)
-      - Go to select region and select closest region to you
-       ![elephant](documentation/deploy/screenshots/elephant_region.png)
-      - Click review and create, you should then be redirected to the following page
-       ![elephant](documentation/deploy/screenshots/elephant_url.png)
-      - Copy the URL
-
-    - #### **Back up your current sqlite database**
-      - Use datadump to preserve all data in development database 
-      - Backup the current database and load it into a data.json file, by typing in CLI:
-        ```python3 manage.py dumpdata  > data.json```
-      - This data can be uploaded when deployed database is functioning.
-
-    - #### **Load data from db.json file into postgres**
-      - Create a temporary variable in your environement named: DATABASE_URL with the value of the Postgres URL from Heroku
-      - In your local IDE, install these two packages by typing in the CLI:
-	      - ```pip3 install dj_database_url```
-	      - ```pip3 install psycopg2```
-        - Then ```pip3 freeze > requirements.txt``` 
-      - In edwinaz > settings.py, add ```import dj_database_url``` at top of the page
-      - Connect your manage.py file to your postgres database      
-          ```
-          DATABASES = {
-    		 'default':  dj_database_url.parse('DATABASE_URL')
-	        }
-          ```
-      - Load your data from the data.json file into postgres by typing in the CLI: ```python3 manage.py loaddata data.json``` 
-      - Migrate the database by entering: ```python3 manage.py migrate```
-      - Create superuser: ```python3 manage.py createsuperuser``` 
-
-
-    - #### **Prepare for deployment**
-       - Install gunicorn using command in cli: ```pip3 install gunicorn```
-       - Update requirement.txt by typing command in cli: ```pip3 freeze > requirements.txt```
-      
+      ```web: gunicorn edwinaz.wsgi:application```
          	 
-    - #### **Change configuration to allow for production and development mode**
-       - Secret Key: ```SECRET_KEY = os.environ.get('SECRET_KEY', '')```
-       - Debug: ```DEBUG = 'DEVELOPMENT' in os.environ``` so that debug is true in your development environment, but false in production
-       - Allowed Hosts: ```ALLOWED_HOSTS = ['edwinaz.herokuapp.com', 'localhost']``` 
-      
-       - Using an if statement in settings.py, the app will be connected to Postgres in production mode and SQlite when in development.
-          ```
-            if 'DATABASE_URL' in os.environ:
-                DATABASES = {
-                  'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-                }
-            else:
-                DATABASES = {
-                    'default': {
-                        'ENGINE': 'django.db.backends.sqlite3',
-                    'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-                    }
-                }
-          ```
-       - Update email settings so that email are sent in production and display in the console when in development environment:
-         ```
-         if 'DEVELOPMENT' in os.environ:
-            EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-            DEFAULT_FROM_EMAIL = 'edwinaz@example.com'
-         else:
-            EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-            EMAIL_USE_TLS = True
-            EMAIL_PORT = 587
-            EMAIL_HOST = 'smtp.gmail.com'
-            EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
-            EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
-            DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_USER')
-         ```
-       - Add, commit and push changes to github
+#### **Change configuration to allow for production and development mode**
+  - Secret Key: ```SECRET_KEY = os.environ.get('SECRET_KEY', '')```
+  - Debug: ```DEBUG = 'DEVELOPMENT' in os.environ``` so that debug is true in your development environment, but false in production
+  - Allowed Hosts: ```ALLOWED_HOSTS = ['edwinaz.herokuapp.com', 'localhost']``` 
+
+  - Replace commented out database details with an if statement in settings.py, the app will be connected to Postgres in production mode and SQlite when in development.
+    ```
+      if 'DATABASE_URL' in os.environ:
+          DATABASES = {
+            'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+          }
+      else:
+          DATABASES = {
+              'default': {
+                  'ENGINE': 'django.db.backends.sqlite3',
+              'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+              }
+          }
+    ```
+  - Update email settings so that email are sent in production and display in the console when in development environment:
+    ```
+    if 'DEVELOPMENT' in os.environ:
+      EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+      DEFAULT_FROM_EMAIL = 'edwinaz@example.com'
+    else:
+      EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+      EMAIL_USE_TLS = True
+      EMAIL_PORT = 587
+      EMAIL_HOST = 'smtp.gmail.com'
+      EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
+      EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
+      DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_USER')
+    ```
+  - Using git add, commit and push changes to github
+  - If you have auto deployment set up in Heroku you can see site deployed (without static files) by clicking on 'OPEN APP' on top right.
 
 
-    - #### **Create a webservice app on Heroku**
 
-      - Log onto Heroku and click the "new" button in the top menu
-      ![Heroku add app](documentation/deploy/screenshots/heroku-new-button.png)
-      - Select the option "new webservice"
-        ![Heroku add app](documentation/deploy/screenshots/heroku-new-webservice.png)
-      - Search and select the relevant repo, then click connect
-      - Enter a unique name for your application
-      - Select the region closest to you 
-      - Enter "main" as branch
-      - Enter "Python 3" as runtime
-          ![Heroku add app](documentation/deploy/screenshots/heroku-set.png)
-      - Set the build command as ```./build.sh```
-      - Set the start command as ```gunicorn edwinaz.wsgi:application```
-      - Make sure you select the free option under instance type 
-      ![Heroku add app](documentation/deploy/screenshots/heroku_build.png)
-      - Add your environment variables, by selecting "advance" then select option to add variables:    
-      	| KEY | VALUE |
-        | ----------- | ----------- |
-        | DATABASE_URL | Your_url_link |
-        | SECRET_KEY  | Your_value |
-        | DISABLE_COLLECTSTATIC | 1 |
-        | STRIPE_MERCHANT_ID | Your_value |
-        | STRIPE_PUBLIC_KEY | Your_value |
-        | STRIPE_PRIVATE_KEY | Your_value |
-        | EMAIL_HOST_USER | Your_value |
-        | EMAIL_HOST_PASS | Your_value |
-      - Select "yes" for auto-deploy
-      ![Heroku connect github](documentation/deploy/screenshots/heroku-auto-deploy.png) 
-      - Click "create webservice" - you should see the following message when build is successful
-      ![Heroku connect github](documentation/deploy/screenshots/heroku-success.png) 
+#### **Create Amazon AWS S3 bucket**
+  - Edwinaz uses Amazon's Web Services s3 cloud-based storage service to store static files (css, javascript) and images. The following instructions explains how to create and configure a bucket, group and user for the purpose of this project.
+  - Login to your aws amazon account on the top right by using the manage my account button and then navigate to S3 (you might have to search for s3 in search bar) to create a new bucket. Select 'Create bucket', give it name 'edwinaz'.
+  - Click on the ACLs enbled option, uncheck 'Block all public access' and select box at bottom acknowledging public status. No need to alter tag or default encription. Click on 'Create bucket'.
+  - Select the s3 bucket you've just created and then select the properties tab at the top of the page. Find the 'static website hosting' section by scrolling down and choose enable static web hosting, host a static website and enter index.html and error.html for the index and error documents. Click on 'Save changes'. Still on properties tab copy ARN for next tab.
+  - Select the permissions tab and navigate to the bucket policy section select 'edit' and then select 'policy generator'. Select policy type 'S3 bucket policy' on 'Select type of policy' box. Allow all principles by adding '*' into 'principal' box. In Action box select 'GetObject'. Paste the ARN copied into the ARN input and then click 'add statement'. Click 'generate policy' and copy the policy that displays in a new pop up.
+  - Close popup and go back to 'Edit bucket policy'. Paste into policy and add an '/*' to end of 'Resource':
+  ```
+  "Resource": "arn:aws:s3:::edwinaz/*",
+  ```
+  Click 'Save changes'
+
+  - Scroll to 'Cross-origin resource sharing (CORS)' and select 'edit' the the cross-origin resource sharing (CORS). Paste in the following text:
+  ```
+  [
+    {
+        "AllowedHeaders": [
+            "Authorization"
+        ],
+        "AllowedMethods": [
+            "GET"
+        ],
+        "AllowedOrigins": [
+            "*"
+        ],
+        "ExposeHeaders": []
+    }
+]
+
+Save changes.
 
 
-    - #### **Create Amazon AWS S3 bucket**
-        - Edwinaz uses Amazon's Web Services s3 cloud-based storage service to store static files (css, javascript) and images. The following instructions explains how to create and configure a bucket, group and user for the purpose of this project [View Instructions](documentation/deploy/amazon.md).      
+- Scroll to 'Access control list (ACL)' section and click 'edit' and set the public access to "everyone".
+- Create a user for access in IAM - Identity and Access Management (on left menu bar). Create Group, give it a name 'manage-edwinaz'.
+- Scroll to polices and generate policy. Go to JSON tab and search for s3 and import the s3 full access policy.
+- Paste in ARN into the resource line i.e. 
+"Resource":
+  [
+    "arn:aws:s3:::edwinaz",
+    "arn:aws:s3:::edwinaz/*",
+  ]
+ - Review and give name: 'edwinaz-policy' and description. Generate policy.
+ - Select 'user groups' on left menu bar. Select 'manage-edwinaz', go to permissions tab and select 'Add permissions' dropdown, click 'Attach policy', select 'edwinaz-policy' and 'Add permission'.
+- Select 'User groups' on menu on left. Select 'manage-edwinaz'. Click on 'Add users' and give user programmatic access. Download user's access key and secret key. Save file for later.
+
+
   
-    - #### **Connect Amazon AWS S3 bucket to django**
-        - In your CLI, install the following packages:
-          - ```pip3 install boto3```
-          - ```pip3 install django-storages```
-          - ```pip3 freeze > requirements.txt```
-        - Create a ```custom_storage.py``` file in root directory
-      	- Add 'storages' to INSTALLED_APPS in settings.py
-      	- Add configuration for Amazon AWS in settings.py using an if statement so that - if AWS is true for bucket configuration, static and media files will be overriden in production.
-          ![amazon settings](documentation/deploy/screenshots/amazon_settings.png)
+#### **Connect Amazon AWS S3 bucket to django**
+  - In your CLI, install the following packages:
+    - ```pip3 install boto3```
+    - ```pip3 install django-storages```
+    - ```pip3 freeze > requirements.txt```
+  - Create a ```custom_storage.py``` file in root directory
+  - Add 'storages' to INSTALLED_APPS in settings.py
+  - Add configuration for Amazon AWS in settings.py using an if statement:
+ 
+  if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+
+    # Bucket Config
+    AWS_STORAGE_BUCKET_NAME = 'edwinaz'
+    AWS_S3_REGION_NAME = 'eu-west-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+    # Static and media files
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    # Override static and media URLs in production
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
 
-    - #### **Update your environment in Heroku**
-        - Go to dashboard, then click on your app and navigate to Envrironment in left handside menuSTRIPEer](documentation/deploy/screenshots/heroku-amazon.png)
-        - Add additional Amazon AWS key - values pairs
-        - Make sure to remove DISABLE_COLLECTSTATIC = 1 when setting Amazon AWS
-        - Your configuration variables should now look like this: 
-	        | KEY | VALUE |
-	        | ----------- | ----------- |
-	        | DATABASE_URL | Your_url_link |
-	        | SECRET_KEY  | Your_value |
-	        | USE_AWS | True |
-	        | AWS_ACCESS_KEY_ID | Your_value |
-	        | AWS_SECRET_KEY | Your_value |
-	        | STRIPE_MERCHANT_ID | Your_value |
-	        | STRIPE_PUBLIC_KEY | Your_value |
-	        | STRIPE_PRIVATE_KEY | Your_value |
-	        | EMAIL_HOST_USER | Your_value |
-	        | EMAIL_HOST_PASS | Your_value |
-        - Create a 'media' folder in your Amazon bucket and upload your images
-        - Click open app to view the application in your browser, your app should display with all images, data and styles
 
-  - ### **To use the code locally**
+
+  - Use git to add, commit and push changes. 
+
+Go to django admin, go to email addressses and confirm the superuser email address.
+
+#### **Set up Stripe webhook for deployment**
+Log into Stripe add a new webhook endpoint in Stripe for your Heroku app url. Add the url with "/checkout/wh/" and select receive all events and add the new endpoint. Click in 'Reveal' webhook signing secret and copy this to the Heroku config vars.
+
+#### **Update your environment in Heroku**
+  - Go to dashboard, then click on your app and navigate to settings.
+  - Add additional Amazon AWS key - values pairs
+  - Remove DISABLE_COLLECTSTATIC = 1 
+  - Your configuration variables should now look like this: 
+  | KEY         | VALUE |
+  | ----------- | ----------- |
+  | SECRET_KEY  | Your_value |
+  | AWS_ACCESS_KEY_ID | Your_value |
+  | AWS_SECRET_ACCESS_KEY | Your_value |
+  | HEROKU_POSTGRESQL_AQUA_URL | Your_value |
+  | MAILCHIMP_API_KEY| Your_value |
+  | MAILCHIMP_MARKETING_AUDIENCE_ID | Your_value |
+  | MAILCHIMP_REGION| Your_value |
+  | PORT| 8000 |
+  | STRIPE_PUBLIC_KEY| Your_value |
+  | STRIPE_SECRET_KEY| Your_value |
+  | STRIPE_WH_SECRET| Your_value |
+  | USE_AWS| True |
+  | EMAIL_HOST_USER | Your_value |
+  | EMAIL_HOST_PASSWORD | Your_value |
+
   
-     To use this project, you can either fork or clone the local repository on gitHub as follows, then go to the deployment section to configure and deploy the app on Heroku.
-    
-    - #### **Forking local repository**
+  - Back at AWS S3, create a 'media' folder in your Amazon bucket and upload your images
+  - Click open app to view the application in your browser, your app should display all of images.
 
-      You can make a copy of the GitHub Repository by "forking" the original repository onto your own account, where changes can be made without affecting the original repository by taking the following steps:
-      - Log onto Github
-      - Navigate to the GitHub repository : https://github.com/dooco/edwinaz
-      - Click on the fork icon (located on top right of the page at the same level of repository name)
-        ![fork repo](documentation/deploy/screenshots/github_fork.png)
-      - You should now have a copy of this repository into your GitHub account.
-      - To make a change, clone the file into your local IDE
+### **Deploy for local use**
+  
+  To use this project, you can either fork or clone the local repository on gitHub as follows, then go to the deployment section to configure and deploy the app on Heroku.
+    
+#### **Forking repository for local use**
+
+  You can make a copy of the GitHub Repository by "forking" the original repository onto your own account, where changes can be made without affecting the original repository by taking the following steps:
+  - Log onto Github
+  - Navigate to the GitHub repository : https://github.com/dooco/edwinaz
+  - Click on the fork icon (located on top right of the page, same level of repository name).
+  - A copy of this repository should appear in your GitHub account.
+  - To make changes, clone the file into your local IDE.
+  - pip3 install -r requiremants.txt
+  - make sure you are in root directory by typing `ls` and acknowledging that manage.py is in same directory. 
       
     
-    - #### **Cloning the repository into your local IDE**
-      - Log into GitHub and navigate to the GitHub repository: https://github.com/dooco/edwinaz
-      - Above the repository folder and file content, click “Code”
-      - Select from one of the following options:
-        ![github clone](documentation/deploy/screenshots/github_clone.png)
-      - Clone the files using url
-      	- Copy the url
-      	- Create a repository in GitHub and a workspace in your IDE
-      	- Open the terminal and type: ```$ git clone https://github.com/dooco/edwinaz.git```
-      	- All the files should have been imported in your workspace
-      - Download zip files
-      	- Create a repository in GitHub and a workspace in your IDE
-      	- Unzip the folder
-      	- Upload the files into your workspace
+#### **Cloning the repository into your local IDE**
+  - Create an empty directory: ```mkdir dir_name```
+  - Change directory: ```cd dir_name```
+  - On GitHub  navigate to the GitHub repository: https://github.com/dooco/edwinaz
+  - Above repository folder and files click on “Code”
+  - Copy the url
+  - Create a repository in own GitHub
+  - In terminal and in the directory just created type: ```$ git clone https://github.com/dooco/edwinaz.git```
+     All the files will have been imported in your workspace
+  - type `ls` to see files and cd to root where manage.py is located.
 	
-	You can find all the steps to follow according to your chosen method in this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) on how to clone a repository.
 
-    - #### **Install python dependencies**
-   	  - To install all the Python dependencies dependencies needed for this project using the requirements.txt file, type the following command in the CLI:
-   	   - ```$pip3 install -r requirements.txt```
+
+#### **Install python dependencies**
+  - To install all the Python dependencies dependencies needed for this project using the requirements.txt file, type the following command in the CLI:
+  - ```$pip3 install -r requirements.txt```
 
 
 ## **CREDITS**
 
-  - ### **Code**
-    - About page event section styling adapted from [Code Institute CV mini-project](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history)
-    - Implementation of contact form adapted from [official Django documentation](https://docs.djangoproject.com/en/4.0/topics/forms/)
-    - Restricting Django country list adapted from [pypi.org documentation](https://pypi.org/project/django-countries/#customize-the-country-list)
+### **Code**
+  - About page event section styling adapted from [Code Institute CV mini-project](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history)
+  - Implementation of contact form adapted from [official Django documentation](https://docs.djangoproject.com/en/4.0/topics/forms/)
+  - Restricting Django country list adapted from [pypi.org documentation](https://pypi.org/project/django-countries/#customize-the-country-list)
+  [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) on how to clone a repository.
 
-  - ### **Media and content**
-    - All images and contents for this website have been provided .
+### **Media and content**
+  - All images and contents for this website have been provided .
 
-  - ### **Additional Content**
-    - Accessibility statement is from [W3C Web Accessibility Initiatlive](https://www.w3.org/WAI/planning/statements/minimal-example/)
+### **Additional Content**
+  - Accessibility statement is from [W3C Web Accessibility Initiatlive](https://www.w3.org/WAI/planning/statements/minimal-example/)
    
 
-  - ### **Acknowledgments**
-    - Code Institute tutor services for their advice and support,
-    - The Code Institute slack community for support and advice
-    - Credit to Pythonstacks for code to implement mail chimp newsletter: https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/
+### **Acknowledgments**
+  - Code Institute tutor services for their advice and support,
+  - The Code Institute slack community for support and advice
+  - Credit to Pythonstacks for code to implement mail chimp newsletter: https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/
+
+ 
