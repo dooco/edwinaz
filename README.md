@@ -813,7 +813,7 @@ Screen shots of PEP8 code validation can be fount below:
         "ExposeHeaders": []
     }
 ]
-
+```
 Save changes.
 
 
@@ -840,8 +840,9 @@ Save changes.
   - Create a ```custom_storage.py``` file in root directory
   - Add 'storages' to INSTALLED_APPS in settings.py
   - Add configuration for Amazon AWS in settings.py using an if statement:
- 
-  if 'USE_AWS' in os.environ:
+
+    ```
+    if 'USE_AWS' in os.environ:
     # Cache control
     AWS_S3_OBJECT_PARAMETERS = {
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
@@ -864,13 +865,13 @@ Save changes.
     # Override static and media URLs in production
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+    ```
 
 
 
 
   - Use git to add, commit and push changes. 
 
-Go to django admin, go to email addressses and confirm the superuser email address.
 
 #### **Set up Stripe webhook for deployment**
 Log into Stripe add a new webhook endpoint in Stripe for your Heroku app url. Add the url with "/checkout/wh/" and select receive all events and add the new endpoint. Click in 'Reveal' webhook signing secret and copy this to the Heroku config vars.
