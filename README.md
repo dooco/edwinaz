@@ -114,8 +114,9 @@ Optimise Facebook page by including relevant keywords in the page name, About se
 ### **Scope**
 
 
-## **FEATURES**
-### **Plan**
+#### **FEATURES**
+
+#### **Plan**
 When considering a project design one needs to look at features that offer opportunity for the project. Weighing each feature with a score of importance level and viability, rated low(1) to high(5), creates a measurable outcome that prioritises funnctions based on importance and viability. Features that score highly on importance and viability will be features that must be addressed first as part of the minimum viable product. Mid range scores are 'should have features', which will be added to the project once the minimum status has been achieved. Low scored features, are 'could have features' and may not be reached in this iteration and will be marked to be addressed into the future.
 
 In this project there are different features of the site available to the type of user. Four natural categories of users can be classified for the site, visitors (who do not have an account), registered users (who have signed up for an account), vendors (signed up users that offer products and write articles for site), and Admins (users who have superuser status with additional privileges).
@@ -307,37 +308,43 @@ The project is available at: [edwinaz project](https://github.com/users/dooco/pr
 ### **Skeleton**
     
 ### **Wireframes**
+Home Page
+![Homepage](documentation/wireframes/home.png)
+Products page
+![Products](documentation/wireframes/products.png) 
+Article page
+![Articles](documentation/wireframes/articles.png)
+Article detail page
+![Article Detail](documentation/wireframes/article-detail.png)
+Add an article page
+![Add an Article](documentation/wireframes/add-article.png)
+About Page
+![About page](documentation/wireframes/about.png)
+Product datail page
+![Product details](documentation/wireframes/product-detail.png)
+Add product page
+![Add Product](documentation/wireframes/add-product.png)
+Bag page
+![Shopping bag](documentation/wireframes/shopping-bag.png)
+Checkout page
+![Checkout page](documentation/wireframes/checkout.png)
+Thank you page
+![Thank You page](documentation/wireframes/Thank-you.png)
+Sign-up page
+![Sign up page](documentation/wireframes/sign-up.png)
+Log in page
+![Login page](documentation/wireframes/log-in.png)
+Profile page
+![Profile page](documentation/wireframes/profile.png)
+404 Error page
+![Error page](documentation/wireframes/404.png)
+Vendor page
+![Vendor page](documentation/wireframes/vendor.png)
+Newsletter subscribe page
+![Newsletter Subscribe page](documentation/wireframes/newsletter-subscribe.png)
 
-![homepage wireframes](documentation/wireframes/home.png) 
 
-Please find below links to a selection of wireframe used for this project (png format)
-  - [Homepage](documentation/wireframes/home.png)
-  - [Products](documentation/wireframes/products.png) 
-  - [Articles](documentation/wireframes/articles.png)
-  - [Article Detail](documentation/wireframes/article-detail.png)
-  - [Add an Article](documentation/wireframes/add-article.png)
-  - [About page](documentation/wireframes/about.png)
-  - [Product details](documentation/wireframes/product-detail.png)
-  - [Add Product](documentation/wireframes/add-product.png)
-  - [Shopping bag](documentation/wireframes/shopping-bag.png)
-  - [Checkout page](documentation/wireframes/checkout.png)
-  - [Thank You page](documentation/wireframes/thank-you.png)
-  - [Sign up page](documentation/wireframes/sign-up.png)
-  - [Login page](documentation/wireframes/log-in.png)
-  - [Profile page](documentation/wireframes/profile.png)
-  - [Add article](documentation/wireframes/add_c.png)
-  - [Error page](documentation/wireframes/404.png)
-  - [Vendor page](documentation/wireframes/vendor.png)
-  - [Newsletter Subscribe page](documentation/wireframes/newsletter-subscribe.png)
-
-#### **Difference to implement**
-  - Sections in the profile pages feature own dedicated pages
-  - Articles details feature a panel above products and details articles posted by vendor.
-  - Product page needed, instead users will have access to each individual products using a search
-  - Saved items saved to cart
-  - Line items in the shopping bag can be modified.
-
- ### **Surface / Design** 
+### **Surface / Design** 
 
   The website will feature a simple, modern design, with minimum colours to keep the emphasis on the products.
 
@@ -363,8 +370,8 @@ Please find below links to a selection of wireframe used for this project (png f
 
 
 #### **Icons**
-  Icons by font-awesome are used throughout the website to allow users to quickly access functionalities such as adding items to the shopping cart and also used to in footer to link to social media accounts. They are also associated with representing product and article fields and easily identify date as a calander, vendor as a cart, category as a tag etc. 
-
+Icons by font-awesome are used throughout the website to allow users to quickly access functionalities such as adding items to the shopping cart and also used to in footer to link to social media accounts. They are also associated with representing product and article fields and easily identify date as a calander, vendor as a cart, category as a tag etc. 
+Bulma is an icon element is a container for any type of icon font. Because the icons can take a few seconds to load, and because you want control over the space the icons will take, you can use the icon class as a reliable square container that will prevent the page to "jump" on page load.
 #### **Styling**
   Horizontal lines to structure and make the content of the website easy to read.
   Slightly rounded edge borders and buttons for a more user friendly and inviting interface.
@@ -373,32 +380,36 @@ Please find below links to a selection of wireframe used for this project (png f
 
 #### **Feature and Content**
 
-  - Header section to include site name logo and navigational links with collapsible menu on small screens.
-  ![Header](/documentation/design/header.png)
+Header section to include site name logo and navigational links with collapsible menu on small screens.
+![Header](/documentation/design/header.png)
 
-  - The homepage  will consist of a hero image and links to articles and products.
-  ![Home](/documentation/design/home-hero.png)
+The homepage  will consist of a hero image and links to articles and products.
+![Home](/documentation/design/home-hero.png)
 
-  - About page to include information about the company and its vendors.
-  ![About](/documentation/design/about.png)
+About page to include information about the company and its vendors.
+![About](/documentation/design/about.png)
 
-  - Products page to include a selection of products.
-  [Products](/documentation/design/products.png)
-  - Products detail page displays more information about the product.
-  [Product detail](/documentation/design/product-detail.png)
+Products page to include a selection of products.
+![Products](/documentation/design/products.png) Products detail page displays more information about the product.
+![Product detail](/documentation/design/product-detail.png)
 
-  - Article page to include articles for visitor to brouse through.
-  [Articles](/documentation/design/articles.png)
-  - Shopping bag page to display items added in the bag, price, delivery cost, total and options to change quantity.
-  [Bag](/documentation/design/bag.png)
-
-  - Profile page to allow user to update their information and also to view older orders.
-  [Profile](/documentation/design/profile.png)
-
-  - Article page to display articles published by vendors and provide links to add, edit and delete articles to vendor with privaleges.
-  [Article detail](/documentation/design/article-detail.png) 
-  - Product page to display products published by vendors and provide links to add, edit and delete products to vendor with privaleges.
-  - Footer to include links to about, contact, social media, newsletter sign-up and become vendor link.
+Article list page to include articles for visitor to browse through.
+![Articles](/documentation/design/articles.png)
+Article page to display articles published by vendors and provide links to add, edit and delete articles to vendor with privaleges.
+![Article detail](/documentation/design/article-detail.png) 
+Shopping bag page to display items added in the bag, price, delivery cost, total and options to change quantity.
+![Bag](/documentation/design/bag.png)
+Profile page to allow user to update their information and also to view older orders.
+![Profile](/documentation/design/profile.png)
+Vendor page displays products and articles published by vendors and provide links to add, edit and delete products to vendor with privaleges.
+![Vendor](/documentation/design/vendor.png)
+Vendor add product page is where logged in vendors add new products to thier store on the site.
+![Vendor add product](/documentation/design/vendor-add-product.png)
+Vendor add article page is where logged in vendors add new articles to thier store on the site.
+![Vendor add article](/documentation/design/vendor-addd-article.png)
+Footer to include links to about, contact, social media, newsletter sign-up and become vendor link.
+![Footer](/documentation/design/footer.png)
+  
 
 #### **Interaction design**
 
@@ -465,9 +476,7 @@ Please find below links to a selection of wireframe used for this project (png f
 
 
 ### **defensive design**
-
-#### **Delete operations**
-  Users first need to confirm that they are sure that they want to delete the specifified product.
+ To prevent users accessing pages where they don't have the relevant permissions a defensive approach to programming has been taken. This has been achieved by checking whether a user is registered user, a vendor for vendor tasks and superuser for admin related tasks. If a user try to access an area that they don't have the required permission, they will be denied access and shown an error toast to let them know they don't have the required permission for that area.
   
 
 #### **Adding quantity of a specified item to the shopping bag**
@@ -1011,6 +1020,7 @@ Log into Stripe add a new webhook endpoint in Stripe for your Heroku app url. Ad
   - Implementation of contact form adapted from [official Django documentation](https://docs.djangoproject.com/en/4.0/topics/forms/)
   - Restricting Django country list adapted from [pypi.org documentation](https://pypi.org/project/django-countries/#customize-the-country-list)
   [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) on how to clone a repository.
+  Bulma icon: https://versions.bulma.io/0.7.0/documentation/elements/icon/
 
 ### **Media and content**
   - All images and contents for this website have been provided .
