@@ -166,7 +166,8 @@ In this project there are different features of the site available to the type o
   Vendor | View recent orders received| 3 | 4 | No |
   Admin | Order analysis | 3 | 3 | No |
 
-
+#### **Importance v Viablle Trade-Offs**
+Plotting the importance against the viability of each feature the most important features are identified and given the attention to be completed. Due to time limitations all of the desired features will not be met and working towards a minimum viable product the features given a Yes in column 4 will be given priority to be implemented.
 
 #### **Functional requirements**
   - To be able to login and logout
@@ -371,16 +372,15 @@ Newsletter subscribe page
 
 #### **Icons**
 Icons by font-awesome are used throughout the website to allow users to quickly access functionalities such as adding items to the shopping cart and also used to in footer to link to social media accounts. They are also associated with representing product and article fields and easily identify date as a calander, vendor as a cart, category as a tag etc. 
-Bulma is an icon element is a container for any type of icon font. Because the icons can take a few seconds to load, and because you want control over the space the icons will take, you can use the icon class as a reliable square container that will prevent the page to "jump" on page load.
-#### **Styling**
-  Horizontal lines to structure and make the content of the website easy to read.
-  Slightly rounded edge borders and buttons for a more user friendly and inviting interface.
-       
+Bulma is an icon element container for any type of icon font.To take control over the space the icons will take, the icon class is used as a reliable square container that will prevent the page to "jump" on page load.
 
+#### **Styling**
+Horizontal lines are used to structure and make the content of the website easy to read.
+Slightly rounded edge borders and buttons are used for a softer and inviting interface.
 
 #### **Feature and Content**
 
-Header section to include site name logo and navigational links with collapsible menu on small screens.
+Header section to include site name logo text and navigational links with collapsible menu on small screens.
 ![Header](/documentation/design/header.png)
 
 The homepage  will consist of a hero image and links to articles and products.
@@ -390,178 +390,192 @@ About page to include information about the company and its vendors.
 ![About](/documentation/design/about.png)
 
 Products page to include a selection of products.
-![Products](/documentation/design/products.png) Products detail page displays more information about the product.
+![Products](/documentation/design/products.png) 
+
+Products detail page displays more information about the product.
 ![Product detail](/documentation/design/product-detail.png)
 
 Article list page to include articles for visitor to browse through.
 ![Articles](/documentation/design/articles.png)
+
 Article page to display articles published by vendors and provide links to add, edit and delete articles to vendor with privaleges.
-![Article detail](/documentation/design/article-detail.png) 
+![Article detail](/documentation/design/article-detail.png)
+
 Shopping bag page to display items added in the bag, price, delivery cost, total and options to change quantity.
 ![Bag](/documentation/design/bag.png)
+
+Checkout page follows the bag page when user clicks on 'secure checkout' and is used to gather information on the shopper and delivery details.
+![Checkout](/documentation/design/checkout.png)
+
+Thank you page confirms that the transaction has been processed and prompts use that an email will be sent to confirm order.
+![Thank you](/documentation/design/thank-you.png)
+
+
 Profile page to allow user to update their information and also to view older orders.
 ![Profile](/documentation/design/profile.png)
-Vendor page displays products and articles published by vendors and provide links to add, edit and delete products to vendor with privaleges.
+
+Vendor page displays products and articles published by vendors and provide links to add, edit and delete products / articles  belonging to vendor.
 ![Vendor](/documentation/design/vendor.png)
+
 Vendor add product page is where logged in vendors add new products to thier store on the site.
 ![Vendor add product](/documentation/design/vendor-add-product.png)
+
 Vendor add article page is where logged in vendors add new articles to thier store on the site.
 ![Vendor add article](/documentation/design/vendor-addd-article.png)
+
 Footer to include links to about, contact, social media, newsletter sign-up and become vendor link.
 ![Footer](/documentation/design/footer.png)
+
+404 Error page is called when the page a user is trying to access cannot be found.
+![Error 404](/documentation/design/error-404.png)
   
+Admin add a product page is part of product management.
+![Admin add product](/documentation/design/admin-add-product.png)  
+
 
 #### **Interaction design**
 
-  - Collapsible menu
-  - Collapsible footer
-  - Responsive design with mobile first approach
-
+- Collapsible menu.
+- Collapsible footer.
+- Responsive design with mobile first approach.
 
 
 ### **User Authentication**
-  - To be able to login and logout securely.
-  - To be able to sign-up using email address and secure password.
-  - To be able to reset password 
+- To be able to login and logout securely.
+- To be able to sign-up using email address and secure password.
+- To be able to reset password 
 
   ### **Profile management**
-  - To be able to view and edit profile information.
-  - To be able to reequest to become a vendor.
-  - As admin add, delete users
+- To be able to view and edit profile information.
+- To be able to reequest to become a vendor.
+- As admin add, delete users.
+
+### **Vendor product & article management**
+- To be able to add/view/edit/delete a product as vendor.
+- To be able to add/view/edit/delete an article as vendor.
+### **Cart and checkout**
+- To be able to view and edit shopping bag.
+- To be able to process orders and add order to profile history.
+- To be able to process card payement.
+- To be able to sort shop items according to a set of criteria.
+- To be able to receive order confirmation email. 
+### **Progress Notification**
+- To be able to notify user on success of failure on actions.  
+- To be able to handle errors: page 404 not found, page 500 Internal Server Error and page 403 access denied
 
 
-  - To be able to add/view/edit/delete a product as vendor
-  - To be able to add/view/edit/delete an article as vendor
-  - To be able to view and edit shopping bag
-  - To be able to process orders and add order to profile history
-  - To be able to process card payement
-  - To be able to sort shop items according to a set of criteria 
-  - To be able to email notification to users
-  - To be able to notify user on success of failure on actions  
-  - To be able to handle errors: page 404 not found, page 500 Internal Server Error and page 403 access denied
-
-### **Existing features**
-  
-  Implemented features can be found in
  
 ### **Features left to implement**
-  - Additional thumbnail images for product details 
-  - Pagination on shop when displaying all items 
-  - Full content management to display and update content on the homepage and other static pages
-  - Improved user interface for the vendor to manage articles and products.
-  - Integration with paypal
-  - Allauth integration with social media platform
+- To be able to search articles with search terms in title, excerpt and content of article.
+- Pagination on shop when displaying all items 
+- To allow Vendors the ability to view most recent orders.
+- Improved user interface for the vendor to manage articles and products.
+- Integration with paypal.
+- Allauth integration with social media platform.
 
 ## **CRUD operations and defensive design**
 
 ### **CRUD operations**
-  Operations | all user | auth. user | Vendor/admin |
-  --- | --- | --- | --- 
-  View homepage | Yes | Yes | Yes |
-  View about page | Yes | Yes | Yes |
-  Add/edit/delete article | No | No | Yes |
-  Add/edit/delete categories | No | No | Yes |
-  View shop | Yes | Yes | Yes |
-  View product details | Yes | Yes | Yes |
-  Add/edit/delete articles | No | No | Yes |
-  Add/edit/delete products | No | No | Yes |
-  View add to bag | Yes | Yes | Yes |
-  Checkout page | Yes | Yes | Yes |
-  Login | No | Yes | Yes |
-  Register | Yes | No | No |
-  View profile | Yes | Yes | Yes |
-  Edit profile | No | Yes | Yes |
-  View order history | No | Yes | Yes |
-  View order details | No | Yes | Yes |
+Operations | all user | auth. user | Vendor/admin |
+--- | --- | --- | --- 
+View homepage | Yes | Yes | Yes |
+View about page | Yes | Yes | Yes |
+Add/edit/delete article | No | No | Yes |
+Add/edit/delete categories | No | No | Yes |
+View shop | Yes | Yes | Yes |
+View product details | Yes | Yes | Yes |
+Add/edit/delete articles | No | No | Yes |
+Add/edit/delete products | No | No | Yes |
+View add to bag | Yes | Yes | Yes |
+Checkout page | Yes | Yes | Yes |
+Login | No | Yes | Yes |
+Register | Yes | No | No |
+View profile | Yes | Yes | Yes |
+Edit profile | No | Yes | Yes |
+View order history | No | Yes | Yes |
+View order details | No | Yes | Yes |
 
 
 ### **defensive design**
- To prevent users accessing pages where they don't have the relevant permissions a defensive approach to programming has been taken. This has been achieved by checking whether a user is registered user, a vendor for vendor tasks and superuser for admin related tasks. If a user try to access an area that they don't have the required permission, they will be denied access and shown an error toast to let them know they don't have the required permission for that area.
-  
-
-#### **Adding quantity of a specified item to the shopping bag**
-  - The options for quantity to be added to the shopping bag are limited to stock availability 
-  - Users cannot add an item out of stock to their shopping cart and the button 'add to cart' to be removed from page when items are out of stock.
-
-#### **Articles and product status**
+To prevent users accessing pages where they don't have the relevant permissions a defensive approach to programming has been taken. This has been achieved by checking whether a user is registered user, a vendor for vendor tasks and superuser for admin related tasks. If a user try to access an area that they don't have the required permission, they will be denied access and shown an error toast to let them know they don't have the required permission for that area.
      
 
 #### **Add/edit/delete articless**
-  - Conditions in place to ensure that only the superuser and vendor can add/edit/delete articles
-  - If an article has been posted, it can be seen by all visitors to site.
+- Conditions in place to ensure that only the superuser and vendor can add/edit/delete articles.
+- If an article has been posted, it can be seen by all visitors to site.
 
 #### **Add/edit/delete products**
-  - Admin can add products and assign then to vendor. 
-  - Admin can edit and delete any of the products.
-  - Vendor can add and delete products on their own store.
+- Admin can add products and assign them to a vendor. 
+- Admin can edit and delete any of the products.
+- Vendor can add and delete products on their own store.
 
 #### **Checkout page**
-  - Users can order and not set up an account but will not have their order saved to their profile.
+- Users can order and not set up an account but will not have their order saved to their profile.
 
 ## **Stripe as a Payment Method**
 
-  Stripe was selected as payment method for the following consideration:  
-  - Ease of implementation and customisation 
-  - Well documented and maintained. 
-  - Paypal as a option for method of payement in future.   
+Stripe was selected as payment method for the following consideration:  
+- Ease of implementation and customisation 
+- Well documented and maintained. 
+- Paypal as a option for method of payement in future.   
   
 
 ## **TECHNOLOGIES USED**
 
 ### **Languages**
-  - [HTML](https://html.spec.whatwg.org/multipage/)
-  - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
-  - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  - [Python](https://www.python.org/)
+- [HTML](https://html.spec.whatwg.org/multipage/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Python](https://www.python.org/)
 
 ### **Databases and Cloud storage**
-  - [SQlite](https://www.sqlite.org/index.html): SQL development database integrated by default as part of Django framework
-  - [ElephantSQL](https://www.elephantsql.com/): SQL database service provided by Elephant SQL for database management
-  - [Heroku](https://www.heroku.com/): Deployment application to run production ready dynamic programs
-  - [Amazon AWS S3](https://aws.amazon.com/s3/): Static files storage bucket for image files in production
-  - [Stripe]*(https://stripe.com): Payment gateway
-   
+- [SQlite](https://www.sqlite.org/index.html): SQL development database integrated by default as part of Django framework
+- [ElephantSQL](https://www.elephantsql.com/): SQL database service provided by Elephant SQL for database management
+- [Heroku](https://www.heroku.com/): Deployment application to run production ready dynamic programs
+- [Amazon AWS S3](https://aws.amazon.com/s3/): Static files storage bucket for image files in production
+- [Stripe]*(https://stripe.com): Payment gateway
+  
 
 ### **Libraries and Frameworks**
-  - [Django](https://www.djangoproject.com/): Django 3.2 Long Term Support version, Python web framework for dynamic development of front and backend projects
-  - [Font Awesome](https://fontawesome.com/): Icon repository used for icons used on the site
-  - [Google font](https://fonts.google.com/): Font family warehouse for selecting fonts for website design
-  - [Jquery](https://jquery.com/): A simplified DOM manipulation tool for developong JavaScript code
-  - [Gunicorn](https://gunicorn.org/): Server to support WSGI HTTP deployment of Django applications
-  - [Pillow](https://pypi.org/project/Pillow/) Python library for working with images
-  - [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/): Template for responsive web development
-  - [Django allauth](https://django-allauth.readthedocs.io/) Authentication, registration, login/log out
-  - [Django Crispy FormS](https://django-crispy-forms.readthedocs.io/en/latest/): Django forms rendering app
-  - [Django-countries](https://pypi.org/project/django-countries/): Django pre-built country field app supporting valid country codes
-  - [Mailchimp-marketing](https://mailchimp.com): Mailchimp newsletter app for integrating newsletter mail on site
-  
+- [Django](https://www.djangoproject.com/): Django 3.2 Long Term Support version, Python web framework for dynamic development of front and backend projects
+- [Font Awesome](https://fontawesome.com/): Icon repository used for icons used on the site
+- [Google font](https://fonts.google.com/): Font family warehouse for selecting fonts for website design
+- [Jquery](https://jquery.com/): A simplified DOM manipulation tool for developong JavaScript code
+- [Gunicorn](https://gunicorn.org/): Server to support WSGI HTTP deployment of Django applications
+- [Pillow](https://pypi.org/project/Pillow/) Python library for working with images
+- [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/): Template for responsive web development
+- [Django allauth](https://django-allauth.readthedocs.io/) Authentication, registration, login/log out
+- [Django Crispy FormS](https://django-crispy-forms.readthedocs.io/en/latest/): Django forms rendering app
+- [Django-countries](https://pypi.org/project/django-countries/): Django pre-built country field app supporting valid country codes
+- [Mailchimp-marketing](https://mailchimp.com): Mailchimp newsletter app for integrating newsletter mail on site
+
    
 
 ### **Other technologies**
-  - [Canva](https://canva.com/): Online graphic design tool for editing images
-  - [Balsamiq](https://balsamiq.com/): Wireframe design tool for mocking up pages on devices
-  - [Lucidchart](https://www.lucidchart.com/): Flow chart design tool
-  - [W3C Markup Validation Service](https://validator.w3.org/): HTML validation
-  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): CSS validation
-  - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/): Web accessibility
-  - [PEP8 online](http://pep8online.com/): Python validation
-  - [JSHint](https://jshint.com/):  jquery/javascript validation
-  - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): Google development tool to test site responsiveness and errors
-  - [Google lighthouse](https://developers.google.com/web/tools/lighthouse): Google lighthouse tool forsite  performance assessment
-  - [Xml Sitmap](https://www.xml-sitemaps.com/) Site map generator
-  - [Wordtracker](https://www.wordtracker.com/) Keyword research tool
+- [Canva](https://canva.com/): Online graphic design tool for editing images
+- [Balsamiq](https://balsamiq.com/): Wireframe design tool for mocking up pages on devices
+- [Lucidchart](https://www.lucidchart.com/): Flow chart design tool
+- [W3C Markup Validation Service](https://validator.w3.org/): HTML validation
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): CSS validation
+- [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/): Web accessibility
+- [PEP8 online](http://pep8online.com/): Python validation
+- [JSHint](https://jshint.com/):  jquery/javascript validation
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/): Google development tool to test site responsiveness and errors
+- [Google lighthouse](https://developers.google.com/web/tools/lighthouse): Google lighthouse tool forsite  performance assessment
+- [Xml Sitmap](https://www.xml-sitemaps.com/) Site map generator
+- [Wordtracker](https://www.wordtracker.com/) Keyword research tool
 
 
 ## **TESTING**
 
 ### **Introduction**
-  The website was tested as it was being developed using:
-  - Chrome developer tools and Firefox developer tools
-  - Use of console.log() in JS testing to check if code is functioning 
-  - Viewing terminal for backend functionalities by printing expected outcome
-  - Manual testing of user stories
-  - Site navigation and functionality
-  - A sample of unit tests were conducted 'home' and 'blog' app 
+The website was tested as it was being developed using:
+- Chrome developer tools and Firefox developer tools
+- Use of console.log() in JS testing to check if code is functioning 
+- Viewing terminal for backend functionalities by printing expected outcome
+- Manual testing of user stories
+- Site navigation and functionality
+- A sample of unit tests were conducted 'home' and 'blog' app 
 
   
 
@@ -610,21 +624,36 @@ Footer to include links to about, contact, social media, newsletter sign-up and 
 | 41 | Admin | add edit and delete articles and products | As an admin I want to be able to add edit and delete articles and products so that I can keep site functional and up to date | Selecting 'Add Product' or 'Add Article' from 'My Account' dropdown as admin the admin has access to adding products or articles forms. While logged in as admin and viewing products or articles the admin has options 'edit' or 'delete' under each product. By clicking on these the admin can either delete or edit products/articles. | [Admin Product & Article CRUD](documentation/testing/user-stories/admin-crud.png) |
 | 42 | Admin | view and manage orders received | ensure that orders are processed in a timely manner | Admin logging into admin panel can select orders and view each individual order. As the orders are processed further functionality could be introduced to indicate that the order is completed. | [Mange orders](documentation/testing/user-stories/admin-orders.png) |
 
+### **Manual testing**
+The website was manually tested on the following.
+
+| Mobile| Tablet | Laptop |
+| :--- | :--- | :--- | 
+| iPhone 13 Pro | iPad | iMac |
+| iPhone 11 Pro |  |  |
+
+
+**Browsers:**
+- Chrome
+- FireFox
+- Safari
 ### **Site navigation and functionality**
-  A manual test of the navigation and functioning of each element was conducted with relevant conditions, i.e. not logged in, logged in as shopper, logged in as vendor and logged in as admin. A description of test is outlined and comment on result noted.
-  ![Site Navigation & Functionality Manual Test](documentation/testing/site-navigation/site-navigation-test.png)
+A manual test of the navigation and functioning of each element was conducted with relevant conditions, i.e. not logged in, logged in as shopper, logged in as vendor and logged in as admin. A description of test is outlined and comment on result noted.
+
+![Site Navigation & Functionality Manual Test](documentation/testing/site-navigation/site-navigation-test.png)
 
 ### **Automated testing**
 
-  Django provides a testing framework that makes it easy to write automated tests for applications. The testing framework allows developers to write tests for views, models, forms, and other components of the application.
-  Certain limitations arise to the Django framework when it comes to testing. One limitation is that the testing framework does not provide support for testing JavaScript, HTML and CSS. Testing complex database queries can be challenging as it requires creating test data and verifying the results.
-  Unit tests are automated tests that are used to test individual components of an application and are written using the built-in testing framework. They are essential for detecting errors and ensuring that individual components of the application are functioning correctly. In this project, a sample of 17 unit tests were created, to test views and form functionality of the 'Home' and 'blog' apps. All tests passed. The unit tests are included in the app's tests.py and test_forms.py files. A screenshot of the result is shown below.
-  ![Unit Test Results](documentation/testing/unit-test/unit-test-results.png)
+Django provides a testing framework that makes it easy to write automated tests for applications. The testing framework allows developers to write tests for views, models, forms, and other components of the application.
+Certain limitations arise to the Django framework when it comes to testing. One limitation is that the testing framework does not provide support for testing JavaScript, HTML and CSS. Testing complex database queries can be challenging as it requires creating test data and verifying the results.
+Unit tests are automated tests that are used to test individual components of an application and are written using the built-in testing framework. They are essential for detecting errors and ensuring that individual components of the application are functioning correctly. In this project, a sample of 17 unit tests were created, to test views and form functionality of the 'Home' and 'blog' apps. All tests passed. The unit tests are included in the app's tests.py and test_forms.py files. A screenshot of the result is shown below.
+
+![Unit Test Results](documentation/testing/unit-test/unit-test-results.png)
 ### **Code validation**
 
 #### **W3C HTML Code Validator**
-  Each page for the website was run through the [W3C Markup Validation Service](https://validator.w3.org/) and returned no errors. 
-  As all web pages are rendered dynamically using Jinja template, each page and scenario had to be validated by direct input by copying and pasting the source code for the page.
+Each page for the website was run through the [W3C Markup Validation Service](https://validator.w3.org/) and returned no errors. 
+As all web pages are rendered dynamically using Jinja template, each page and scenario had to be validated by direct input by copying and pasting the source code for the page.
 
 | Page | Result | Evidence |
 | :--- | :--- | :--- | 
@@ -649,7 +678,7 @@ Footer to include links to about, contact, social media, newsletter sign-up and 
     
 ### **W3C CSS Jigsaw Validator**
 
-  Each CSS file was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) via direct input and returned no errors
+Each CSS file was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) via direct input and returned no errors
 
 | Page | Result | Evidence |
 | :--- | :--- | :--- | 
@@ -660,7 +689,7 @@ Footer to include links to about, contact, social media, newsletter sign-up and 
 
 
 #### **JSHint validator**
-  Javascripts files were tested with [JSHint](https://jshint.com/) and returned no errors except for stripe scripts and minor warnings. 
+Javascripts files were tested with [JSHint](https://jshint.com/) and returned no errors except for stripe scripts and minor warnings. 
 
 | JS function | Evidence |
 | :--- | :--- | 
@@ -676,7 +705,7 @@ Footer to include links to about, contact, social media, newsletter sign-up and 
 
 
 #### **Python 8**
-  In this project [autopep8](https://gist.github.com/hygull/7db576c5d739e87832aa2341dbeb5242) is used to maintain compatibility with python validation PEP8. Autopep8, in some cases, was unable to break up lines and these long lines instances were left for code readibility. To show validation most of python files contents were cut and pasted into the Code Institute's Python Linter.
+In this project [autopep8](https://gist.github.com/hygull/7db576c5d739e87832aa2341dbeb5242) is used to maintain compatibility with python validation PEP8. Autopep8, in some cases, was unable to break up lines and these long lines instances were left for code readibility. To show validation most of python files contents were cut and pasted into the Code Institute's Python Linter.
 
 Screen shots of PEP8 code validation can be fount below:
 | App | File | Evidence |
@@ -718,47 +747,52 @@ Screen shots of PEP8 code validation can be fount below:
 
 
 
-### **Responsiveness and compatibility**
-  The website was tested on the following devices and browsers:
-  ![browser testing](documentation/testing/screenshots/browser_test.png)
+### **Manual testing**
+The website was manually tested on the following.
+**Devices:**
+Mobile:
+- iPhone 13 Pro
+- iPhone 11 Pro
 
-  The website was also tested using Google Inspect and Responsive viewer
-  ![responsive viewer](documentation/testing/screenshots/shop_responsive.png)
+Tablet:
+- iPad 
+
+Laptop:
+- Mackbook Pro
+
+Desktop: 
+- iMac
+
+**Browsers:**
+- Chrome
+- FireFox
+- Safari
+
+The website was also tested using Google Inspect and Responsive viewer
+![responsive viewer](documentation/testing/screenshots/shop_responsive.png)
 
 ### **Testing performance**
-  Google Lighthouse was run on different pages, with performances ranging from 83% to 100% depending on the number of images on the pages. The page with the lowest performance is the shop page with all products displayed. Below is an extract of the reports:
+Pagespeed insights was run on site, with performances ranging from 58% to 72% depending on the number of images on the pages. The page with the lowest performance is the products page with all the articles and products displayed. Other parameters, accessibility, best practices and SEO are scored. Below are an extracts of reports in a sample of pages:
 
-  ![extract google lighthouse reports](documentation/testing/screenshots/google_lighthouse.jpg)
+Products page
+![page-speed products](documentation/testing/speed/page-speed-products.png) 
 
-### **Testing accessibility**
+Home page
+![page-speed home](documentation/testing/speed/page-speed-home.png)
 
-  Since the website was developed using Django templating, each page was tested individually for accessibility with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) and returned no errors except for Braintree hosted fields as the accessibility tools cannot identify labels for these fields.
-  
-  ![screenshot wave issues](documentation/testing/screenshots/wave)
+Articles page
+![page-speed articles](documentation/testing/speed/page-speed-blog.png)
+
+Profile page
+![page-speed profile](documentation/testing/speed/page-speed-profile.png)
+
+Bag page
+![page-speed bag](documentation/testing/speed/page-speed-bag.png)
 
 
 ### **Issues and known bugs**
 
-#### **Context**
-      
-      
-    
 
-#### **Display profile**
-      
-
-#### **Justifying**
-  
-
-#### **Gitpod**
-
-**Change to gitpod and Code Institute template**
-
-
- **Django variable to javascript**
-
-   
-#### **Known issues**
 
  
 ## **DEPLOYMENT**
@@ -780,7 +814,7 @@ Screen shots of PEP8 code validation can be fount below:
   - Log onto elephantSQL, click on 'Create new instance' Name your instance: 'edwinaz', choose Tiny Turtle plan and choose region: eu-west-1, click 'Review' and then 'Create instance', copy URL for use in Heroku.
   - Log onto heroku, click on 'New' then 'Create new app'. Name it 'edwinaz' and choose a region: 'Europe', go to settings tab and click on 'Reveal Config Vars', create a new config variable of DATABASE_URL and paste the database URL you copied from elephantSQL into the value, it should not have quotation marks around it.
   - Set new variable DISABLE_COLLECTSTATIC to 1 to prevent Heroku from loading static files.
-  - Under 'Deploy in Heroku select deploy from github and below search for your repo in github, and connect. Select enable auto deploys.
+  - Under 'Deploy' in Heroku select deploy from github and below search for your repo in github, and connect. Select enable auto deploys.
    
 #### **Back up your current sqlite database**
   - Use datadump to preserve all data in development database 
@@ -791,7 +825,7 @@ Screen shots of PEP8 code validation can be fount below:
 ## In Gitpod/local environment
 
   - Install dj_database_url and psycopg2:
-  ```pip3 install dj_database_url```
+```pip3 install dj_database_url```
 ```pip3 install psycopg2```
 
   
@@ -976,8 +1010,8 @@ Log into Stripe add a new webhook endpoint in Stripe for your Heroku app url. Ad
   | EMAIL_HOST_PASSWORD | Your_value |
 
   
-  - Back at AWS S3, create a 'media' folder in your Amazon bucket and upload your images
-  - Click open app to view the application in your browser, your app should display all of images.
+- Back at AWS S3, create a 'media' folder in your Amazon bucket and upload your images
+- Click open app to view the application in your browser, your app should display all of images.
 
 ### **Deploy for local use**
   
@@ -1009,29 +1043,35 @@ Log into Stripe add a new webhook endpoint in Stripe for your Heroku app url. Ad
 
 
 #### **Install python dependencies**
-  - To install all the Python dependencies dependencies needed for this project using the requirements.txt file, type the following command in the CLI:
-  - ```$pip3 install -r requirements.txt```
+- To install all the Python dependencies dependencies needed for this project using the requirements.txt file, type the following command in the CLI:
+- ```$pip3 install -r requirements.txt```
 
 
 ## **CREDITS**
 
 ### **Code**
-  - About page event section styling adapted from [Code Institute CV mini-project](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history)
-  - Implementation of contact form adapted from [official Django documentation](https://docs.djangoproject.com/en/4.0/topics/forms/)
-  - Restricting Django country list adapted from [pypi.org documentation](https://pypi.org/project/django-countries/#customize-the-country-list)
-  [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) on how to clone a repository.
-  Bulma icon: https://versions.bulma.io/0.7.0/documentation/elements/icon/
+- Code Institute
+- About page event section styling adapted from [Code Institute CV mini-project](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history)
+- Restricting Django country list adapted from [pypi.org documentation](https://pypi.org/project/django-countries/#customize-the-country-list)
+- [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) on how to clone a repository.
+- Bulma icon: https://versions.bulma.io/0.7.0/documentation/elements/icon/
+- Credit to Pythonstacks for code to implement mail chimp newsletter: https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/
 
 ### **Media and content**
-  - All images and contents for this website have been provided .
 
+12 INSPIRATIONAL OUTDOOR LIVING DESIGN BLOGS: https://lancastercountybackyard.net/blog/outdoor-living-design/
+
+Mary Burgos Design for home article makeover ideas: https://www.marieburgosdesign.com/residential-interior-designer-marie-burgos-design
+
+Homeware product ideas: https://www.stylist.co.uk/home/homeware
+ 
 ### **Additional Content**
-  - Accessibility statement is from [W3C Web Accessibility Initiatlive](https://www.w3.org/WAI/planning/statements/minimal-example/)
+- Accessibility statement is from [W3C Web Accessibility Initiatlive](https://www.w3.org/WAI/planning/statements/minimal-example/)
    
 
 ### **Acknowledgments**
-  - Code Institute tutor services for their advice and support,
-  - The Code Institute slack community for support and advice
-  - Credit to Pythonstacks for code to implement mail chimp newsletter: https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/
+- Code Institute tutor services for their advice and support,
+- The Code Institute slack community for support and advice
+
 
  
