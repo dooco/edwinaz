@@ -162,6 +162,7 @@ def delete_product(request, product_id):
 
 
 class PostDetailView(DetailView):
+    """ A Class to show individual article details """
     model = Post
 
     template_name = 'blog/post_detail.html'

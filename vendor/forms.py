@@ -4,6 +4,7 @@ from products.models import Product, Category
 
 
 class VendorProductForm(forms.ModelForm):
+    """ form to populate vendor's Product """
 
     class Meta:
         model = Product

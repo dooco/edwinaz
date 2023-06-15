@@ -4,7 +4,7 @@
 
 ![mockup](documentation/testing/user-stories/responsive.png)
 
-Edwinaz is an online multi-vendor ecommerce website for the promotion of homeware good and was created for educational purposes as part of the Code Institute’s portfolio 5 (e-commerce applications) full stack development course.
+Edwinaz is an online multi-vendor ecommerce website for the promotion of homeware goods and was created for educational purposes as part of the Code Institute’s portfolio 5 (e-commerce applications) full stack development course.
 
 Developed using HTML, CSS, JavaScript and Python on a Django framework.
 
@@ -28,7 +28,7 @@ View live project here [link to deployed link](https://edwinaz.herokuapp.com/)
     - [Defensive design](#defensive-design)
   - [Technologies Used](#technologies-used)
     - [Languages](#languages)
-    - [Databases platform and cloud storage](#database-platform-and-cloud-storage)
+    - [Databases platform and cloud storage](#databases-and-cloud-storage)
     - [Libraries and frameworks](#libraries-and-frameworks)
     - [Other technologies](#other-technologies)  
   - [Testing](#testing)
@@ -84,7 +84,7 @@ Mailchimp Special offer marketing
 
 
 #### **SEO & Keyword Research**
-Keyword research forms the foundation of any successful SEO strategy. Identify relevant keywords and phrases that the site's target audience is likely to use when searching for homeware products. Working with tools sucj as wordtracker.com, Google Keyword Planner or SEMrush can assist in finding popular keywords but using the free version of these packages will not produce sufficient search results as keywords are limited.
+Keyword research forms the foundation of any successful SEO strategy. Identify relevant keywords and phrases that the site's target audience is likely to use when searching for homeware products. Working with tools such as wordtracker.com, Google Keyword Planner or SEMrush can assist in finding popular keywords but using the free version of these packages will not produce sufficient search results as keywords are limited.
 Keywords and phrases after brainstorming, keyword research, using Google auto-fill and related terms resulted in the following:
 
     <meta name="description" content="Buy homeware, soft furnishings, household gifts, bed linen, home decor, housewarming gifts, furniture and designer makeover products at Edwinaz .Our shop provide quality, refined dining room, living room and bedroom furniture. Edwinaz is a comprehensive lifestyle and homeware online store.">
@@ -475,7 +475,7 @@ Admin add a product page is part of product management.
 - Integration with paypal.
 - Allauth integration with social media platform.
 
-## **CRUD operations and defensive design**
+## **CRUD operations**
 
 ### **CRUD operations**
 Operations | all user | auth. user | Vendor/admin |
@@ -498,7 +498,7 @@ View order history | No | Yes | Yes |
 View order details | No | Yes | Yes |
 
 
-### **defensive design**
+### **Defensive design**
 To prevent users accessing pages where they don't have the relevant permissions a defensive approach to programming has been taken. This has been achieved by checking whether a user is registered user, a vendor for vendor tasks and superuser for admin related tasks. If a user try to access an area that they don't have the required permission, they will be denied access and shown an error toast to let them know they don't have the required permission for that area.
      
 
