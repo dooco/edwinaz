@@ -430,7 +430,7 @@ Vendor add product page is where logged in vendors add new products to thier sto
 Vendor add article page is where logged in vendors add new articles to thier store on the site.
 ![Vendor add article](/documentation/design/vendor-addd-article.png)
 
-Footer to include links to about, contact, social media, newsletter sign-up and become vendor link.
+Footer to include links to about, contact, social media, newsletter sign-up and become vendor link. All the social media links and external link to Housewares.org have relevant REL tags that open link in new browser.
 ![Footer](/documentation/design/footer.png)
 
 404 Error page is called when the page a user is trying to access cannot be found.
