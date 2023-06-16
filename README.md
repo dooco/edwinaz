@@ -8,7 +8,13 @@ Edwinaz is an online multi-vendor ecommerce website for the promotion of homewar
 
 Developed using HTML, CSS, JavaScript and Python on a Django framework.
 
-View live project here [link to deployed link](https://edwinaz.herokuapp.com/)
+View live project here [Link to deployed site](https://edwinaz.herokuapp.com/)
+
+Stripe test payments card deteils below to check the function of the site.
+| Type | Card No | Expiry | CVC | ZIP |
+| :--- | :--- |:--- | :--- | :--- |
+| Success| Visa | 4242 4242 4242 4242 | A date in the future | Any 3 digits | Any 5 digits |
+
 
 
 
@@ -23,7 +29,7 @@ View live project here [link to deployed link](https://edwinaz.herokuapp.com/)
     - [Design](#design)
     - [Features](#features)
     - [Features left to implement](#features-left-to-implement)
-  - [CRUD operations and defensive design](#crud-operations-and-defensive-design)    
+  - [CRUD operations and defensive design](#crud-operations)    
     - [CRUD operations](#crud-operations)
     - [Defensive design](#defensive-design)
   - [Technologies Used](#technologies-used)
@@ -33,12 +39,11 @@ View live project here [link to deployed link](https://edwinaz.herokuapp.com/)
     - [Other technologies](#other-technologies)  
   - [Testing](#testing)
     - [Code validation](#code-validation)
-    - [Testing User stories](#testing-User-stories)
+    - [Testing User stories](#testing-user-stories)
     - [Automated testing](#automated-testing)
-    - [Responsiveness and compatibility](#responsiveness-and-compatibility)
+    - [Code Validation](#code-validation)
     - [Testing performance](#testing-performance)
-    - [Testing accessibility](#testing-accessibility)
-    - [Interesting issues and known bugs](#interesting-issues-and-known-bugs)
+    - [Issues and known bugs](#issues-and-known-bugs)
   - [Deployment](#deployment)
     - [Deployment](#deployment)
     - [Local Deploy](#local-deploy)
@@ -208,8 +213,8 @@ Plotting the importance against the viability of each feature the most important
 ### **Structure**
 
 ### **User Stories** 
-GitHub issues, projects, and milestones were used to manage this story. The user stories were defined as issues and are available at: [edwinaz issues](https://github.com/dooco/edwinaz/issues?page=1&q=is%3Aissue+is%3Aopen) 
-The project is available at: [edwinaz project](https://github.com/users/dooco/projects/7)
+The project was developed using the Agile Methodology. GitHub issues, projects, and milestones were used to manage user stories. The user stories were defined as issues and are available at: [edwinaz issues](https://github.com/dooco/edwinaz/issues?page=1&q=is%3Aissue+is%3Aopen) 
+The project is available at: [edwinaz project](https://github.com/users/dooco/projects/7). The numbering of issues on github does not align with user stories presented here in the documentation. As the project developed issues were added and to group user stories under functional headings the numbering would not follow.
 
 #### **Navigation**
       1. - As a user I want to be able to view the site on desktop, tablet and phone so that I can view the site with ease on each device
@@ -385,13 +390,13 @@ Slightly rounded edge borders and buttons are used for a softer and inviting int
 Header section to include site name logo text and navigational links with collapsible menu on small screens.
 ![Header](/documentation/design/header.png)
 
-The homepage  will consist of a hero image and links to articles and products.
+The homepage  will consist of a hero image and links to articles and products. Inspiration for 'cover-text' class, to contrast text on hero image, was taken from Code Institute's 'Love Running' walkthrough.
 ![Home](/documentation/design/home-hero.png)
 
 About page to include information about the company and its vendors.
 ![About](/documentation/design/about.png)
 
-Products page to include a selection of products.
+Products page to include a selection of products. Four random articles are displayed at the top of the products page to attract user to informative articles posted by vendors on the site.
 ![Products](/documentation/design/products.png) 
 
 Products detail page displays more information about the product.
@@ -537,6 +542,15 @@ Stripe was selected as payment method for the following consideration:
 - [Amazon AWS S3](https://aws.amazon.com/s3/): Static files storage bucket for image files in production
 - [Stripe]*(https://stripe.com): Payment gateway
   
+### Stripe
+
+To process test payments the following test cards can be used:
+
+| Type | Card No | Expiry | CVC | ZIP |
+| :--- | :--- |:--- | :--- | :--- |
+| Success| Visa | 4242 4242 4242 4242 | A date in the future | Any 3 digits | Any 5 digits |
+| Require authorisation | 4000 0027 6000 3184 | A date in the future | Any 3 digits | Any 5 digits |
+| Declined | 4000 0000 0000 0002 | A date in the future | Any 3 digits | Any 5 digits |
 
 ### **Libraries and Frameworks**
 - [Django](https://www.djangoproject.com/): Django 3.2 Long Term Support version, Python web framework for dynamic development of front and backend projects
@@ -563,7 +577,7 @@ Stripe was selected as payment method for the following consideration:
 - [PEP8 online](http://pep8online.com/): Python validation
 - [JSHint](https://jshint.com/):  jquery/javascript validation
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): Google development tool to test site responsiveness and errors
-- [Google lighthouse](https://developers.google.com/web/tools/lighthouse): Google lighthouse tool forsite  performance assessment
+- [Page Speed](https://pagespeed.web.dev/): Tool for site  performance assessment
 - [Xml Sitmap](https://www.xml-sitemaps.com/) Site map generator
 - [Wordtracker](https://www.wordtracker.com/) Keyword research tool
 
@@ -718,6 +732,8 @@ Certain limitations arise to the Django framework when it comes to testing. One 
 Unit tests are automated tests that are used to test individual components of an application and are written using the built-in testing framework. They are essential for detecting errors and ensuring that individual components of the application are functioning correctly. In this project, a sample of 17 unit tests were created, to test views and form functionality of the 'Home' and 'blog' apps. All tests passed. The unit tests are included in the app's tests.py and test_forms.py files. A screenshot of the result is shown below.
 
 ![Unit Test Results](documentation/testing/unit-test/unit-test-results.png)
+
+
 ### **Code validation**
 
 #### **W3C HTML Code Validator**
@@ -814,10 +830,6 @@ Screen shots of PEP8 code validation can be fount below:
 
 
 
-The website was tested for functionality
-
-![responsive viewer](documentation/testing/screenshots/shop_responsive.png)
-
 ### **Testing performance**
 Pagespeed insights was run on site, with performances ranging from 58% to 72% depending on the number of images on the pages. The page with the lowest performance is the products page with all the articles and products displayed. Other parameters, accessibility, best practices and SEO are scored. Below are an extracts of reports in a sample of pages:
 
@@ -839,13 +851,16 @@ Bag page
 
 ### **Issues and known bugs**
 
+- An error 500 is experienced when text is entered into the quantity field in product detail and bag pages. Code was introduced into javascript to ensure only integer values were allowed but even though the non-numeric characters are not displayed a 'invalid literal for int() with base 10' error comes up in development mode.
+- On add product page field 'vendor' does not update and can only be modified by admin in admin pannel. Future revision of the code should rectify this.
+
 
 
  
 ## **DEPLOYMENT**
 
   Edwinaz django e-commerse website was developed on loal environment and used gitpod's git-based version control system for versioning of the project. Gitpod's issues and project generating facility was used to record the Agile methodology project management approach that breaks the project into smaller phases. The site was developed with regular commits and used Code Institute's student template with changes frequently committed to git then pushed onto GitHub.
-  The application is deployed on [Heroku](https://heroku.com/) with the repository hosted on Github and the postgres database hosted on [ElephantSQL](https://www.elephantsql.com/)
+  The application is deployed on [Heroku](https://heroku.com/) with the repository hosted on Github and the postgres database hosted on [ElephantSQL](https://www.elephantsql.com/). Static files are hosted on Amazon AWS[Amazon AWS](https://aws.amazon.com/).
 
 ### **Accounts setup needed**
   - [Amazon AWS](https://aws.amazon.com/)

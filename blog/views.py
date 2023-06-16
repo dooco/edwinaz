@@ -26,7 +26,7 @@ class PostDetailView(DetailView):
     template_name = 'blog/post_detail.html'
 
 
-class CreatePost(LoginRequiredMixin, CreateView):
+class CreatePost(LoginRequiredMixin, UserPassesTestMixin, CreateView):
     """ View to create an article """
     template_name = 'blog/add_post.html'
     model = Post

@@ -6,6 +6,7 @@ from .models import Post
 
 
 class PostModelTestCase(TestCase):
+    """ Unit tests for blog app """
     def setUp(self):
         self.user = User.objects.create_user(
             username='testuser', password='testpassword')

@@ -15,7 +15,7 @@ body {
 }
 
 /* Cover text from Code Institut's Love running walkthrough */
-#cover-text {
+.cover-text {
     width: 90%;
     height: 5%;
     padding-top: 20px;

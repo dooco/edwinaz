@@ -7,6 +7,7 @@ from django.conf import settings
 
 
 class PostFormTest(TestCase):
+    """ Unit tests for blog forms """
     def test_post_form_valid(self):
         # Create a valid form data dictionary
         form_data = {

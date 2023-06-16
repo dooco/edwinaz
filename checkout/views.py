@@ -19,6 +19,7 @@ import json
 
 @require_POST
 def cache_checkout_data(request):
+    """ Cache checkout data """
     try:
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
@@ -61,7 +62,6 @@ def checkout(request):
             order.stripe_pid = pid
             order.original_bag = json.dumps(bag)
             order.save()
-            print('order saved')
             for item_id, item_data in bag.items():
                 try:
                     product = Product.objects.get(id=item_id)
@@ -73,7 +73,11 @@ def checkout(request):
                         )
                         order_line_item.save()
                     else:
-                        print("item_data not an integer")
+                        messages.error(request, (
+                        "One of the products in your bag has "
+                        "irregular fields attached. "
+                        "Please call us for assistance!")
+                        )
                 except Product.DoesNotExist:
                     messages.error(request, (
                         "One of the products in your bag wasn't "

@@ -3,6 +3,7 @@ from .models import Post
 
 
 class PostAdmin(admin.ModelAdmin):
+    """ Admin for Post """
     list_display = (
         'user',
         'title',

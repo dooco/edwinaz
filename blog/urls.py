@@ -1,3 +1,4 @@
+""" Blog URL """
 from django.urls import path
 from .views import (
     CreatePost, PostDetailView, EditPost, DeletePost, PostsListView
